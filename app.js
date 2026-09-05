@@ -301,8 +301,7 @@
         }
       });
       body.innerHTML = `<h2 class="q-text">${html}</h2>`;
-      const first = body.querySelector("input");
-      if (first) first.focus();
+      // 不自动 focus，避免手机每次进题弹出键盘
     } else if (type === "single" || type === "multi") {
       const multi = type === "multi";
       body.innerHTML =
@@ -343,8 +342,7 @@
       body.innerHTML =
         `<h2 class="q-text">${escapeHtml(q.question)}</h2>` +
         `<textarea class="short-input" rows="5" placeholder="请按要点作答…"></textarea>`;
-      const ta = body.querySelector("textarea");
-      if (ta) ta.focus();
+      // 不自动 focus，避免手机每次进题弹出键盘
     }
 
     updateHint(type);
