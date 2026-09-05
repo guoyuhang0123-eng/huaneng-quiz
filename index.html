@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>华能安规刷题 · 第1–4章</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- 首页 -->
+  <section id="view-home" class="view active">
+    <header class="hero">
+      <p class="brand">中国华能 · 电力安全工作规程</p>
+      <h1>安规刷题系统</h1>
+      <p class="lead">热力和机械部分（2026）· 填空 / 选择 / 判断 / 简答</p>
+    </header>
+
+    <div class="stats-row" id="home-stats">
+      <div class="stat"><span class="stat-n" id="stat-total">0</span><span class="stat-l">题库</span></div>
+      <div class="stat"><span class="stat-n" id="stat-done">0</span><span class="stat-l">已练</span></div>
+      <div class="stat"><span class="stat-n" id="stat-wrong">0</span><span class="stat-l">错题</span></div>
+      <div class="stat"><span class="stat-n" id="stat-acc">—</span><span class="stat-l">正确率</span></div>
+    </div>
+
+    <div class="mode-grid">
+      <button class="mode-card" data-mode="seq" type="button">
+        <span class="mode-tag">推荐</span>
+        <strong>顺序练习</strong>
+        <span>按题号顺序刷当前筛选范围内的题目</span>
+      </button>
+      <button class="mode-card" data-mode="rand" type="button">
+        <strong>随机练习</strong>
+        <span>打乱顺序，适合考前突击</span>
+      </button>
+      <button class="mode-card" data-mode="wrong" type="button">
+        <strong>错题重练</strong>
+        <span>只刷你答错过的题目</span>
+      </button>
+      <button class="mode-card" data-mode="exam" type="button">
+        <strong>模拟小测</strong>
+        <span>按试卷比例抽约 30 题混合练习</span>
+      </button>
+    </div>
+
+    <div class="filter-panel">
+      <label>题型</label>
+      <div class="chips wrap" id="type-chips">
+        <button type="button" class="chip active" data-type="all">全部题型</button>
+        <button type="button" class="chip" data-type="blank">填空题</button>
+        <button type="button" class="chip" data-type="single">单项选择</button>
+        <button type="button" class="chip" data-type="multi">多项选择</button>
+        <button type="button" class="chip" data-type="judge">判断题</button>
+        <button type="button" class="chip" data-type="short">简答题</button>
+      </div>
+      <label>范围</label>
+      <div class="chips" id="chapter-chips">
+        <button type="button" class="chip active" data-ch="all">全部</button>
+        <button type="button" class="chip" data-ch="1">第1章 总则</button>
+        <button type="button" class="chip" data-ch="2">第2章 工作票</button>
+        <button type="button" class="chip" data-ch="3">第3章 贮运煤</button>
+        <button type="button" class="chip" data-ch="4">第4章 燃油燃机</button>
+      </div>
+      <label>小节（可选）</label>
+      <div class="chips wrap" id="section-chips"></div>
+    </div>
+
+    <footer class="home-foot">
+      <button type="button" class="link-btn" id="btn-reset">清空本地进度 / 错题本</button>
+    </footer>
+  </section>
+
+  <!-- 答题 -->
+  <section id="view-quiz" class="view">
+    <div class="quiz-top">
+      <button type="button" class="ghost" id="btn-back">← 返回</button>
+      <div class="progress-wrap">
+        <div class="progress-bar"><i id="progress-fill"></i></div>
+        <span id="progress-text">1 / 1</span>
+      </div>
+      <div class="score-pill" id="live-score">0 对 / 0 错</div>
+    </div>
+
+    <article class="quiz-card">
+      <div class="meta">
+        <span class="badge" id="q-section">1.1</span>
+        <span class="badge soft" id="q-mode">顺序</span>
+      </div>
+      <div id="q-body"></div>
+      <p class="feedback" id="q-feedback" hidden></p>
+      <div class="answer-reveal" id="q-answer" hidden>
+        <div class="answer-block">
+          <span>标准答案</span>
+          <strong id="q-answer-text"></strong>
+        </div>
+        <div class="answer-block">
+          <span id="q-full-label">完整原句</span>
+          <p id="q-full-text" class="full-sentence"></p>
+        </div>
+      </div>
+      <div class="actions">
+        <button type="button" class="primary" id="btn-check">提交答案</button>
+        <button type="button" class="secondary" id="btn-show" hidden>查看答案</button>
+        <button type="button" class="primary" id="btn-next" hidden>下一题</button>
+      </div>
+    </article>
+
+    <p class="hint" id="quiz-hint">提示：在题干空白处直接填写；数字、单位尽量与原文一致。</p>
+  </section>
+
+  <!-- 结果 -->
+  <section id="view-result" class="view">
+    <header class="hero compact">
+      <h1 id="result-title">本轮结束</h1>
+      <p class="lead" id="result-sub"></p>
+    </header>
+    <div class="result-ring">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="52" class="ring-bg" />
+        <circle cx="60" cy="60" r="52" class="ring-fg" id="result-ring" />
+      </svg>
+      <div class="ring-label">
+        <strong id="result-pct">0%</strong>
+        <span>正确率</span>
+      </div>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><span class="stat-n" id="r-ok">0</span><span class="stat-l">答对</span></div>
+      <div class="stat"><span class="stat-n" id="r-bad">0</span><span class="stat-l">答错</span></div>
+      <div class="stat"><span class="stat-n" id="r-skip">0</span><span class="stat-l">看答案</span></div>
+    </div>
+    <div class="actions center">
+      <button type="button" class="primary" id="btn-retry-wrong">重做错题</button>
+      <button type="button" class="secondary" id="btn-home">回首页</button>
+    </div>
+  </section>
+
+  <script src="questions.js"></script>
+  <script src="extra_questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
