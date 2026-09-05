@@ -276,6 +276,20 @@
     if (el) el.textContent = hints[type] || hints.blank;
   }
 
+  function enableInputsOnTap(nodes) {
+    nodes.forEach((el) => {
+      const unlock = () => {
+        if (!el.hasAttribute("readonly")) return;
+        el.removeAttribute("readonly");
+        // 仅在用户手势后聚焦，才会弹键盘
+        requestAnimationFrame(() => el.focus());
+      };
+      el.addEventListener("pointerdown", unlock, { once: true });
+      el.addEventListener("touchstart", unlock, { once: true, passive: true });
+      el.addEventListener("click", unlock, { once: true });
+    });
+  }
+
   function renderQuestion() {
     const q = currentQ();
     const type = qType(q);
@@ -297,11 +311,12 @@
       parts.forEach((p, i) => {
         html += escapeHtml(p);
         if (i < parts.length - 1) {
-          html += `<input type="text" class="blank-input" autocomplete="off" spellcheck="false" data-i="${i}" placeholder="（${i + 1}）" aria-label="空${i + 1}" />`;
+          // readonly：阻止 iOS/安卓进题时自动聚焦并弹键盘；用户点按后再解锁
+          html += `<input type="text" class="blank-input" readonly autocomplete="off" spellcheck="false" inputmode="text" data-i="${i}" placeholder="（${i + 1}）" aria-label="空${i + 1}" />`;
         }
       });
       body.innerHTML = `<h2 class="q-text">${html}</h2>`;
-      // 不自动 focus，避免手机每次进题弹出键盘
+      enableInputsOnTap(body.querySelectorAll("input.blank-input"));
     } else if (type === "single" || type === "multi") {
       const multi = type === "multi";
       body.innerHTML =
@@ -341,8 +356,8 @@
     } else if (type === "short") {
       body.innerHTML =
         `<h2 class="q-text">${escapeHtml(q.question)}</h2>` +
-        `<textarea class="short-input" rows="5" placeholder="请按要点作答…"></textarea>`;
-      // 不自动 focus，避免手机每次进题弹出键盘
+        `<textarea class="short-input" rows="5" readonly placeholder="点此处作答…" inputmode="text"></textarea>`;
+      enableInputsOnTap(body.querySelectorAll("textarea.short-input"));
     }
 
     updateHint(type);
@@ -493,7 +508,6 @@
     $("#btn-show").hidden = true;
     $("#btn-next").hidden = false;
     $("#live-score").textContent = `${state.correct} 对 / ${state.wrong} 错`;
-    $("#btn-next").focus();
   }
 
   function onCheck() {
