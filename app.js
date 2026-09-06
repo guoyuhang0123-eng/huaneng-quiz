@@ -462,15 +462,17 @@
     $("#q-answer-text").textContent = ans;
     const fullEl = $("#q-full-text");
     const fullLabel = $("#q-full-label");
-    if (type === "blank") {
-      fullLabel.textContent = "完整原句";
+    if type === "blank") {
+      const ref = q.ref ? `（${q.ref}）` : "";
+      fullLabel.textContent = `完整原句${ref}`;
       let s = q.full || q.question;
       if (!q.full) {
         const parts = splitAnswer(q.answer);
         s = q.question;
         for (const p of parts) s = s.replace("____", p);
       }
-      fullEl.textContent = s;
+      // 正文前再标一次条文号，方便对照规程
+      fullEl.textContent = q.ref ? `【${q.ref}】${s}` : s;
     } else {
       fullLabel.textContent = "解析";
       fullEl.textContent = q.explain || "（无附加解析）";
