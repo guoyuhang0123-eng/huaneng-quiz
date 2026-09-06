@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>华能安规刷题 · 第1–4章</title>
   <script>
-    // 无尾部斜杠时相对路径会错到域名根目录，导致题库脚本 404、题库显示 0
-    window.__QUIZ_BASE__ = /\/huaneng-quiz(\/|$)/.test(location.pathname)
-      ? "/huaneng-quiz/"
-      : "";
-    document.write(
-      '<link rel="stylesheet" href="' +
-        window.__QUIZ_BASE__ +
-        'styles.css?v=20260906d" />'
-    );
+    // GitHub Pages 项目站：无尾部 / 时相对路径会跑偏；用 base 统一到 /huaneng-quiz/
+    (function () {
+      var onPages =
+        /github\.io$/i.test(location.hostname) ||
+        /\/huaneng-quiz(\/|$)/.test(location.pathname);
+      if (onPages) {
+        var b = document.createElement("base");
+        b.href = "/huaneng-quiz/";
+        document.head.insertBefore(b, document.head.firstChild);
+      }
+    })();
   </script>
+  <link rel="stylesheet" href="styles.css?v=20260906e" />
 </head>
 <body>
   <div class="bg-grid" aria-hidden="true"></div>
@@ -28,7 +31,7 @@
     </header>
 
     <div class="stats-row" id="home-stats">
-      <div class="stat"><span class="stat-n" id="stat-total">0</span><span class="stat-l">题库</span></div>
+      <div class="stat"><span class="stat-n" id="stat-total">…</span><span class="stat-l">题库</span></div>
       <div class="stat"><span class="stat-n" id="stat-done">0</span><span class="stat-l">已练</span></div>
       <div class="stat"><span class="stat-n" id="stat-wrong">0</span><span class="stat-l">错题</span></div>
       <div class="stat"><span class="stat-n" id="stat-acc">—</span><span class="stat-l">正确率</span></div>
@@ -78,6 +81,7 @@
 
     <footer class="home-foot">
       <button type="button" class="link-btn" id="btn-reset">清空本地进度 / 错题本</button>
+      <p id="load-error" style="display:none;color:#b00020;margin-top:12px;font-size:14px;"></p>
     </footer>
   </section>
 
@@ -146,13 +150,25 @@
     </div>
   </section>
 
+  <!-- 普通 script 标签：勿用 document.write，微信内置浏览器常会拦截导致题库=0 -->
+  <script src="questions.js?v=20260906e"></script>
+  <script src="extra_questions.js?v=20260906e"></script>
+  <script src="app.js?v=20260906e"></script>
   <script>
     (function () {
-      var b = window.__QUIZ_BASE__ || "";
-      var v = "20260906d";
-      ["questions.js", "extra_questions.js", "app.js"].forEach(function (f) {
-        document.write('<script src="' + b + f + "?v=" + v + '"><\/script>');
-      });
+      var n =
+        ((window.QUIZ_QUESTIONS && window.QUIZ_QUESTIONS.length) || 0) +
+        ((window.QUIZ_EXTRA && window.QUIZ_EXTRA.length) || 0);
+      if (!n) {
+        var el = document.getElementById("load-error");
+        var total = document.getElementById("stat-total");
+        if (total) total.textContent = "0";
+        if (el) {
+          el.style.display = "block";
+          el.innerHTML =
+            "题库脚本未加载。请复制完整链接打开：<br><b>https://guoyuhang0123-eng.github.io/huaneng-quiz/</b><br>或清除缓存后重试。";
+        }
+      }
     })();
   </script>
 </body>
