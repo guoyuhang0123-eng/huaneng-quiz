@@ -1,5 +1,5 @@
 (() => {
-  const STORAGE_KEY = "huaneng_anqui_quiz_v5";
+  const STORAGE_KEY = "huaneng_anqui_quiz_v7";
   const MODE_LABEL = {
     seq: "顺序练习",
     rand: "随机练习",
