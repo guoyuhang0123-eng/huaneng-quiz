@@ -462,7 +462,7 @@
     $("#q-answer-text").textContent = ans;
     const fullEl = $("#q-full-text");
     const fullLabel = $("#q-full-label");
-    if type === "blank") {
+    if (type === "blank") {
       const ref = q.ref ? `（${q.ref}）` : "";
       fullLabel.textContent = `完整原句${ref}`;
       let s = q.full || q.question;
