@@ -583,12 +583,17 @@
     updateHomeStats();
   }
 
-  // events
+  // events — 用安全绑定，避免某个节点缺失导致整页初始化中断（题库一直显示 0）
+  function on(sel, ev, fn) {
+    const el = $(sel);
+    if (el) el.addEventListener(ev, fn);
+  }
+
   $$(".mode-card").forEach((btn) => {
     btn.addEventListener("click", () => startMode(btn.dataset.mode));
   });
 
-  $("#chapter-chips").addEventListener("click", (e) => {
+  on("#chapter-chips", "click", (e) => {
     const chip = e.target.closest(".chip");
     if (!chip) return;
     state.chapter = chip.dataset.ch;
@@ -597,7 +602,7 @@
     renderSectionChips();
   });
 
-  $("#type-chips").addEventListener("click", (e) => {
+  on("#type-chips", "click", (e) => {
     const chip = e.target.closest(".chip");
     if (!chip) return;
     state.qtype = chip.dataset.type;
@@ -606,20 +611,20 @@
     renderSectionChips();
   });
 
-  $("#btn-back").addEventListener("click", () => {
+  on("#btn-back", "click", () => {
     if (confirm("确定退出本次练习？进度不会保留到题号，但错题会保存。")) {
       showView("#view-home");
       updateHomeStats();
     }
   });
-  $("#btn-home").addEventListener("click", () => {
+  on("#btn-home", "click", () => {
     showView("#view-home");
     updateHomeStats();
   });
-  $("#btn-check").addEventListener("click", onCheck);
-  $("#btn-show").addEventListener("click", onShow);
-  $("#btn-next").addEventListener("click", onNext);
-  $("#btn-retry-wrong").addEventListener("click", () => {
+  on("#btn-check", "click", onCheck);
+  on("#btn-show", "click", onShow);
+  on("#btn-next", "click", onNext);
+  on("#btn-retry-wrong", "click", () => {
     const ids = new Set(state.sessionWrongIds);
     state.mode = "wrong";
     state.queue = allQuestions().filter((q) => ids.has(q.id));
@@ -636,7 +641,7 @@
     renderQuestion();
   });
 
-  $("#btn-reset").addEventListener("click", () => {
+  on("#btn-reset", "click", () => {
     if (confirm("确定清空本地进度和错题本？")) {
       state.store = defaultStore();
       saveStore();
@@ -645,20 +650,33 @@
   });
 
   document.addEventListener("keydown", (e) => {
-    if (!$("#view-quiz").classList.contains("active")) return;
+    const quiz = $("#view-quiz");
+    if (!quiz || !quiz.classList.contains("active")) return;
     if (e.key === "Enter" && !e.shiftKey && e.target.tagName !== "TEXTAREA") {
       e.preventDefault();
-      if (!$("#btn-next").hidden) onNext();
-      else if (!$("#btn-check").hidden) onCheck();
+      if ($("#btn-next") && !$("#btn-next").hidden) onNext();
+      else if ($("#btn-check") && !$("#btn-check").hidden) onCheck();
     }
   });
 
   // init
-  if (!allQuestions().length) {
-    document.body.innerHTML =
-      "<p style='padding:40px;font-family:sans-serif'>题库未加载，请确认 questions.js / extra_questions.js 与 index.html 在同一目录。</p>";
-    return;
+  function boot() {
+    const n = allQuestions().length;
+    if (!n) {
+      const tip =
+        "<p style='padding:40px;font-family:sans-serif;line-height:1.6'>" +
+        "题库未加载（当前为 0）。请用完整地址打开：<br><b>https://guoyuhang0123-eng.github.io/huaneng-quiz/</b><br>" +
+        "注意末尾要有 <b>/</b>；或强制刷新后再试。</p>";
+      document.body.innerHTML = tip;
+      return;
+    }
+    try {
+      renderSectionChips();
+      updateHomeStats();
+    } catch (err) {
+      console.error(err);
+      alert("页面初始化异常：" + (err && err.message ? err.message : err));
+    }
   }
-  renderSectionChips();
-  updateHomeStats();
+  boot();
 })();
