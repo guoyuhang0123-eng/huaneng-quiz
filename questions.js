@@ -1,4 +1,4 @@
-// 华能安规第1–4章填空：合理挖空；仅考点充分时同句两题
+// 华能安规填空：第1–4、15、16、20章及附录A；合理挖空；仅考点充分时同句两题
 window.QUIZ_QUESTIONS = [
   {
     "id": 1,
@@ -244,9 +244,9 @@ window.QUIZ_QUESTIONS = [
     "sourceId": 18,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
-    "question": "工作场所必须设有符合规定照度的照明。主控制室、重要表计、主要楼梯、通道等地点，必须设有____。工作地点应配有手持、移动式等应急照明。高度低于____的电缆夹层、隧道应采用____供电。",
-    "answer": "事故照明；2.5m；安全电压",
-    "blanks": 3,
+    "question": "工作场所必须设有符合规定照度的照明。主控制室、重要表计、主要楼梯、通道等地点，必须设有事故照明。工作地点应配有手持、移动式等应急照明。高度低于____的电缆夹层、隧道应采用____供电。",
+    "answer": "2.5m；安全电压",
+    "blanks": 2,
     "full": "工作场所必须设有符合规定照度的照明。主控制室、重要表计、主要楼梯、通道等地点，必须设有事故照明。工作地点应配有手持、移动式等应急照明。高度低于2.5m的电缆夹层、隧道应采用安全电压供电。",
     "ref": "1.2.6"
   },
@@ -288,27 +288,14 @@ window.QUIZ_QUESTIONS = [
     "sourceId": 22,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
-    "question": "所有升降口、大小孔洞、楼梯和平台，必须装设不低于____高的栏杆和不低于____高的护板。原有高度1000mm或1050mm的栏杆可不做改动。",
-    "answer": "1200mm；180mm",
-    "blanks": 2,
+    "question": "所有升降口、大小孔洞、楼梯和平台，必须装设不低于____高的栏杆和不低于____高的护板。原有高度____或1050mm的栏杆可不做改动。",
+    "answer": "1200mm；180mm；1000mm",
+    "blanks": 3,
     "full": "所有升降口、大小孔洞、楼梯和平台，必须装设不低于1200mm高的栏杆和不低于180mm高的护板。原有高度1000mm或1050mm的栏杆可不做改动。",
-    "ref": "1.2.11",
-    "variant": 1
+    "ref": "1.2.11"
   },
   {
     "id": 27,
-    "sourceId": 22,
-    "chapter": "1",
-    "section": "1.2 生产区域和工作场所",
-    "question": "所有升降口、大小孔洞、楼梯和平台，必须装设不低于1200mm高的栏杆和不低于180mm高的护板。原有高度____或____的栏杆可不做改动。",
-    "answer": "1000mm；1050mm",
-    "blanks": 2,
-    "full": "所有升降口、大小孔洞、楼梯和平台，必须装设不低于1200mm高的栏杆和不低于180mm高的护板。原有高度1000mm或1050mm的栏杆可不做改动。",
-    "ref": "1.2.11",
-    "variant": 2
-  },
-  {
-    "id": 28,
     "sourceId": 23,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -319,7 +306,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.12"
   },
   {
-    "id": 29,
+    "id": 28,
     "sourceId": 24,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -330,7 +317,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.14"
   },
   {
-    "id": 30,
+    "id": 29,
     "sourceId": 25,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -341,7 +328,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.15"
   },
   {
-    "id": 31,
+    "id": 30,
     "sourceId": 26,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -352,7 +339,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.16"
   },
   {
-    "id": 32,
+    "id": 31,
     "sourceId": 27,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -363,7 +350,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.17"
   },
   {
-    "id": 33,
+    "id": 32,
     "sourceId": 28,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -374,7 +361,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.19"
   },
   {
-    "id": 34,
+    "id": 33,
     "sourceId": 29,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -385,7 +372,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.20"
   },
   {
-    "id": 35,
+    "id": 34,
     "sourceId": 30,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -396,18 +383,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.22"
   },
   {
-    "id": 36,
+    "id": 35,
     "sourceId": 31,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
-    "question": "生产厂房的取暖用热源，应有____。使用压力应符合取暖设备的要求，如用较高压力的热源时，必须装有____，并装____。",
-    "answer": "专人管理；减压装置；安全阀",
-    "blanks": 3,
+    "question": "生产厂房的取暖用热源，应有____。使用压力应符合取暖设备的要求，如用较高压力的热源时，必须装有减压装置，并装____。",
+    "answer": "专人管理；安全阀",
+    "blanks": 2,
     "full": "生产厂房的取暖用热源，应有专人管理。使用压力应符合取暖设备的要求，如用较高压力的热源时，必须装有减压装置，并装安全阀。",
     "ref": "1.2.23"
   },
   {
-    "id": 37,
+    "id": 36,
     "sourceId": 32,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -418,7 +405,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.25"
   },
   {
-    "id": 38,
+    "id": 37,
     "sourceId": 33,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -429,7 +416,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.26"
   },
   {
-    "id": 39,
+    "id": 38,
     "sourceId": 34,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -440,7 +427,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.27"
   },
   {
-    "id": 40,
+    "id": 39,
     "sourceId": 35,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -451,7 +438,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.29"
   },
   {
-    "id": 41,
+    "id": 40,
     "sourceId": 36,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -462,7 +449,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.31.1"
   },
   {
-    "id": 42,
+    "id": 41,
     "sourceId": 37,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -473,7 +460,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.31.2"
   },
   {
-    "id": 43,
+    "id": 42,
     "sourceId": 38,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -484,7 +471,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.31.2"
   },
   {
-    "id": 44,
+    "id": 43,
     "sourceId": 39,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -495,7 +482,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.31.4"
   },
   {
-    "id": 45,
+    "id": 44,
     "sourceId": 40,
     "chapter": "1",
     "section": "1.2 生产区域和工作场所",
@@ -506,7 +493,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.2.31.6"
   },
   {
-    "id": 46,
+    "id": 45,
     "sourceId": 41,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -517,18 +504,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.1"
   },
   {
-    "id": 47,
+    "id": 46,
     "sourceId": 42,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
-    "question": "所有工作人员都应具备必要的安全救护知识，应学会紧急救护方法，特别要学会____、____、心肺复苏法等，并熟悉有关烧伤、烫伤、外伤、气体中毒等急救常识。",
-    "answer": "触电急救法；窒息急救法",
-    "blanks": 2,
+    "question": "所有工作人员都应具备必要的安全救护知识，应学会紧急救护方法，特别要学会____、____、____等，并熟悉有关烧伤、烫伤、外伤、气体中毒等急救常识。",
+    "answer": "触电急救法；窒息急救法；心肺复苏法",
+    "blanks": 3,
     "full": "所有工作人员都应具备必要的安全救护知识，应学会紧急救护方法，特别要学会触电急救法、窒息急救法、心肺复苏法等，并熟悉有关烧伤、烫伤、外伤、气体中毒等急救常识。",
     "ref": "1.3.2"
   },
   {
-    "id": 48,
+    "id": 47,
     "sourceId": 43,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -539,7 +526,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.3"
   },
   {
-    "id": 49,
+    "id": 48,
     "sourceId": 44,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -550,7 +537,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.4"
   },
   {
-    "id": 50,
+    "id": 49,
     "sourceId": 45,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -561,7 +548,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.6"
   },
   {
-    "id": 51,
+    "id": 50,
     "sourceId": 46,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -572,7 +559,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.6"
   },
   {
-    "id": 52,
+    "id": 51,
     "sourceId": 47,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -583,7 +570,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.7"
   },
   {
-    "id": 53,
+    "id": 52,
     "sourceId": 48,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -594,7 +581,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.8"
   },
   {
-    "id": 54,
+    "id": 53,
     "sourceId": 49,
     "chapter": "1",
     "section": "1.3 工作人员的条件和个人防护",
@@ -605,7 +592,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.3.9"
   },
   {
-    "id": 55,
+    "id": 54,
     "sourceId": 50,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -616,7 +603,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.1"
   },
   {
-    "id": 56,
+    "id": 55,
     "sourceId": 51,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -627,7 +614,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.2"
   },
   {
-    "id": 57,
+    "id": 56,
     "sourceId": 52,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -638,7 +625,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.3"
   },
   {
-    "id": 58,
+    "id": 57,
     "sourceId": 53,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -649,7 +636,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.4"
   },
   {
-    "id": 59,
+    "id": 58,
     "sourceId": 54,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -660,7 +647,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.5"
   },
   {
-    "id": 60,
+    "id": 59,
     "sourceId": 55,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -671,7 +658,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.7"
   },
   {
-    "id": 61,
+    "id": 60,
     "sourceId": 56,
     "chapter": "1",
     "section": "1.4 设备的维护",
@@ -682,7 +669,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.4.8"
   },
   {
-    "id": 62,
+    "id": 61,
     "sourceId": 57,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -693,7 +680,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.1"
   },
   {
-    "id": 63,
+    "id": 62,
     "sourceId": 58,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -704,7 +691,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.2"
   },
   {
-    "id": 64,
+    "id": 63,
     "sourceId": 59,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -715,7 +702,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.3"
   },
   {
-    "id": 65,
+    "id": 64,
     "sourceId": 60,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -726,7 +713,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.5"
   },
   {
-    "id": 66,
+    "id": 65,
     "sourceId": 61,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -737,7 +724,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.6"
   },
   {
-    "id": 67,
+    "id": 66,
     "sourceId": 62,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -748,7 +735,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.7"
   },
   {
-    "id": 68,
+    "id": 67,
     "sourceId": 63,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -759,7 +746,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.8"
   },
   {
-    "id": 69,
+    "id": 68,
     "sourceId": 64,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -770,7 +757,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.9"
   },
   {
-    "id": 70,
+    "id": 69,
     "sourceId": 65,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -781,7 +768,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.9"
   },
   {
-    "id": 71,
+    "id": 70,
     "sourceId": 66,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -792,7 +779,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.10"
   },
   {
-    "id": 72,
+    "id": 71,
     "sourceId": 67,
     "chapter": "1",
     "section": "1.5 一般电气安全注意事项",
@@ -803,7 +790,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.5.11"
   },
   {
-    "id": 73,
+    "id": 72,
     "sourceId": 68,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -814,7 +801,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.1.2"
   },
   {
-    "id": 74,
+    "id": 73,
     "sourceId": 69,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -825,7 +812,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.1.3"
   },
   {
-    "id": 75,
+    "id": 74,
     "sourceId": 70,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -836,7 +823,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.2.1"
   },
   {
-    "id": 76,
+    "id": 75,
     "sourceId": 71,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -847,7 +834,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.2.2"
   },
   {
-    "id": 77,
+    "id": 76,
     "sourceId": 72,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -858,7 +845,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.2.3"
   },
   {
-    "id": 78,
+    "id": 77,
     "sourceId": 73,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -869,7 +856,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.2.4"
   },
   {
-    "id": 79,
+    "id": 78,
     "sourceId": 74,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -880,31 +867,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.2.6"
   },
   {
+    "id": 79,
+    "sourceId": 75,
+    "chapter": "1",
+    "section": "1.6 工具的使用",
+    "question": "使用角向磨光机时，不应拆除____，角向磨光机的砂轮应选用增强纤维树脂型，其线速度不得小于____。磨削时，应使砂轮与工件保持____～30°的倾斜位置。",
+    "answer": "防护罩；80m/s；15°",
+    "blanks": 3,
+    "full": "使用角向磨光机时，不应拆除防护罩，角向磨光机的砂轮应选用增强纤维树脂型，其线速度不得小于80m/s。磨削时，应使砂轮与工件保持15°～30°的倾斜位置。",
+    "ref": "1.6.2.8"
+  },
+  {
     "id": 80,
-    "sourceId": 75,
-    "chapter": "1",
-    "section": "1.6 工具的使用",
-    "question": "使用角向磨光机时，不应拆除____，角向磨光机的砂轮应选用增强纤维树脂型，其线速度不得小于____。磨削时，应使砂轮与工件保持15°～30°的倾斜位置。",
-    "answer": "防护罩；80m/s",
-    "blanks": 2,
-    "full": "使用角向磨光机时，不应拆除防护罩，角向磨光机的砂轮应选用增强纤维树脂型，其线速度不得小于80m/s。磨削时，应使砂轮与工件保持15°～30°的倾斜位置。",
-    "ref": "1.6.2.8",
-    "variant": 1
-  },
-  {
-    "id": 81,
-    "sourceId": 75,
-    "chapter": "1",
-    "section": "1.6 工具的使用",
-    "question": "使用角向磨光机时，不应拆除防护罩，角向磨光机的砂轮应选用增强纤维树脂型，其线速度不得小于80m/s。磨削时，应使砂轮与工件保持____～____的倾斜位置。",
-    "answer": "15°；30°",
-    "blanks": 2,
-    "full": "使用角向磨光机时，不应拆除防护罩，角向磨光机的砂轮应选用增强纤维树脂型，其线速度不得小于80m/s。磨削时，应使砂轮与工件保持15°～30°的倾斜位置。",
-    "ref": "1.6.2.8",
-    "variant": 2
-  },
-  {
-    "id": 82,
     "sourceId": 76,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -915,7 +889,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.3.1"
   },
   {
-    "id": 83,
+    "id": 81,
     "sourceId": 77,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -926,7 +900,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.4.2"
   },
   {
-    "id": 84,
+    "id": 82,
     "sourceId": 78,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -937,18 +911,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.4.5"
   },
   {
-    "id": 85,
+    "id": 83,
     "sourceId": 79,
     "chapter": "1",
     "section": "1.6 工具的使用",
-    "question": "电气工器具应由____，每____须由电气试验单位进行定期检查；绝缘不合格或电线破损裸露的不准使用；使用时应按有关规定接好____（剩余电流动作保护器）和接地线。",
-    "answer": "专人保管；六个月；漏电保护器",
-    "blanks": 3,
+    "question": "电气工器具应由____，每____须由电气试验单位进行定期检查；绝缘不合格或电线破损裸露的不准使用；使用时应按有关规定接好漏电保护器（剩余电流动作保护器）和接地线。",
+    "answer": "专人保管；六个月",
+    "blanks": 2,
     "full": "电气工器具应由专人保管，每六个月须由电气试验单位进行定期检查；绝缘不合格或电线破损裸露的不准使用；使用时应按有关规定接好漏电保护器（剩余电流动作保护器）和接地线。",
     "ref": "1.6.5.1"
   },
   {
-    "id": 86,
+    "id": 84,
     "sourceId": 80,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -959,7 +933,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.5.3"
   },
   {
-    "id": 87,
+    "id": 85,
     "sourceId": 81,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -970,18 +944,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.5.7"
   },
   {
-    "id": 88,
+    "id": 86,
     "sourceId": 82,
     "chapter": "1",
     "section": "1.6 工具的使用",
-    "question": "在金属容器内和狭窄场所工作时，必须使用____及以下的电动工具，或选用Ⅱ类手持式电动工具。必须设专人不间断地监护，监护人可随时切断电动工具的电源。电源连接器和控制箱等应放在____、宽敞、干燥场所。",
-    "answer": "24V；容器外面",
+    "question": "在金属容器内和狭窄场所工作时，必须使用____及以下的电动工具，或选用Ⅱ类手持式电动工具。必须设专人不间断地____，监护人可随时切断电动工具的电源。电源连接器和控制箱等应放在容器外面、宽敞、干燥场所。",
+    "answer": "24V；监护",
     "blanks": 2,
     "full": "在金属容器内和狭窄场所工作时，必须使用24V及以下的电动工具，或选用Ⅱ类手持式电动工具。必须设专人不间断地监护，监护人可随时切断电动工具的电源。电源连接器和控制箱等应放在容器外面、宽敞、干燥场所。",
     "ref": "1.6.5.9"
   },
   {
-    "id": 89,
+    "id": 87,
     "sourceId": 83,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -992,7 +966,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.6.1"
   },
   {
-    "id": 90,
+    "id": 88,
     "sourceId": 84,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1003,7 +977,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.6.2"
   },
   {
-    "id": 91,
+    "id": 89,
     "sourceId": 85,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1014,7 +988,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.7.6"
   },
   {
-    "id": 92,
+    "id": 90,
     "sourceId": 86,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1025,7 +999,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.8"
   },
   {
-    "id": 93,
+    "id": 91,
     "sourceId": 87,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1036,7 +1010,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.9.2"
   },
   {
-    "id": 94,
+    "id": 92,
     "sourceId": 88,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1047,7 +1021,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.10.3"
   },
   {
-    "id": 95,
+    "id": 93,
     "sourceId": 89,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1058,7 +1032,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.10.7"
   },
   {
-    "id": 96,
+    "id": 94,
     "sourceId": 90,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1069,7 +1043,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.10.11"
   },
   {
-    "id": 97,
+    "id": 95,
     "sourceId": 91,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1080,7 +1054,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.11.2"
   },
   {
-    "id": 98,
+    "id": 96,
     "sourceId": 92,
     "chapter": "1",
     "section": "1.6 工具的使用",
@@ -1091,7 +1065,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "1.6.11.3"
   },
   {
-    "id": 99,
+    "id": 97,
     "sourceId": 93,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1102,7 +1076,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.1"
   },
   {
-    "id": 100,
+    "id": 98,
     "sourceId": 94,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1113,7 +1087,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.2"
   },
   {
-    "id": 101,
+    "id": 99,
     "sourceId": 95,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1124,7 +1098,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.3"
   },
   {
-    "id": 102,
+    "id": 100,
     "sourceId": 96,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1135,7 +1109,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.5"
   },
   {
-    "id": 103,
+    "id": 101,
     "sourceId": 97,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1146,7 +1120,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.5"
   },
   {
-    "id": 104,
+    "id": 102,
     "sourceId": 98,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1157,7 +1131,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.6"
   },
   {
-    "id": 105,
+    "id": 103,
     "sourceId": 99,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1168,7 +1142,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.7"
   },
   {
-    "id": 106,
+    "id": 104,
     "sourceId": 100,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1179,7 +1153,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.10"
   },
   {
-    "id": 107,
+    "id": 105,
     "sourceId": 101,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1190,7 +1164,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.10"
   },
   {
-    "id": 108,
+    "id": 106,
     "sourceId": 102,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1201,7 +1175,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.11"
   },
   {
-    "id": 109,
+    "id": 107,
     "sourceId": 103,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1212,7 +1186,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.12"
   },
   {
-    "id": 110,
+    "id": 108,
     "sourceId": 104,
     "chapter": "2",
     "section": "2.1 热力机械工作票的填用",
@@ -1223,7 +1197,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.14"
   },
   {
-    "id": 111,
+    "id": 109,
     "sourceId": 105,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1234,7 +1208,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.2.1.1"
   },
   {
-    "id": 112,
+    "id": 110,
     "sourceId": 106,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1245,7 +1219,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.2.1.2"
   },
   {
-    "id": 113,
+    "id": 111,
     "sourceId": 107,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1256,7 +1230,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.1.12"
   },
   {
-    "id": 114,
+    "id": 112,
     "sourceId": 108,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1267,18 +1241,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.2.2"
   },
   {
-    "id": 115,
+    "id": 113,
     "sourceId": 109,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
-    "question": "工作许可人应对下列事项负责：检修设备与运行设备确已隔离；安全措施确已____；对工作负责人正确说明哪些设备有压力、高温和有____等。",
-    "answer": "完善和正确地执行；爆炸危险",
+    "question": "工作许可人应对下列事项负责：检修设备与运行设备确已____；安全措施确已____；对工作负责人正确说明哪些设备有压力、高温和有爆炸危险等。",
+    "answer": "隔离；完善和正确地执行",
     "blanks": 2,
     "full": "工作许可人应对下列事项负责：检修设备与运行设备确已隔离；安全措施确已完善和正确地执行；对工作负责人正确说明哪些设备有压力、高温和有爆炸危险等。",
     "ref": "2.2.3"
   },
   {
-    "id": 116,
+    "id": 114,
     "sourceId": 110,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1289,7 +1263,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.2.4"
   },
   {
-    "id": 117,
+    "id": 115,
     "sourceId": 111,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1300,7 +1274,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.2.5"
   },
   {
-    "id": 118,
+    "id": 116,
     "sourceId": 112,
     "chapter": "2",
     "section": "2.2 工作票人员条件与责任",
@@ -1311,7 +1285,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.2.9.1"
   },
   {
-    "id": 119,
+    "id": 117,
     "sourceId": 113,
     "chapter": "2",
     "section": "2.3 外包工作票",
@@ -1322,7 +1296,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.3.1"
   },
   {
-    "id": 120,
+    "id": 118,
     "sourceId": 114,
     "chapter": "2",
     "section": "2.3 外包工作票",
@@ -1333,7 +1307,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.3.1"
   },
   {
-    "id": 121,
+    "id": 119,
     "sourceId": 115,
     "chapter": "2",
     "section": "2.3 外包工作票",
@@ -1344,7 +1318,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.3.2.1"
   },
   {
-    "id": 122,
+    "id": 120,
     "sourceId": 116,
     "chapter": "2",
     "section": "2.3 外包工作票",
@@ -1355,18 +1329,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.3.2.4"
   },
   {
-    "id": 123,
+    "id": 121,
     "sourceId": 117,
     "chapter": "2",
     "section": "2.3 外包工作票",
-    "question": "工作联系人负责该项工作的全过程____监督；负责对工作负责人进行____；和工作负责人共同办理____手续。",
-    "answer": "安全、质量；安全技术交底；开工及终结",
-    "blanks": 3,
+    "question": "工作联系人负责该项工作的全过程____监督；负责对工作负责人进行____；和工作负责人共同办理开工及终结手续。",
+    "answer": "安全、质量；安全技术交底",
+    "blanks": 2,
     "full": "工作联系人负责该项工作的全过程安全、质量监督；负责对工作负责人进行安全技术交底；和工作负责人共同办理开工及终结手续。",
     "ref": "2.3.2.5"
   },
   {
-    "id": 124,
+    "id": 122,
     "sourceId": 118,
     "chapter": "2",
     "section": "2.3 外包工作票",
@@ -1377,7 +1351,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.3.2.3"
   },
   {
-    "id": 125,
+    "id": 123,
     "sourceId": 119,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1388,7 +1362,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.1"
   },
   {
-    "id": 126,
+    "id": 124,
     "sourceId": 120,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1399,7 +1373,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.2"
   },
   {
-    "id": 127,
+    "id": 125,
     "sourceId": 121,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1410,7 +1384,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.3"
   },
   {
-    "id": 128,
+    "id": 126,
     "sourceId": 122,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1421,7 +1395,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.4"
   },
   {
-    "id": 129,
+    "id": 127,
     "sourceId": 123,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1432,7 +1406,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.5.3"
   },
   {
-    "id": 130,
+    "id": 128,
     "sourceId": 124,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1443,7 +1417,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.6"
   },
   {
-    "id": 131,
+    "id": 129,
     "sourceId": 125,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1454,7 +1428,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.7"
   },
   {
-    "id": 132,
+    "id": 130,
     "sourceId": 126,
     "chapter": "2",
     "section": "2.4 工作票填写",
@@ -1465,7 +1439,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.4.8"
   },
   {
-    "id": 133,
+    "id": 131,
     "sourceId": 127,
     "chapter": "2",
     "section": "2.5 执行安全措施的要求",
@@ -1476,7 +1450,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.5.1"
   },
   {
-    "id": 134,
+    "id": 132,
     "sourceId": 128,
     "chapter": "2",
     "section": "2.5 执行安全措施的要求",
@@ -1487,7 +1461,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.5.2"
   },
   {
-    "id": 135,
+    "id": 133,
     "sourceId": 129,
     "chapter": "2",
     "section": "2.5 执行安全措施的要求",
@@ -1498,7 +1472,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.5.3.1"
   },
   {
-    "id": 136,
+    "id": 134,
     "sourceId": 130,
     "chapter": "2",
     "section": "2.5 执行安全措施的要求",
@@ -1509,7 +1483,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.5.3.2"
   },
   {
-    "id": 137,
+    "id": 135,
     "sourceId": 131,
     "chapter": "2",
     "section": "2.5 执行安全措施的要求",
@@ -1520,18 +1494,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.5.3.3"
   },
   {
-    "id": 138,
+    "id": 136,
     "sourceId": 132,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
-    "question": "工作票由____填写，填写后交____审核，工作票签发人对工作票的全部内容确认无误后签发，并应将工作票全部内容向工作负责人作____。工作票由工作负责人送交运行值班人员处。",
-    "answer": "工作负责人；工作票签发人；详细交代",
-    "blanks": 3,
+    "question": "工作票由____填写，填写后交____审核，工作票签发人对工作票的全部内容确认无误后签发，并应将工作票全部内容向工作负责人作详细交代。工作票由工作负责人送交运行值班人员处。",
+    "answer": "工作负责人；工作票签发人",
+    "blanks": 2,
     "full": "工作票由工作负责人填写，填写后交工作票签发人审核，工作票签发人对工作票的全部内容确认无误后签发，并应将工作票全部内容向工作负责人作详细交代。工作票由工作负责人送交运行值班人员处。",
     "ref": "2.6.1.2"
   },
   {
-    "id": 139,
+    "id": 137,
     "sourceId": 133,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1542,7 +1516,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.2.1"
   },
   {
-    "id": 140,
+    "id": 138,
     "sourceId": 134,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1553,7 +1527,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.2.2"
   },
   {
-    "id": 141,
+    "id": 139,
     "sourceId": 135,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1564,18 +1538,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.3.2"
   },
   {
-    "id": 142,
+    "id": 140,
     "sourceId": 136,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
-    "question": "检修工作开始前，____和____应共同到现场检查安全措施确已____。",
-    "answer": "工作许可人；工作负责人；正确地执行",
-    "blanks": 3,
+    "question": "检修工作开始前，____和____应共同到现场检查安全措施确已正确地执行。",
+    "answer": "工作许可人；工作负责人",
+    "blanks": 2,
     "full": "检修工作开始前，工作许可人和工作负责人应共同到现场检查安全措施确已正确地执行。",
     "ref": "2.6.4.1"
   },
   {
-    "id": 143,
+    "id": 141,
     "sourceId": 137,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1586,7 +1560,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.4.2"
   },
   {
-    "id": 144,
+    "id": 142,
     "sourceId": 138,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1597,7 +1571,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.5.1"
   },
   {
-    "id": 145,
+    "id": 143,
     "sourceId": 139,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1608,7 +1582,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.5.2"
   },
   {
-    "id": 146,
+    "id": 144,
     "sourceId": 140,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1619,7 +1593,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.6.2"
   },
   {
-    "id": 147,
+    "id": 145,
     "sourceId": 141,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1630,7 +1604,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.7.1"
   },
   {
-    "id": 148,
+    "id": 146,
     "sourceId": 142,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1641,7 +1615,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.8.1"
   },
   {
-    "id": 149,
+    "id": 147,
     "sourceId": 143,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1652,7 +1626,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.8.3"
   },
   {
-    "id": 150,
+    "id": 148,
     "sourceId": 144,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1663,7 +1637,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.8.4"
   },
   {
-    "id": 151,
+    "id": 149,
     "sourceId": 145,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1674,18 +1648,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.9.1"
   },
   {
-    "id": 152,
+    "id": 150,
     "sourceId": 146,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
-    "question": "工作许可人在一式两份工作票上记入终结时间，双方签名后盖上“____”印章，将一式两份工作票留存运行处，工作方告终结；工作终结后，运行人员应根据具体情况，收回标志牌，恢复安全措施，由值班负责人在工作票上签字，盖上“已复役”印章，该工作票方告终结。附有____的工作票，终结工作票前应先终结措施票。",
-    "answer": "已终结；措施票",
+    "question": "工作许可人在一式两份工作票上记入终结时间，双方签名后盖上“____”印章，将一式两份工作票留存运行处，工作方告终结；工作终结后，运行人员应根据具体情况，收回标志牌，恢复安全措施，由值班负责人在工作票上签字，盖上“____”印章，该工作票方告终结。附有措施票的工作票，终结工作票前应先终结措施票。",
+    "answer": "已终结；已复役",
     "blanks": 2,
     "full": "工作许可人在一式两份工作票上记入终结时间，双方签名后盖上“已终结”印章，将一式两份工作票留存运行处，工作方告终结；工作终结后，运行人员应根据具体情况，收回标志牌，恢复安全措施，由值班负责人在工作票上签字，盖上“已复役”印章，该工作票方告终结。附有措施票的工作票，终结工作票前应先终结措施票。",
     "ref": "2.6.9.3"
   },
   {
-    "id": 153,
+    "id": 151,
     "sourceId": 147,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1696,7 +1670,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.9.4"
   },
   {
-    "id": 154,
+    "id": 152,
     "sourceId": 148,
     "chapter": "2",
     "section": "2.6 工作票的执行程序",
@@ -1707,7 +1681,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.6.9.6"
   },
   {
-    "id": 155,
+    "id": 153,
     "sourceId": 149,
     "chapter": "2",
     "section": "2.7 工作票管理",
@@ -1718,7 +1692,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.7.1.1"
   },
   {
-    "id": 156,
+    "id": 154,
     "sourceId": 150,
     "chapter": "2",
     "section": "2.7 工作票管理",
@@ -1729,7 +1703,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.7.1.2"
   },
   {
-    "id": 157,
+    "id": 155,
     "sourceId": 151,
     "chapter": "2",
     "section": "2.7 工作票管理",
@@ -1740,7 +1714,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "2.7.1.3"
   },
   {
-    "id": 158,
+    "id": 156,
     "sourceId": 152,
     "chapter": "3",
     "section": "3.1 基本规定",
@@ -1751,18 +1725,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.1.4"
   },
   {
-    "id": 159,
+    "id": 157,
     "sourceId": 153,
     "chapter": "3",
     "section": "3.1 基本规定",
-    "question": "____场所如有裸露的电线，应认为是带电的，不准触碰。对可能触到的裸露电线，应在检修工作开始前由电气人员____和上锁，并将该线挂上____接地。",
-    "answer": "检修工作；断开电源；接地线",
-    "blanks": 3,
+    "question": "检修工作场所如有裸露的电线，应认为是带电的，不准触碰。对可能触到的裸露电线，应在检修工作开始前由电气人员____和上锁，并将该线挂上____接地。",
+    "answer": "断开电源；接地线",
+    "blanks": 2,
     "full": "检修工作场所如有裸露的电线，应认为是带电的，不准触碰。对可能触到的裸露电线，应在检修工作开始前由电气人员断开电源和上锁，并将该线挂上接地线接地。",
     "ref": "3.1.5"
   },
   {
-    "id": 160,
+    "id": 158,
     "sourceId": 154,
     "chapter": "3",
     "section": "3.1 基本规定",
@@ -1773,7 +1747,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.1.6"
   },
   {
-    "id": 161,
+    "id": 159,
     "sourceId": 155,
     "chapter": "3",
     "section": "3.1 基本规定",
@@ -1784,18 +1758,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.1.7"
   },
   {
-    "id": 162,
+    "id": 160,
     "sourceId": 156,
     "chapter": "3",
     "section": "3.1 基本规定",
-    "question": "北方寒冷地区采用汽暖供热的____，采用凝结水回收器作为汽水回收的设备，应采取防止容器爆裂，汽、水喷出伤人的措施，如增加____或增设排汽设施等。",
-    "answer": "输煤系统；安全阀",
+    "question": "北方寒冷地区采用汽暖供热的____，采用____作为汽水回收的设备，应采取防止容器爆裂，汽、水喷出伤人的措施，如增加安全阀或增设排汽设施等。",
+    "answer": "输煤系统；凝结水回收器",
     "blanks": 2,
     "full": "北方寒冷地区采用汽暖供热的输煤系统，采用凝结水回收器作为汽水回收的设备，应采取防止容器爆裂，汽、水喷出伤人的措施，如增加安全阀或增设排汽设施等。",
     "ref": "3.1.8"
   },
   {
-    "id": 163,
+    "id": 161,
     "sourceId": 157,
     "chapter": "3",
     "section": "3.1 基本规定",
@@ -1806,7 +1780,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.1.10"
   },
   {
-    "id": 164,
+    "id": 162,
     "sourceId": 158,
     "chapter": "3",
     "section": "3.1 基本规定",
@@ -1817,29 +1791,29 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.1.12"
   },
   {
-    "id": 165,
+    "id": 163,
     "sourceId": 159,
     "chapter": "3",
     "section": "3.2 厂内铁道",
-    "question": "在铁道与汽车道或人行道的交叉地点应设有“____”标志牌。如交叉地点为交通要道，必须设拦路杆、声光警示和语言提示装置，并有____，在机车到来前提前放下。在通过厂内铁道时要特别注意有无机车驶近。",
-    "answer": "小心火车；专人管理",
+    "question": "在铁道与汽车道或人行道的交叉地点应设有“____”标志牌。如交叉地点为交通要道，必须设拦路杆、____和语言提示装置，并有专人管理，在机车到来前提前放下。在通过厂内铁道时要特别注意有无机车驶近。",
+    "answer": "小心火车；声光警示",
     "blanks": 2,
     "full": "在铁道与汽车道或人行道的交叉地点应设有“小心火车”标志牌。如交叉地点为交通要道，必须设拦路杆、声光警示和语言提示装置，并有专人管理，在机车到来前提前放下。在通过厂内铁道时要特别注意有无机车驶近。",
     "ref": "3.2.1.1"
   },
   {
-    "id": 166,
+    "id": 164,
     "sourceId": 160,
     "chapter": "3",
     "section": "3.2 厂内铁道",
-    "question": "沿铁路两侧的人行道，应保持通畅。当机车到来或听到汽笛时，应及时向两旁躲避。____与道边建筑物的距离不应小于____，否则应采取防护措施。",
-    "answer": "轨道中心线；6m",
+    "question": "沿铁路两侧的人行道，应保持通畅。当机车到来或听到汽笛时，应及时向两旁躲避。____与____的距离不应小于6m，否则应采取防护措施。",
+    "answer": "轨道中心线；道边建筑物",
     "blanks": 2,
     "full": "沿铁路两侧的人行道，应保持通畅。当机车到来或听到汽笛时，应及时向两旁躲避。轨道中心线与道边建筑物的距离不应小于6m，否则应采取防护措施。",
     "ref": "3.2.1.2"
   },
   {
-    "id": 167,
+    "id": 165,
     "sourceId": 161,
     "chapter": "3",
     "section": "3.2 厂内铁道",
@@ -1850,7 +1824,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.1.3"
   },
   {
-    "id": 168,
+    "id": 166,
     "sourceId": 162,
     "chapter": "3",
     "section": "3.2 厂内铁道",
@@ -1861,7 +1835,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.1.4"
   },
   {
-    "id": 169,
+    "id": 167,
     "sourceId": 163,
     "chapter": "3",
     "section": "3.2 厂内铁道",
@@ -1872,7 +1846,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.1.7"
   },
   {
-    "id": 170,
+    "id": 168,
     "sourceId": 164,
     "chapter": "3",
     "section": "3.2 厂内铁道",
@@ -1883,7 +1857,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.1.8"
   },
   {
-    "id": 171,
+    "id": 169,
     "sourceId": 165,
     "chapter": "3",
     "section": "3.2 厂内铁道",
@@ -1894,31 +1868,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.1.9"
   },
   {
-    "id": 172,
+    "id": 170,
     "sourceId": 166,
     "chapter": "3",
     "section": "3.2 厂内铁道",
-    "question": "在铁道附近进行工作可能影响调车作业或行车安全时，____应事先与____联系，做好安全措施，必要时应设专人监护。",
-    "answer": "工作负责人；调车人员",
-    "blanks": 2,
+    "question": "在铁道附近进行工作可能影响调车作业或行车安全时，____应事先与调车人员联系，做好____，必要时应设____。",
+    "answer": "工作负责人；安全措施；专人监护",
+    "blanks": 3,
     "full": "在铁道附近进行工作可能影响调车作业或行车安全时，工作负责人应事先与调车人员联系，做好安全措施，必要时应设专人监护。",
-    "ref": "3.2.1.11",
-    "variant": 1
+    "ref": "3.2.1.11"
   },
   {
-    "id": 173,
-    "sourceId": 166,
-    "chapter": "3",
-    "section": "3.2 厂内铁道",
-    "question": "在铁道附近进行工作可能影响调车作业或行车安全时，工作负责人应事先与调车人员联系，做好____，必要时应设____。",
-    "answer": "安全措施；专人监护",
-    "blanks": 2,
-    "full": "在铁道附近进行工作可能影响调车作业或行车安全时，工作负责人应事先与调车人员联系，做好安全措施，必要时应设专人监护。",
-    "ref": "3.2.1.11",
-    "variant": 2
-  },
-  {
-    "id": 174,
+    "id": 171,
     "sourceId": 167,
     "chapter": "3",
     "section": "3.2 厂内铁道",
@@ -1929,7 +1890,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.1.14"
   },
   {
-    "id": 175,
+    "id": 172,
     "sourceId": 168,
     "chapter": "3",
     "section": "3.2 汽车运输",
@@ -1940,7 +1901,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.2.1"
   },
   {
-    "id": 176,
+    "id": 173,
     "sourceId": 169,
     "chapter": "3",
     "section": "3.2 汽车运输",
@@ -1951,7 +1912,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.2.2"
   },
   {
-    "id": 177,
+    "id": 174,
     "sourceId": 170,
     "chapter": "3",
     "section": "3.2 汽车运输",
@@ -1962,7 +1923,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.2.5"
   },
   {
-    "id": 178,
+    "id": 175,
     "sourceId": 171,
     "chapter": "3",
     "section": "3.2 汽车运输",
@@ -1973,7 +1934,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.2.10"
   },
   {
-    "id": 179,
+    "id": 176,
     "sourceId": 172,
     "chapter": "3",
     "section": "3.2 汽车运输",
@@ -1984,7 +1945,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.2.12"
   },
   {
-    "id": 180,
+    "id": 177,
     "sourceId": 173,
     "chapter": "3",
     "section": "3.2 卸煤码头",
@@ -1995,7 +1956,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.3.2"
   },
   {
-    "id": 181,
+    "id": 178,
     "sourceId": 174,
     "chapter": "3",
     "section": "3.2 卸煤码头",
@@ -2006,7 +1967,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.3.4"
   },
   {
-    "id": 182,
+    "id": 179,
     "sourceId": 175,
     "chapter": "3",
     "section": "3.2 卸煤码头",
@@ -2017,7 +1978,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.2.3.9"
   },
   {
-    "id": 183,
+    "id": 180,
     "sourceId": 176,
     "chapter": "3",
     "section": "3.3 煤车清扫与煤船清舱",
@@ -2028,7 +1989,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.3.2.7"
   },
   {
-    "id": 184,
+    "id": 181,
     "sourceId": 177,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2039,7 +2000,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.1.2"
   },
   {
-    "id": 185,
+    "id": 182,
     "sourceId": 178,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2050,7 +2011,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.1.6"
   },
   {
-    "id": 186,
+    "id": 183,
     "sourceId": 179,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2061,7 +2022,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.1.7"
   },
   {
-    "id": 187,
+    "id": 184,
     "sourceId": 180,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2072,7 +2033,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.1.8"
   },
   {
-    "id": 188,
+    "id": 185,
     "sourceId": 181,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2083,7 +2044,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.2.1"
   },
   {
-    "id": 189,
+    "id": 186,
     "sourceId": 182,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2094,7 +2055,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.2.2"
   },
   {
-    "id": 190,
+    "id": 187,
     "sourceId": 183,
     "chapter": "3",
     "section": "3.4 储煤场、储煤筒仓",
@@ -2105,7 +2066,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.4.2.7"
   },
   {
-    "id": 191,
+    "id": 188,
     "sourceId": 184,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
@@ -2116,7 +2077,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.5.3"
   },
   {
-    "id": 192,
+    "id": 189,
     "sourceId": 185,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
@@ -2127,7 +2088,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.5.5"
   },
   {
-    "id": 193,
+    "id": 190,
     "sourceId": 186,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
@@ -2138,18 +2099,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.5.9"
   },
   {
-    "id": 194,
+    "id": 191,
     "sourceId": 187,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
-    "question": "____、翻车机、门式抓斗机、桥式抓斗机的梯子、平台及围栏应保持完整。推煤机配合斗轮机作业时，应保持____以上的安全距离。",
-    "answer": "堆取料机；3m",
+    "question": "____、翻车机、门式抓斗机、桥式抓斗机的梯子、平台及围栏应保持完整。推煤机配合____作业时，应保持3m以上的安全距离。",
+    "answer": "堆取料机；斗轮机",
     "blanks": 2,
     "full": "堆取料机、翻车机、门式抓斗机、桥式抓斗机的梯子、平台及围栏应保持完整。推煤机配合斗轮机作业时，应保持3m以上的安全距离。",
     "ref": "3.5.12"
   },
   {
-    "id": 195,
+    "id": 192,
     "sourceId": 188,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
@@ -2160,7 +2121,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.5.13.2"
   },
   {
-    "id": 196,
+    "id": 193,
     "sourceId": 189,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
@@ -2171,7 +2132,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.5.13.4"
   },
   {
-    "id": 197,
+    "id": 194,
     "sourceId": 190,
     "chapter": "3",
     "section": "3.5 各式卸煤、运煤机械",
@@ -2182,7 +2143,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.5.13.6"
   },
   {
-    "id": 198,
+    "id": 195,
     "sourceId": 191,
     "chapter": "3",
     "section": "3.6 皮带运输机",
@@ -2193,7 +2154,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.6.1"
   },
   {
-    "id": 199,
+    "id": 196,
     "sourceId": 192,
     "chapter": "3",
     "section": "3.6 皮带运输机",
@@ -2204,7 +2165,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.6.4"
   },
   {
-    "id": 200,
+    "id": 197,
     "sourceId": 193,
     "chapter": "3",
     "section": "3.6 皮带运输机",
@@ -2215,7 +2176,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.6.5"
   },
   {
-    "id": 201,
+    "id": 198,
     "sourceId": 194,
     "chapter": "3",
     "section": "3.6 皮带运输机",
@@ -2226,7 +2187,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.6.6"
   },
   {
-    "id": 202,
+    "id": 199,
     "sourceId": 195,
     "chapter": "3",
     "section": "3.6 皮带运输机",
@@ -2237,31 +2198,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.6.7"
   },
   {
-    "id": 203,
+    "id": 200,
     "sourceId": 196,
     "chapter": "3",
     "section": "3.6 皮带运输机",
-    "question": "进入____进行堵煤清理、更换衬板等工作时，需采取必要的____，将三通挡板的位置关闭到合理的位置并断开三通挡板的电源，同时将与这一通道有可能来煤的设备电源全部断开，防止突然来煤。如果在落煤管的上方有除铁器等设备，也应停电或移出，上述所有停电设备开关操作把手挂“禁止合闸、有人工作”标志牌。",
-    "answer": "落煤管；安全措施",
+    "question": "进入落煤管进行堵煤清理、更换衬板等工作时，需采取必要的____，将三通挡板的位置关闭到合理的位置并断开三通挡板的电源，同时将与这一通道有可能来煤的设备电源全部断开，防止突然来煤。如果在落煤管的上方有除铁器等设备，也应停电或移出，上述所有停电设备开关操作把手挂“____”标志牌。",
+    "answer": "安全措施；禁止合闸、有人工作",
     "blanks": 2,
     "full": "进入落煤管进行堵煤清理、更换衬板等工作时，需采取必要的安全措施，将三通挡板的位置关闭到合理的位置并断开三通挡板的电源，同时将与这一通道有可能来煤的设备电源全部断开，防止突然来煤。如果在落煤管的上方有除铁器等设备，也应停电或移出，上述所有停电设备开关操作把手挂“禁止合闸、有人工作”标志牌。",
-    "ref": "3.6.9",
-    "variant": 1
+    "ref": "3.6.9"
   },
   {
-    "id": 204,
-    "sourceId": 196,
-    "chapter": "3",
-    "section": "3.6 皮带运输机",
-    "question": "进入落煤管进行堵煤清理、更换衬板等工作时，需采取必要的安全措施，将三通挡板的位置关闭到合理的位置并断开三通挡板的电源，同时将与这一通道有可能来煤的设备电源全部断开，防止突然来煤。如果在落煤管的上方有____等设备，也应停电或移出，上述所有停电设备开关操作把手挂“____”标志牌。",
-    "answer": "除铁器；禁止合闸、有人工作",
-    "blanks": 2,
-    "full": "进入落煤管进行堵煤清理、更换衬板等工作时，需采取必要的安全措施，将三通挡板的位置关闭到合理的位置并断开三通挡板的电源，同时将与这一通道有可能来煤的设备电源全部断开，防止突然来煤。如果在落煤管的上方有除铁器等设备，也应停电或移出，上述所有停电设备开关操作把手挂“禁止合闸、有人工作”标志牌。",
-    "ref": "3.6.9",
-    "variant": 2
-  },
-  {
-    "id": 205,
+    "id": 201,
     "sourceId": 197,
     "chapter": "3",
     "section": "3.6 皮带运输机",
@@ -2272,7 +2220,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.6.10"
   },
   {
-    "id": 206,
+    "id": 202,
     "sourceId": 198,
     "chapter": "3",
     "section": "3.7 原煤斗",
@@ -2283,18 +2231,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.7.4"
   },
   {
-    "id": 207,
+    "id": 203,
     "sourceId": 199,
     "chapter": "3",
     "section": "3.7 原煤斗",
-    "question": "通知____将煤斗出口挡板关闭，切断给煤机电源，还应采取防止上部来煤的____，切断上部来煤设备的电源，并在上述切断电源的开关操作把手上挂“____”标志牌。",
-    "answer": "运行值班人员；安全措施；禁止合闸、有人工作",
-    "blanks": 3,
+    "question": "通知运行值班人员将煤斗出口挡板关闭，切断给煤机电源，还应采取防止上部来煤的____，切断上部来煤设备的电源，并在上述切断电源的开关操作把手上挂“____”标志牌。",
+    "answer": "安全措施；禁止合闸、有人工作",
+    "blanks": 2,
     "full": "通知运行值班人员将煤斗出口挡板关闭，切断给煤机电源，还应采取防止上部来煤的安全措施，切断上部来煤设备的电源，并在上述切断电源的开关操作把手上挂“禁止合闸、有人工作”标志牌。",
     "ref": "3.7.4.1"
   },
   {
-    "id": 208,
+    "id": 204,
     "sourceId": 200,
     "chapter": "3",
     "section": "3.7 原煤斗",
@@ -2305,18 +2253,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.7.4.2"
   },
   {
-    "id": 209,
+    "id": 205,
     "sourceId": 201,
     "chapter": "3",
     "section": "3.7 原煤斗",
-    "question": "如果煤堆积在煤斗的一侧并有很大的陡坡（____～____）时，应在进入煤斗前将陡坡用捅条消除，以免塌下将人埋住。通知____将煤斗出口挡板关闭。",
-    "answer": "60°；70°；运行值班人员",
-    "blanks": 3,
+    "question": "如果煤堆积在煤斗的一侧并有很大的陡坡（____～____）时，应在进入煤斗前将陡坡用捅条消除，以免塌下将人埋住。通知运行值班人员将煤斗出口挡板关闭。",
+    "answer": "60°；70°",
+    "blanks": 2,
     "full": "如果煤堆积在煤斗的一侧并有很大的陡坡（60°～70°）时，应在进入煤斗前将陡坡用捅条消除，以免塌下将人埋住。通知运行值班人员将煤斗出口挡板关闭。",
     "ref": "3.7.4.1"
   },
   {
-    "id": 210,
+    "id": 206,
     "sourceId": 202,
     "chapter": "3",
     "section": "3.8 除铁、筛煤与碎煤机",
@@ -2327,7 +2275,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.8.2"
   },
   {
-    "id": 211,
+    "id": 207,
     "sourceId": 203,
     "chapter": "3",
     "section": "3.8 除铁、筛煤与碎煤机",
@@ -2338,7 +2286,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.8.4"
   },
   {
-    "id": 212,
+    "id": 208,
     "sourceId": 204,
     "chapter": "3",
     "section": "3.8 除铁、筛煤与碎煤机",
@@ -2349,7 +2297,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.8.5"
   },
   {
-    "id": 213,
+    "id": 209,
     "sourceId": 205,
     "chapter": "3",
     "section": "3.8 除铁、筛煤与碎煤机",
@@ -2360,7 +2308,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.8.6"
   },
   {
-    "id": 214,
+    "id": 210,
     "sourceId": 206,
     "chapter": "3",
     "section": "3.9 给煤机",
@@ -2371,7 +2319,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "3.9.2"
   },
   {
-    "id": 215,
+    "id": 211,
     "sourceId": 207,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2382,18 +2330,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.1"
   },
   {
-    "id": 216,
+    "id": 212,
     "sourceId": 208,
     "chapter": "4",
     "section": "4.1 基本规定",
-    "question": "油区周围必须设置围墙，其高度不低于2m，并挂有“____”“____”等明显的警告标志牌，当利用厂区围墙作为燃油区的围墙时，该段厂区围墙应为不低于____高的实体围墙。锅炉房内的燃油母管检修时按寿命管理要求加强检查。运行中巡回检查路线应包括各台锅炉油母管管段和支线。",
-    "answer": "重点防火区域；严禁烟火；2.5m",
-    "blanks": 3,
+    "question": "油区周围必须设置围墙，其高度不低于2m，并挂有“____”“严禁烟火”等明显的警告标志牌，当利用厂区围墙作为燃油区的围墙时，该段厂区围墙应为不低于____高的实体围墙。锅炉房内的燃油母管检修时按寿命管理要求加强检查。运行中巡回检查路线应包括各台锅炉油母管管段和支线。",
+    "answer": "重点防火区域；2.5m",
+    "blanks": 2,
     "full": "油区周围必须设置围墙，其高度不低于2m，并挂有“重点防火区域”“严禁烟火”等明显的警告标志牌，当利用厂区围墙作为燃油区的围墙时，该段厂区围墙应为不低于2.5m高的实体围墙。锅炉房内的燃油母管检修时按寿命管理要求加强检查。运行中巡回检查路线应包括各台锅炉油母管管段和支线。",
     "ref": "4.1.2"
   },
   {
-    "id": 217,
+    "id": 213,
     "sourceId": 209,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2404,7 +2352,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.3"
   },
   {
-    "id": 218,
+    "id": 214,
     "sourceId": 210,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2415,7 +2363,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.5"
   },
   {
-    "id": 219,
+    "id": 215,
     "sourceId": 211,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2426,7 +2374,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.7"
   },
   {
-    "id": 220,
+    "id": 216,
     "sourceId": 212,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2437,7 +2385,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.8"
   },
   {
-    "id": 221,
+    "id": 217,
     "sourceId": 213,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2448,7 +2396,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.9"
   },
   {
-    "id": 222,
+    "id": 218,
     "sourceId": 214,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2459,7 +2407,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.11"
   },
   {
-    "id": 223,
+    "id": 219,
     "sourceId": 215,
     "chapter": "4",
     "section": "4.1 基本规定",
@@ -2470,7 +2418,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.12"
   },
   {
-    "id": 224,
+    "id": 220,
     "sourceId": 216,
     "chapter": "4",
     "section": "4.2 卸供油工作",
@@ -2481,7 +2429,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.2.4"
   },
   {
-    "id": 225,
+    "id": 221,
     "sourceId": 217,
     "chapter": "4",
     "section": "4.2 卸供油工作",
@@ -2492,7 +2440,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.2.7"
   },
   {
-    "id": 226,
+    "id": 222,
     "sourceId": 218,
     "chapter": "4",
     "section": "4.2 卸供油工作",
@@ -2503,7 +2451,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.2.20"
   },
   {
-    "id": 227,
+    "id": 223,
     "sourceId": 219,
     "chapter": "4",
     "section": "4.3 燃油的储存管理",
@@ -2514,7 +2462,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.3.1"
   },
   {
-    "id": 228,
+    "id": 224,
     "sourceId": 220,
     "chapter": "4",
     "section": "4.4 燃油设备的检修",
@@ -2525,7 +2473,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.4.3"
   },
   {
-    "id": 229,
+    "id": 225,
     "sourceId": 221,
     "chapter": "4",
     "section": "4.4 燃油设备的检修",
@@ -2536,7 +2484,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.4.5"
   },
   {
-    "id": 230,
+    "id": 226,
     "sourceId": 222,
     "chapter": "4",
     "section": "4.4 燃油设备的检修",
@@ -2547,7 +2495,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.4.6"
   },
   {
-    "id": 231,
+    "id": 227,
     "sourceId": 223,
     "chapter": "4",
     "section": "4.4 燃油设备的检修",
@@ -2558,7 +2506,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.4.7"
   },
   {
-    "id": 232,
+    "id": 228,
     "sourceId": 224,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2569,7 +2517,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.3"
   },
   {
-    "id": 233,
+    "id": 229,
     "sourceId": 225,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2580,7 +2528,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.1.5"
   },
   {
-    "id": 234,
+    "id": 230,
     "sourceId": 226,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2591,31 +2539,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.1.6"
   },
   {
-    "id": 235,
+    "id": 231,
     "sourceId": 227,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "燃机电厂新建、扩建和改建燃机管道设施设计和施工应符合《建筑设计防火规范》（____）、《工程结构可靠性设计统一标准》（____）和《燃气-蒸汽联合循环电厂设计规范》（DL/T5174）及国家和石油燃气行业有关规定。燃气区域和周围建筑物的防火间距应符合相应规定。",
-    "answer": "GB50016；GB50153",
-    "blanks": 2,
+    "question": "燃机电厂新建、扩建和改建燃机管道设施设计和施工应符合《建筑设计防火规范》（____）、《工程结构可靠性设计统一标准》（____）和《燃气-蒸汽联合循环电厂设计规范》（____）及国家和石油燃气行业有关规定。燃气区域和周围建筑物的防火间距应符合相应规定。",
+    "answer": "GB50016；GB50153；DL/T5174",
+    "blanks": 3,
     "full": "燃机电厂新建、扩建和改建燃机管道设施设计和施工应符合《建筑设计防火规范》（GB50016）、《工程结构可靠性设计统一标准》（GB50153）和《燃气-蒸汽联合循环电厂设计规范》（DL/T5174）及国家和石油燃气行业有关规定。燃气区域和周围建筑物的防火间距应符合相应规定。",
-    "ref": "4.5.2.1",
-    "variant": 1
+    "ref": "4.5.2.1"
   },
   {
-    "id": 236,
-    "sourceId": 227,
-    "chapter": "4",
-    "section": "4.5 燃气轮机及其系统",
-    "question": "燃机电厂新建、扩建和改建燃机管道设施设计和施工应符合《建筑设计防火规范》（GB50016）、《工程结构可靠性设计统一标准》（GB50153）和《燃气-蒸汽联合循环电厂设计规范》（____）及国家和石油燃气行业有关规定。燃气区域和周围建筑物的____应符合相应规定。",
-    "answer": "DL/T5174；防火间距",
-    "blanks": 2,
-    "full": "燃机电厂新建、扩建和改建燃机管道设施设计和施工应符合《建筑设计防火规范》（GB50016）、《工程结构可靠性设计统一标准》（GB50153）和《燃气-蒸汽联合循环电厂设计规范》（DL/T5174）及国家和石油燃气行业有关规定。燃气区域和周围建筑物的防火间距应符合相应规定。",
-    "ref": "4.5.2.1",
-    "variant": 2
-  },
-  {
-    "id": 237,
+    "id": 232,
     "sourceId": 228,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2626,7 +2561,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.2.2"
   },
   {
-    "id": 238,
+    "id": 233,
     "sourceId": 229,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2637,7 +2572,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.2.6"
   },
   {
-    "id": 239,
+    "id": 234,
     "sourceId": 230,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2648,7 +2583,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.1.7"
   },
   {
-    "id": 240,
+    "id": 235,
     "sourceId": 231,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2659,7 +2594,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.2.10"
   },
   {
-    "id": 241,
+    "id": 236,
     "sourceId": 232,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2670,7 +2605,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.2.11"
   },
   {
-    "id": 242,
+    "id": 237,
     "sourceId": 233,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2681,7 +2616,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.0"
   },
   {
-    "id": 243,
+    "id": 238,
     "sourceId": 234,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2692,29 +2627,29 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.3.1"
   },
   {
-    "id": 244,
+    "id": 239,
     "sourceId": 235,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "首次置换或大修后置换应在____、严密性试验、____、____后进行，相关仪器仪表也同时参与置换，保证无死角和遗漏。",
-    "answer": "强度试验；吹扫清管；干燥合格",
-    "blanks": 3,
+    "question": "首次置换或大修后置换应在强度试验、严密性试验、____、____后进行，相关仪器仪表也同时参与置换，保证无死角和遗漏。",
+    "answer": "吹扫清管；干燥合格",
+    "blanks": 2,
     "full": "首次置换或大修后置换应在强度试验、严密性试验、吹扫清管、干燥合格后进行，相关仪器仪表也同时参与置换，保证无死角和遗漏。",
     "ref": "4.5.4"
   },
   {
-    "id": 245,
+    "id": 240,
     "sourceId": 236,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "管道内空气应采用氮气或其他无腐蚀、无毒害的____作为置换介质。用____时应控制温度，向管内注氮时，进入管内的氮气温度不应低于____。",
-    "answer": "惰性气体；氮气置换；5℃",
-    "blanks": 3,
+    "question": "管道内空气应采用氮气或其他无腐蚀、无毒害的惰性气体作为置换介质。用____时应控制温度，向管内注氮时，进入管内的氮气温度不应低于____。",
+    "answer": "氮气置换；5℃",
+    "blanks": 2,
     "full": "管道内空气应采用氮气或其他无腐蚀、无毒害的惰性气体作为置换介质。用氮气置换时应控制温度，向管内注氮时，进入管内的氮气温度不应低于5℃。",
     "ref": "4.5.4.2"
   },
   {
-    "id": 246,
+    "id": 241,
     "sourceId": 237,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2725,42 +2660,29 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.4.4"
   },
   {
-    "id": 247,
+    "id": 242,
     "sourceId": 238,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "当用____置换空气时，置换管道末端放散管口气体中____不大于____时，置换合格。",
-    "answer": "惰性气体；含氧量；2%",
-    "blanks": 3,
+    "question": "当用惰性气体置换空气时，置换管道末端放散管口气体中____不大于____时，置换合格。",
+    "answer": "含氧量；2%",
+    "blanks": 2,
     "full": "当用惰性气体置换空气时，置换管道末端放散管口气体中含氧量不大于2%时，置换合格。",
     "ref": "4.5.4.6"
   },
   {
-    "id": 248,
+    "id": 243,
     "sourceId": 239,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "采用惰性气体置换燃气，应使用两台以上可燃气体检测仪连续3次测定燃气浓度，每次间隔不少于____，当连续3次测定____值均不大于爆炸下限的20%时，方可通入空气。当采用燃气置换惰性气体时，应连续3次，每次间隔5min测定燃气浓度均大于90%时，方可投入运行。",
-    "answer": "5min；可燃气体浓度",
-    "blanks": 2,
+    "question": "采用惰性气体置换燃气，应使用两台以上可燃气体检测仪连续3次测定燃气浓度，每次间隔不少于____，当连续3次测定____值均不大于爆炸下限的____时，方可通入空气。当采用燃气置换惰性气体时，应连续3次，每次间隔5min测定燃气浓度均大于90%时，方可投入运行。",
+    "answer": "5min；可燃气体浓度；20%",
+    "blanks": 3,
     "full": "采用惰性气体置换燃气，应使用两台以上可燃气体检测仪连续3次测定燃气浓度，每次间隔不少于5min，当连续3次测定可燃气体浓度值均不大于爆炸下限的20%时，方可通入空气。当采用燃气置换惰性气体时，应连续3次，每次间隔5min测定燃气浓度均大于90%时，方可投入运行。",
-    "ref": "4.5.4.7",
-    "variant": 1
+    "ref": "4.5.4.7"
   },
   {
-    "id": 249,
-    "sourceId": 239,
-    "chapter": "4",
-    "section": "4.5 燃气轮机及其系统",
-    "question": "采用惰性气体置换燃气，应使用两台以上可燃气体检测仪连续3次测定燃气浓度，每次间隔不少于5min，当连续3次测定可燃气体浓度值均不大于爆炸下限的____时，方可通入空气。当采用燃气置换惰性气体时，应连续3次，每次间隔5min测定燃气浓度均大于____时，方可投入运行。",
-    "answer": "20%；90%",
-    "blanks": 2,
-    "full": "采用惰性气体置换燃气，应使用两台以上可燃气体检测仪连续3次测定燃气浓度，每次间隔不少于5min，当连续3次测定可燃气体浓度值均不大于爆炸下限的20%时，方可通入空气。当采用燃气置换惰性气体时，应连续3次，每次间隔5min测定燃气浓度均大于90%时，方可投入运行。",
-    "ref": "4.5.4.7",
-    "variant": 2
-  },
-  {
-    "id": 250,
+    "id": 244,
     "sourceId": 240,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2771,7 +2693,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.4.9"
   },
   {
-    "id": 251,
+    "id": 245,
     "sourceId": 241,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2782,7 +2704,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.4.10"
   },
   {
-    "id": 252,
+    "id": 246,
     "sourceId": 242,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2793,7 +2715,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.6.1"
   },
   {
-    "id": 253,
+    "id": 247,
     "sourceId": 243,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2804,7 +2726,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.6.2"
   },
   {
-    "id": 254,
+    "id": 248,
     "sourceId": 244,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2815,18 +2737,18 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.6.6"
   },
   {
-    "id": 255,
+    "id": 249,
     "sourceId": 245,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "检修工作前，应将检修的设备、管道与运行中的燃气管道可靠隔离（关闭相应隔绝阀门，必要时拆除一段连接管并加堵板），燃气管道及系统应进行____置换至合格，燃油系统放尽存油。相应隔离电动阀门停电、气动阀门停气，悬挂“____”标志牌并上锁。",
-    "answer": "惰性气体；禁止操作，有人工作",
+    "question": "检修工作前，应将检修的设备、管道与运行中的燃气管道可靠____（关闭相应隔绝阀门，必要时拆除一段连接管并加堵板），燃气管道及系统应进行____置换至合格，燃油系统放尽存油。相应隔离电动阀门停电、气动阀门停气，悬挂“禁止操作，有人工作”标志牌并上锁。",
+    "answer": "隔离；惰性气体",
     "blanks": 2,
     "full": "检修工作前，应将检修的设备、管道与运行中的燃气管道可靠隔离（关闭相应隔绝阀门，必要时拆除一段连接管并加堵板），燃气管道及系统应进行惰性气体置换至合格，燃油系统放尽存油。相应隔离电动阀门停电、气动阀门停气，悬挂“禁止操作，有人工作”标志牌并上锁。",
     "ref": "4.5.7"
   },
   {
-    "id": 256,
+    "id": 250,
     "sourceId": 246,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2837,42 +2759,29 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.7.2"
   },
   {
-    "id": 257,
+    "id": 251,
     "sourceId": 247,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "检修期间，经常监视燃气隔绝点后燃气浓度以及（____）压力。工作间断，开工前应再次测量燃气浓度，符合要求方可工作。____过程中应至少每4小时检测燃气浓度，确认其在合格范围内。",
-    "answer": "燃油；动火",
+    "question": "检修期间，经常监视燃气隔绝点后燃气浓度以及（燃油）压力。工作间断，开工前应再次测量燃气浓度，符合要求方可工作。____过程中应至少每____检测燃气浓度，确认其在合格范围内。",
+    "answer": "动火；4小时",
     "blanks": 2,
     "full": "检修期间，经常监视燃气隔绝点后燃气浓度以及（燃油）压力。工作间断，开工前应再次测量燃气浓度，符合要求方可工作。动火过程中应至少每4小时检测燃气浓度，确认其在合格范围内。",
     "ref": "4.5.7.3"
   },
   {
-    "id": 258,
+    "id": 252,
     "sourceId": 248,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "(3)应进行通风换气，使有害气体含量小于规定值（燃气在空气中的浓度低于爆炸下限的____，混合气体中CO浓度低于____），含氧量保持在19.5%～23.5%左右。(4)现场作业人员应在上风位置工作。",
-    "answer": "20%；0.05%",
-    "blanks": 2,
+    "question": "(3)应进行通风换气，使有害气体含量小于规定值（燃气在空气中的浓度低于爆炸下限的____，混合气体中CO浓度低于____），____保持在19.5%～23.5%左右。(4)现场作业人员应在上风位置工作。",
+    "answer": "20%；0.05%；含氧量",
+    "blanks": 3,
     "full": "(3)应进行通风换气，使有害气体含量小于规定值（燃气在空气中的浓度低于爆炸下限的20%，混合气体中CO浓度低于0.05%），含氧量保持在19.5%～23.5%左右。(4)现场作业人员应在上风位置工作。",
-    "ref": "4.5.7.4",
-    "variant": 1
+    "ref": "4.5.7.4"
   },
   {
-    "id": 259,
-    "sourceId": 248,
-    "chapter": "4",
-    "section": "4.5 燃气轮机及其系统",
-    "question": "(3)应进行通风换气，使有害气体含量小于规定值（燃气在空气中的浓度低于爆炸下限的20%，混合气体中CO浓度低于0.05%），____保持在____～23.5%左右。(4)现场作业人员应在上风位置工作。",
-    "answer": "含氧量；19.5%",
-    "blanks": 2,
-    "full": "(3)应进行通风换气，使有害气体含量小于规定值（燃气在空气中的浓度低于爆炸下限的20%，混合气体中CO浓度低于0.05%），含氧量保持在19.5%～23.5%左右。(4)现场作业人员应在上风位置工作。",
-    "ref": "4.5.7.4",
-    "variant": 2
-  },
-  {
-    "id": 260,
+    "id": 253,
     "sourceId": 249,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2883,7 +2792,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.7.7"
   },
   {
-    "id": 261,
+    "id": 254,
     "sourceId": 250,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2894,7 +2803,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.8.3"
   },
   {
-    "id": 262,
+    "id": 255,
     "sourceId": 251,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2905,7 +2814,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.4.6"
   },
   {
-    "id": 263,
+    "id": 256,
     "sourceId": 252,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2916,7 +2825,7 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.4.7"
   },
   {
-    "id": 264,
+    "id": 257,
     "sourceId": 253,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2927,40 +2836,40 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.9.4"
   },
   {
-    "id": 265,
+    "id": 258,
     "sourceId": 254,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "如果通风故障或消防系统报警，应立即撤离小室。(3)现场____员与进入轮机间的人员、控制室的操作人员保持不中断的通信联系，一旦发现异常，小室内工作人员应立即撤离____间。(4)进入燃气轮机间应限制在离仓门口____以内。如有需要，应使用伸长杠进行调试或泄漏检查。",
-    "answer": "监护人；燃气轮机；1.5m",
-    "blanks": 3,
+    "question": "如果通风故障或消防系统报警，应立即撤离小室。(3)现场____员与进入轮机间的人员、控制室的操作人员保持不中断的通信联系，一旦发现异常，小室内工作人员应立即撤离燃气轮机间。(4)进入燃气轮机间应限制在离仓门口____以内。如有需要，应使用伸长杠进行调试或泄漏检查。",
+    "answer": "监护人；1.5m",
+    "blanks": 2,
     "full": "如果通风故障或消防系统报警，应立即撤离小室。(3)现场监护人员与进入轮机间的人员、控制室的操作人员保持不中断的通信联系，一旦发现异常，小室内工作人员应立即撤离燃气轮机间。(4)进入燃气轮机间应限制在离仓门口1.5m以内。如有需要，应使用伸长杠进行调试或泄漏检查。",
     "ref": "4.5.9.5"
   },
   {
-    "id": 266,
+    "id": 259,
     "sourceId": 255,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "进入____喇叭口、进气通道内工作时，应穿专用连体服、戴鞋套，防止异物遗留。工作期间，开启并固定人孔门，并设____。工作结束，确认上述区域无人后，方可关闭人孔门。",
-    "answer": "压气机；专人监护",
+    "question": "进入____喇叭口、进气通道内工作时，应穿专用连体服、戴鞋套，防止异物遗留。工作期间，开启并固定____，并设专人监护。工作结束，确认上述区域无人后，方可关闭人孔门。",
+    "answer": "压气机；人孔门",
     "blanks": 2,
     "full": "进入压气机喇叭口、进气通道内工作时，应穿专用连体服、戴鞋套，防止异物遗留。工作期间，开启并固定人孔门，并设专人监护。工作结束，确认上述区域无人后，方可关闭人孔门。",
     "ref": "4.5.9.7"
   },
   {
-    "id": 267,
+    "id": 260,
     "sourceId": 256,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "如确需动火，应在拆除滤芯后执行。进气室内动火需制订专门____，并得到主管生产的厂领导（____）批准。现场配备足够灭火器材，并设____。",
-    "answer": "安全措施；总工程师；专人监护",
-    "blanks": 3,
+    "question": "如确需动火，应在拆除滤芯后执行。进气室内动火需制订专门____，并得到主管生产的厂领导（总工程师）批准。现场配备足够灭火器材，并设____。",
+    "answer": "安全措施；专人监护",
+    "blanks": 2,
     "full": "如确需动火，应在拆除滤芯后执行。进气室内动火需制订专门安全措施，并得到主管生产的厂领导（总工程师）批准。现场配备足够灭火器材，并设专人监护。",
     "ref": "4.5.9.8"
   },
   {
-    "id": 268,
+    "id": 261,
     "sourceId": 257,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -2971,40 +2880,40 @@ window.QUIZ_QUESTIONS = [
     "ref": "4.5.9.11"
   },
   {
-    "id": 269,
+    "id": 262,
     "sourceId": 258,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "在可能存在____的环境下，严禁进行火花塞点火试验。火花塞点火试验时应做好防止高压电击的____。",
-    "answer": "可燃气体；安全措施",
+    "question": "在可能存在____的环境下，严禁进行____点火试验。火花塞点火试验时应做好防止高压电击的安全措施。",
+    "answer": "可燃气体；火花塞",
     "blanks": 2,
     "full": "在可能存在可燃气体的环境下，严禁进行火花塞点火试验。火花塞点火试验时应做好防止高压电击的安全措施。",
     "ref": "4.5.9.13"
   },
   {
-    "id": 270,
+    "id": 263,
     "sourceId": 259,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "所有装复工作完成后，在燃机____人孔门关闭前，____人员应认真检查确认无人员、工器具及其他物件遗留在燃机透平缸内，之后方可允许关闭人孔门。",
-    "answer": "透平缸；三级验收",
+    "question": "所有装复工作完成后，在燃机________关闭前，三级验收人员应认真检查确认无人员、工器具及其他物件遗留在燃机透平缸内，之后方可允许关闭人孔门。",
+    "answer": "透平缸；人孔门",
     "blanks": 2,
     "full": "所有装复工作完成后，在燃机透平缸人孔门关闭前，三级验收人员应认真检查确认无人员、工器具及其他物件遗留在燃机透平缸内，之后方可允许关闭人孔门。",
     "ref": "4.5.9.14"
   },
   {
-    "id": 271,
+    "id": 264,
     "sourceId": 260,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
-    "question": "燃气模块查漏，必须做好相关____，门口处设____。保持____开启，发生异常立即撤出。",
-    "answer": "安全措施；专人监护；小室仓门",
-    "blanks": 3,
+    "question": "燃气模块查漏，必须做好相关____，门口处设____。保持小室仓门开启，发生异常立即撤出。",
+    "answer": "安全措施；专人监护",
+    "blanks": 2,
     "full": "燃气模块查漏，必须做好相关安全措施，门口处设专人监护。保持小室仓门开启，发生异常立即撤出。",
     "ref": "4.5.9.15"
   },
   {
-    "id": 272,
+    "id": 265,
     "sourceId": 261,
     "chapter": "4",
     "section": "4.5 燃气轮机及其系统",
@@ -3013,5 +2922,3228 @@ window.QUIZ_QUESTIONS = [
     "blanks": 2,
     "full": "停机后，禁止采用打开燃料阀直接向燃气轮机透平输送天然气的方法进行法兰找漏等试验检修工作。",
     "ref": "4.5.9.20"
+  },
+  {
+    "id": 266,
+    "sourceId": 262,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "从事焊接工作人员必须具有相应资质，____。焊接锅炉承压部件、管道及承压容器等特种设备受压元件的焊工，必须按照《焊工技术考核规程》（____）或《特种设备焊接操作人员考核细则》（____）的要求，经基本考试与补充考试合格，并持有合格证，方可允许工作。",
+    "answer": "持证上岗；DL/T679；TSGZ6002",
+    "blanks": 3,
+    "full": "从事焊接工作人员必须具有相应资质，持证上岗。焊接锅炉承压部件、管道及承压容器等特种设备受压元件的焊工，必须按照《焊工技术考核规程》（DL/T679）或《特种设备焊接操作人员考核细则》（TSGZ6002）的要求，经基本考试与补充考试合格，并持有合格证，方可允许工作。",
+    "ref": "15.1.1"
+  },
+  {
+    "id": 267,
+    "sourceId": 263,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "焊工应戴（____）、____、穿全棉帆布工作服、戴手套。工作服上衣不应扎在裤子里，口袋应有遮盖，裤长至少应罩住鞋舌与鞋帮，必要时应配备鞋罩。",
+    "answer": "工作帽；工作鞋",
+    "blanks": 2,
+    "full": "焊工应戴（工作帽）、工作鞋、穿全棉帆布工作服、戴手套。工作服上衣不应扎在裤子里，口袋应有遮盖，裤长至少应罩住鞋舌与鞋帮，必要时应配备鞋罩。",
+    "ref": "15.1.2"
+  },
+  {
+    "id": 268,
+    "sourceId": 264,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "企业应建立动火管理制度，制度应明确一、____区，规定禁止动火的区域和条件，明确爆炸危险性区域。一、二级动火区域动火应使用对应等级的____。",
+    "answer": "二级动火；动火工作票",
+    "blanks": 2,
+    "full": "企业应建立动火管理制度，制度应明确一、二级动火区，规定禁止动火的区域和条件，明确爆炸危险性区域。一、二级动火区域动火应使用对应等级的动火工作票。",
+    "ref": "15.1.3"
+  },
+  {
+    "id": 269,
+    "sourceId": 265,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "________的焊接工具和设备。",
+    "answer": "禁止使用；有缺陷",
+    "blanks": 2,
+    "full": "禁止使用有缺陷的焊接工具和设备。",
+    "ref": "15.1.4"
+  },
+  {
+    "id": 270,
+    "sourceId": 266,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "不准在带有压力（液体压力或气体压力）的设备上或____的设备上进行焊接。对____进行焊接，必须经过有关技术部门的许可。",
+    "answer": "带电；承重构架",
+    "blanks": 2,
+    "full": "不准在带有压力（液体压力或气体压力）的设备上或带电的设备上进行焊接。对承重构架进行焊接，必须经过有关技术部门的许可。",
+    "ref": "15.1.5"
+  },
+  {
+    "id": 271,
+    "sourceId": 267,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "禁止在装有____的容器上或在____的结构或其他物体上进行焊接。",
+    "answer": "易燃物品；油漆未干",
+    "blanks": 2,
+    "full": "禁止在装有易燃物品的容器上或在油漆未干的结构或其他物体上进行焊接。",
+    "ref": "15.1.6"
+  },
+  {
+    "id": 272,
+    "sourceId": 268,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "禁止在储有____物品的房间内进行焊接。在易燃易爆材料附近进行焊接时，其最小水平距离不得小于____，并根据现场情况，采取安全、可靠措施（用围屏或石棉布遮盖）。",
+    "answer": "易燃易爆；5m",
+    "blanks": 2,
+    "full": "禁止在储有易燃易爆物品的房间内进行焊接。在易燃易爆材料附近进行焊接时，其最小水平距离不得小于5m，并根据现场情况，采取安全、可靠措施（用围屏或石棉布遮盖）。",
+    "ref": "15.1.7"
+  },
+  {
+    "id": 273,
+    "sourceId": 269,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在风力超过____（____）时禁止露天进行焊接或气割。风力在五级以下三级以上进行露天焊接或气割时，必须搭设挡风屏，以防火星飞溅引起火灾。",
+    "answer": "五级；10.7m/s",
+    "blanks": 2,
+    "full": "在风力超过五级（10.7m/s）时禁止露天进行焊接或气割。风力在五级以下三级以上进行露天焊接或气割时，必须搭设挡风屏，以防火星飞溅引起火灾。",
+    "ref": "15.1.9"
+  },
+  {
+    "id": 274,
+    "sourceId": 270,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "下雨雪时，不可____进行焊接或切割工作。如必须进行焊接时，应采取____的措施。",
+    "answer": "露天；防雨雪",
+    "blanks": 2,
+    "full": "下雨雪时，不可露天进行焊接或切割工作。如必须进行焊接时，应采取防雨雪的措施。",
+    "ref": "15.1.10"
+  },
+  {
+    "id": 275,
+    "sourceId": 271,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在可能引起____的场所附近进行焊接工作时，必须备有必要的____。",
+    "answer": "火灾；消防器材",
+    "blanks": 2,
+    "full": "在可能引起火灾的场所附近进行焊接工作时，必须备有必要的消防器材。",
+    "ref": "15.1.11"
+  },
+  {
+    "id": 276,
+    "sourceId": 272,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "进行焊接工作时，必须设有防止金属____飞溅、掉落引起____的措施，以及防止烫伤、触电、爆炸等措施。焊接人员离开现场前，必须进行检查，现场应无火种留下。",
+    "answer": "熔渣；火灾",
+    "blanks": 2,
+    "full": "进行焊接工作时，必须设有防止金属熔渣飞溅、掉落引起火灾的措施，以及防止烫伤、触电、爆炸等措施。焊接人员离开现场前，必须进行检查，现场应无火种留下。",
+    "ref": "15.1.12"
+  },
+  {
+    "id": 277,
+    "sourceId": 273,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "电焊时焊工应避免与铁件接触，应站立在____上或穿____，应穿干燥的工作服。",
+    "answer": "橡胶绝缘垫；橡胶绝缘鞋",
+    "blanks": 2,
+    "full": "电焊时焊工应避免与铁件接触，应站立在橡胶绝缘垫上或穿橡胶绝缘鞋，应穿干燥的工作服。",
+    "ref": "15.1.15.1"
+  },
+  {
+    "id": 278,
+    "sourceId": 274,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "容器外面应设有可看见和听见焊工工作的____，并应设有____，以便根据焊工的信号切断电源。",
+    "answer": "监护人员；断路器",
+    "blanks": 2,
+    "full": "容器外面应设有可看见和听见焊工工作的监护人员，并应设有断路器，以便根据焊工的信号切断电源。",
+    "ref": "15.1.15.2"
+  },
+  {
+    "id": 279,
+    "sourceId": 275,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "容器内使用的行灯，电压不准超过____。行灯变压器的外壳应可靠地____，不准使用自耦变压器。",
+    "answer": "12V；接地",
+    "blanks": 2,
+    "full": "容器内使用的行灯，电压不准超过12V。行灯变压器的外壳应可靠地接地，不准使用自耦变压器。",
+    "ref": "15.1.15.3"
+  },
+  {
+    "id": 280,
+    "sourceId": 276,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "____用的变压器及____不应带入锅炉及金属容器内。",
+    "answer": "行灯；电焊变压器",
+    "blanks": 2,
+    "full": "行灯用的变压器及电焊变压器不应带入锅炉及金属容器内。",
+    "ref": "15.1.15.4"
+  },
+  {
+    "id": 281,
+    "sourceId": 277,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在____内，不准同时进行____及气焊工作。不应在通气的乙炔、氧气等橡胶软管上方进行动火作业。",
+    "answer": "密闭容器；电焊",
+    "blanks": 2,
+    "full": "在密闭容器内，不准同时进行电焊及气焊工作。不应在通气的乙炔、氧气等橡胶软管上方进行动火作业。",
+    "ref": "15.1.16"
+  },
+  {
+    "id": 282,
+    "sourceId": 278,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "____与____不应上下交叉作业，必要时应按本规程16.1.13做好安全防护隔离措施。",
+    "answer": "气焊；电焊",
+    "blanks": 2,
+    "full": "气焊与电焊不应上下交叉作业，必要时应按本规程16.1.13做好安全防护隔离措施。",
+    "ref": "15.1.18"
+  },
+  {
+    "id": 283,
+    "sourceId": 279,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "____动力电源线路的安装、维修或拆除应由电工完成，电焊机终端____及电焊机启、停工作应由具备资质的使用人员进行操作。",
+    "answer": "电焊机；断路器",
+    "blanks": 2,
+    "full": "电焊机动力电源线路的安装、维修或拆除应由电工完成，电焊机终端断路器及电焊机启、停工作应由具备资质的使用人员进行操作。",
+    "ref": "15.1.20"
+  },
+  {
+    "id": 284,
+    "sourceId": 280,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "动火作业前，应对现场动火区域或设备内部____气体含量或粉尘浓度进行检测，经检测合格后，方可动火。检测时间距动火作业开始时间不应超过____。",
+    "answer": "易燃易爆；2.0h",
+    "blanks": 2,
+    "full": "动火作业前，应对现场动火区域或设备内部易燃易爆气体含量或粉尘浓度进行检测，经检测合格后，方可动火。检测时间距动火作业开始时间不应超过2.0h。",
+    "ref": "15.1.21"
+  },
+  {
+    "id": 285,
+    "sourceId": 281,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "在室内或____进行____工作，必要时应在周围设挡光屏，防止弧光伤害周围人员的眼睛。",
+    "answer": "露天；电焊",
+    "blanks": 2,
+    "full": "在室内或露天进行电焊工作，必要时应在周围设挡光屏，防止弧光伤害周围人员的眼睛。",
+    "ref": "15.2.1"
+  },
+  {
+    "id": 286,
+    "sourceId": 282,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "在潮湿地方进行电焊工作，焊工必须站在____上，或穿____。",
+    "answer": "干燥的木板；橡胶绝缘鞋",
+    "blanks": 2,
+    "full": "在潮湿地方进行电焊工作，焊工必须站在干燥的木板上，或穿橡胶绝缘鞋。",
+    "ref": "15.2.2"
+  },
+  {
+    "id": 287,
+    "sourceId": 283,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "固定或移动的____（电动发电机或电焊变压器）的外壳以及工作台，必须有良好的____。焊机应采用空载自动断电装置等防止触电的安全措施。",
+    "answer": "电焊机；接地",
+    "blanks": 2,
+    "full": "固定或移动的电焊机（电动发电机或电焊变压器）的外壳以及工作台，必须有良好的接地。焊机应采用空载自动断电装置等防止触电的安全措施。",
+    "ref": "15.2.3"
+  },
+  {
+    "id": 288,
+    "sourceId": 284,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____工作所用的导线，必须使用绝缘良好的____，并尽量不带连接接头。如需要接长导线时，则接头应连接牢固、绝缘良好。",
+    "answer": "电焊；皮线",
+    "blanks": 2,
+    "full": "电焊工作所用的导线，必须使用绝缘良好的皮线，并尽量不带连接接头。如需要接长导线时，则接头应连接牢固、绝缘良好。",
+    "ref": "15.2.4"
+  },
+  {
+    "id": 289,
+    "sourceId": 285,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "电焊机必须装有独立的____，其容量应符合要求。电焊机超负荷时，应能____，禁止多台电焊机共用一个电源开关。",
+    "answer": "专用电源断路器；自动切断电源",
+    "blanks": 2,
+    "full": "电焊机必须装有独立的专用电源断路器，其容量应符合要求。电焊机超负荷时，应能自动切断电源，禁止多台电焊机共用一个电源开关。",
+    "ref": "15.2.5"
+  },
+  {
+    "id": 290,
+    "sourceId": 286,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "禁止用连接建筑物____和设备等作为____。",
+    "answer": "金属构架；焊接电源回路",
+    "blanks": 2,
+    "full": "禁止用连接建筑物金属构架和设备等作为焊接电源回路。",
+    "ref": "15.2.6"
+  },
+  {
+    "id": 291,
+    "sourceId": 287,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "严禁使用氧气、乙炔和氢气管道等____气体管道作为____装置的自然接地极，以防由于产生电阻热或引弧时冲击电流的作用，产生火花而引爆。",
+    "answer": "易燃易爆；接地",
+    "blanks": 2,
+    "full": "严禁使用氧气、乙炔和氢气管道等易燃易爆气体管道作为接地装置的自然接地极，以防由于产生电阻热或引弧时冲击电流的作用，产生火花而引爆。",
+    "ref": "15.2.7"
+  },
+  {
+    "id": 292,
+    "sourceId": 288,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____必须符合下列基本要求：应牢固地夹住____。",
+    "answer": "电焊钳；焊条",
+    "blanks": 2,
+    "full": "电焊钳必须符合下列基本要求：应牢固地夹住焊条。",
+    "ref": "15.2.9.1"
+  },
+  {
+    "id": 293,
+    "sourceId": 289,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____和____的接触良好。",
+    "answer": "焊条；电焊钳",
+    "blanks": 2,
+    "full": "焊条和电焊钳的接触良好。",
+    "ref": "15.2.9.2"
+  },
+  {
+    "id": 294,
+    "sourceId": 290,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____必须____。",
+    "answer": "更换焊条；便利",
+    "blanks": 2,
+    "full": "更换焊条必须便利。",
+    "ref": "15.2.9.3"
+  },
+  {
+    "id": 295,
+    "sourceId": 291,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____必须用____制成。",
+    "answer": "握柄；绝缘耐热材料",
+    "blanks": 2,
+    "full": "握柄必须用绝缘耐热材料制成。",
+    "ref": "15.2.9.4"
+  },
+  {
+    "id": 296,
+    "sourceId": 292,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "镶有____的手把____或套头面罩，护目镜片。",
+    "answer": "滤光镜；面罩",
+    "blanks": 2,
+    "full": "镶有滤光镜的手把面罩或套头面罩，护目镜片。",
+    "ref": "15.2.11.1"
+  },
+  {
+    "id": 297,
+    "sourceId": 293,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "电焊工在合上电焊机____前，应先检查电焊设备，如电动机外壳的____线是否良好，电焊机的引出线是否有绝缘损伤、短路或接触不良等现象。",
+    "answer": "隔离开关；接地",
+    "blanks": 2,
+    "full": "电焊工在合上电焊机隔离开关前，应先检查电焊设备，如电动机外壳的接地线是否良好，电焊机的引出线是否有绝缘损伤、短路或接触不良等现象。",
+    "ref": "15.2.13"
+  },
+  {
+    "id": 298,
+    "sourceId": 294,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "电焊工在合上或拉开电源____时，应戴____，身体其他部分不应接触电焊机的外壳，应将电焊钳与工件隔离。",
+    "answer": "隔离开关；干燥的手套",
+    "blanks": 2,
+    "full": "电焊工在合上或拉开电源隔离开关时，应戴干燥的手套，身体其他部分不应接触电焊机的外壳，应将电焊钳与工件隔离。",
+    "ref": "15.2.14"
+  },
+  {
+    "id": 299,
+    "sourceId": 295,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "电焊工更换____时，必须戴____，以防触电。",
+    "answer": "焊条；电焊手套",
+    "blanks": 2,
+    "full": "电焊工更换焊条时，必须戴电焊手套，以防触电。",
+    "ref": "15.2.15"
+  },
+  {
+    "id": 300,
+    "sourceId": 296,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "不准将____的绝缘电线搭在身上或踏在脚下。____导线经过通道时，应采取防护措施，防止外力损坏。",
+    "answer": "带电；电焊",
+    "blanks": 2,
+    "full": "不准将带电的绝缘电线搭在身上或踏在脚下。电焊导线经过通道时，应采取防护措施，防止外力损坏。",
+    "ref": "15.2.18"
+  },
+  {
+    "id": 301,
+    "sourceId": 297,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "气割（焊）作业前，应检查工具、气瓶及减压阀、____等是否完好可靠，检查连接处不应漏气、焊嘴不应堵塞。____、氧气减压表、焊割工具及劳保用品上不应沾染油脂。",
+    "answer": "阻火器；氧气瓶",
+    "blanks": 2,
+    "full": "气割（焊）作业前，应检查工具、气瓶及减压阀、阻火器等是否完好可靠，检查连接处不应漏气、焊嘴不应堵塞。氧气瓶、氧气减压表、焊割工具及劳保用品上不应沾染油脂。",
+    "ref": "15.3.1"
+  },
+  {
+    "id": 302,
+    "sourceId": 298,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "点火或____（焊）过程中，焊、____枪口或火焰不应对人。不应在着火的情况下疏通气焊嘴。",
+    "answer": "气割；割炬",
+    "blanks": 2,
+    "full": "点火或气割（焊）过程中，焊、割炬枪口或火焰不应对人。不应在着火的情况下疏通气焊嘴。",
+    "ref": "15.3.2"
+  },
+  {
+    "id": 303,
+    "sourceId": 299,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "容积较小的仓库（____）与其他建筑物的距离应不少于____。较大的仓库与施工及生产地点的距离应不少于____。",
+    "answer": "储存量在50个气瓶以下；25m；50m",
+    "blanks": 3,
+    "full": "容积较小的仓库（储存量在50个气瓶以下）与其他建筑物的距离应不少于25m。较大的仓库与施工及生产地点的距离应不少于50m。",
+    "ref": "15.3.4"
+  },
+  {
+    "id": 304,
+    "sourceId": 300,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "气瓶搬运应使用专门的抬架或手推车。每一气瓶上必须套以厚度不小于____的____2个，以免运输气瓶时互相撞击和震动。",
+    "answer": "25mm；防震胶圈",
+    "blanks": 2,
+    "full": "气瓶搬运应使用专门的抬架或手推车。每一气瓶上必须套以厚度不小于25mm的防震胶圈2个，以免运输气瓶时互相撞击和震动。",
+    "ref": "15.3.10.1"
+  },
+  {
+    "id": 305,
+    "sourceId": 301,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "严禁把____及____放在一起运送，也不准与易燃物品或装有可燃气体的容器一起运送。禁止运送和使用没有防震胶圈和保险帽的气瓶。",
+    "answer": "氧气瓶；乙炔瓶",
+    "blanks": 2,
+    "full": "严禁把氧气瓶及乙炔瓶放在一起运送，也不准与易燃物品或装有可燃气体的容器一起运送。禁止运送和使用没有防震胶圈和保险帽的气瓶。",
+    "ref": "15.3.10.9"
+  },
+  {
+    "id": 306,
+    "sourceId": 302,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____和____的使用。",
+    "answer": "氧气瓶；溶解乙炔气瓶",
+    "blanks": 2,
+    "full": "氧气瓶和溶解乙炔气瓶的使用。",
+    "ref": "15.3.12"
+  },
+  {
+    "id": 307,
+    "sourceId": 303,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "在连接____前，应将____的输气阀门开启1/4转，吹洗1～____，然后用专用的扳手安装减压器。工作人员应站在阀门连接头的侧方。",
+    "answer": "减压器；氧气瓶；2s",
+    "blanks": 3,
+    "full": "在连接减压器前，应将氧气瓶的输气阀门开启1/4转，吹洗1～2s，然后用专用的扳手安装减压器。工作人员应站在阀门连接头的侧方。",
+    "ref": "15.3.12.1"
+  },
+  {
+    "id": 308,
+    "sourceId": 304,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "气瓶上的阀门或____气门，若发现____时，应立即停止工作，进行修理。",
+    "answer": "减压器；有缺陷",
+    "blanks": 2,
+    "full": "气瓶上的阀门或减压器气门，若发现有缺陷时，应立即停止工作，进行修理。",
+    "ref": "15.3.12.2"
+  },
+  {
+    "id": 309,
+    "sourceId": 305,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "运到现场的____，必须验收检查。如有油脂痕迹，应立即擦拭干净。如缺少____或气门上缺少封口螺丝或有其他缺陷，应在瓶上注明“注意！瓶内装满氧气”，退回供应厂商。",
+    "answer": "氧气瓶；保险帽",
+    "blanks": 2,
+    "full": "运到现场的氧气瓶，必须验收检查。如有油脂痕迹，应立即擦拭干净。如缺少保险帽或气门上缺少封口螺丝或有其他缺陷，应在瓶上注明“注意！瓶内装满氧气”，退回供应厂商。",
+    "ref": "15.3.12.4"
+  },
+  {
+    "id": 310,
+    "sourceId": 306,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____应涂天蓝色，用黑颜色标明“氧气”字样。____应涂白色，并用红色标明“乙炔”字样。",
+    "answer": "氧气瓶；溶解乙炔气瓶",
+    "blanks": 2,
+    "full": "氧气瓶应涂天蓝色，用黑颜色标明“氧气”字样。溶解乙炔气瓶应涂白色，并用红色标明“乙炔”字样。",
+    "ref": "15.3.12.5"
+  },
+  {
+    "id": 311,
+    "sourceId": 307,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____内的压力降到____（表压），不准再使用。用过的瓶上应写明“空瓶”。",
+    "answer": "氧气瓶；0.196MPa",
+    "blanks": 2,
+    "full": "氧气瓶内的压力降到0.196MPa（表压），不准再使用。用过的瓶上应写明“空瓶”。",
+    "ref": "15.3.12.6"
+  },
+  {
+    "id": 312,
+    "sourceId": 308,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "使用中的____和____应直立放置并固定起来，并采取防晒和防倾倒措施。氧气瓶和溶解乙炔气瓶的距离不得小于____，二者与动火点间距不应小于10m垂直放置并固定起来，氧气瓶和溶解乙炔气瓶的距离不得小于8m。",
+    "answer": "氧气瓶；溶解乙炔气瓶；8m",
+    "blanks": 3,
+    "full": "使用中的氧气瓶和溶解乙炔气瓶应直立放置并固定起来，并采取防晒和防倾倒措施。氧气瓶和溶解乙炔气瓶的距离不得小于8m，二者与动火点间距不应小于10m垂直放置并固定起来，氧气瓶和溶解乙炔气瓶的距离不得小于8m。",
+    "ref": "15.3.12.9"
+  },
+  {
+    "id": 313,
+    "sourceId": 309,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "禁止使用没有防震胶圈和保险帽的气瓶。严禁使用没有____的____和没有____的溶解乙炔气瓶。",
+    "answer": "减压器；氧气瓶；回火阀",
+    "blanks": 3,
+    "full": "禁止使用没有防震胶圈和保险帽的气瓶。严禁使用没有减压器的氧气瓶和没有回火阀的溶解乙炔气瓶。",
+    "ref": "15.3.12.10"
+  },
+  {
+    "id": 314,
+    "sourceId": 310,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____及其附件应与油、润滑脂及其他可燃物或____物相隔离。在焊接中，禁止将带有油迹的衣服、手套或其他沾有油脂的工具、物品与氧气瓶软管及接头相接触。",
+    "answer": "氧气瓶；爆炸",
+    "blanks": 2,
+    "full": "氧气瓶及其附件应与油、润滑脂及其他可燃物或爆炸物相隔离。在焊接中，禁止将带有油迹的衣服、手套或其他沾有油脂的工具、物品与氧气瓶软管及接头相接触。",
+    "ref": "15.3.12.12"
+  },
+  {
+    "id": 315,
+    "sourceId": 311,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "应先把____和____连接后，再开启氧气瓶的阀门，开启阀门不准猛开，应监视压力，以免气体冲破减压器。",
+    "answer": "减压器；氧气瓶",
+    "blanks": 2,
+    "full": "应先把减压器和氧气瓶连接后，再开启氧气瓶的阀门，开启阀门不准猛开，应监视压力，以免气体冲破减压器。",
+    "ref": "15.3.13.3"
+  },
+  {
+    "id": 316,
+    "sourceId": 312,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____如发生自动燃烧，应迅速把____的阀门关闭。",
+    "answer": "减压器；氧气瓶",
+    "blanks": 2,
+    "full": "减压器如发生自动燃烧，应迅速把氧气瓶的阀门关闭。",
+    "ref": "15.3.13.5"
+  },
+  {
+    "id": 317,
+    "sourceId": 313,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____需要长时间停用时，须将____的阀门关闭。工作结束时，须将减压器自气瓶上取下，由焊工保管。",
+    "answer": "减压器；氧气瓶",
+    "blanks": 2,
+    "full": "减压器需要长时间停用时，须将氧气瓶的阀门关闭。工作结束时，须将减压器自气瓶上取下，由焊工保管。",
+    "ref": "15.3.13.6"
+  },
+  {
+    "id": 318,
+    "sourceId": 314,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "使用于____的____应涂蓝色，使用于____的减压器应涂白色，以免混用。",
+    "answer": "氧气瓶；减压器；溶解乙炔气瓶",
+    "blanks": 3,
+    "full": "使用于氧气瓶的减压器应涂蓝色，使用于溶解乙炔气瓶的减压器应涂白色，以免混用。",
+    "ref": "15.3.13.7"
+  },
+  {
+    "id": 319,
+    "sourceId": 315,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "每个氧气____和乙炔减压器上只允许接1把焊炬或1把____。",
+    "answer": "减压器；割炬",
+    "blanks": 2,
+    "full": "每个氧气减压器和乙炔减压器上只允许接1把焊炬或1把割炬。",
+    "ref": "15.3.13.8"
+  },
+  {
+    "id": 320,
+    "sourceId": 316,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "橡胶____的结构、尺寸、工作压力、机械性能、颜色必须符合《气体设备焊接、切割和类似作业用橡胶软管》（____）的要求。",
+    "answer": "软管；GB/T2550",
+    "blanks": 2,
+    "full": "橡胶软管的结构、尺寸、工作压力、机械性能、颜色必须符合《气体设备焊接、切割和类似作业用橡胶软管》（GB/T2550）的要求。",
+    "ref": "15.3.14.1"
+  },
+  {
+    "id": 321,
+    "sourceId": 317,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "橡胶软管的长度宜大于____。两端的接头（一端接____，另一端接焊枪）必须用特制的卡子卡紧，或用软的和退火的金属绑线扎紧，以免漏气或松脱。",
+    "answer": "15m；减压器",
+    "blanks": 2,
+    "full": "橡胶软管的长度宜大于15m。两端的接头（一端接减压器，另一端接焊枪）必须用特制的卡子卡紧，或用软的和退火的金属绑线扎紧，以免漏气或松脱。",
+    "ref": "15.3.14.2"
+  },
+  {
+    "id": 322,
+    "sourceId": 318,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "可燃气体（乙炔）的橡胶软管如在使用中发生脱落、破裂或着火时，应首先将焊枪的火焰熄灭，然后停止供气。氧气软管着火时，应先拧松____上的调整螺杆或将____的阀门关闭，停止供气。",
+    "answer": "减压器；氧气瓶",
+    "blanks": 2,
+    "full": "可燃气体（乙炔）的橡胶软管如在使用中发生脱落、破裂或着火时，应首先将焊枪的火焰熄灭，然后停止供气。氧气软管着火时，应先拧松减压器上的调整螺杆或将氧气瓶的阀门关闭，停止供气。",
+    "ref": "15.3.14.5"
+  },
+  {
+    "id": 323,
+    "sourceId": 319,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "通气的橡胶____上方不宜进行动火作业，以防____。如有必要，应做好防护措施。",
+    "answer": "软管；火灾",
+    "blanks": 2,
+    "full": "通气的橡胶软管上方不宜进行动火作业，以防火灾。如有必要，应做好防护措施。",
+    "ref": "15.3.14.6"
+  },
+  {
+    "id": 324,
+    "sourceId": 320,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "乙炔和氧气____在工作中应防止沾上油脂或触及金属____。禁止把乙炔及氧气软管放在高温管道和电线上，或把重的或热的物体压在软管上，不准把软管放在运输通道上，也不得与电焊用的导线敷设在一起。",
+    "answer": "软管；熔渣",
+    "blanks": 2,
+    "full": "乙炔和氧气软管在工作中应防止沾上油脂或触及金属熔渣。禁止把乙炔及氧气软管放在高温管道和电线上，或把重的或热的物体压在软管上，不准把软管放在运输通道上，也不得与电焊用的导线敷设在一起。",
+    "ref": "15.3.14.7"
+  },
+  {
+    "id": 325,
+    "sourceId": 321,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____在点火前，应检查其连接处的严密性及其嘴子有无堵塞现象，禁止在着火的情况下疏通____嘴。",
+    "answer": "焊枪；气焊",
+    "blanks": 2,
+    "full": "焊枪在点火前，应检查其连接处的严密性及其嘴子有无堵塞现象，禁止在着火的情况下疏通气焊嘴。",
+    "ref": "15.3.15.1"
+  },
+  {
+    "id": 326,
+    "sourceId": 322,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "焊枪点火时，应先开____，再开____，立即点火，然后再调整火焰。熄火时与此操作相反，即先关乙炔气门，后关氧气门，以免回火。",
+    "answer": "氧气门；乙炔气门",
+    "blanks": 2,
+    "full": "焊枪点火时，应先开氧气门，再开乙炔气门，立即点火，然后再调整火焰。熄火时与此操作相反，即先关乙炔气门，后关氧气门，以免回火。",
+    "ref": "15.3.15.2"
+  },
+  {
+    "id": 327,
+    "sourceId": 323,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "由于焊嘴过热堵塞而发生____或多次鸣爆时，应尽速先将____关闭，再关闭氧气门，然后将焊嘴浸入冷水中。",
+    "answer": "回火；乙炔气门",
+    "blanks": 2,
+    "full": "由于焊嘴过热堵塞而发生回火或多次鸣爆时，应尽速先将乙炔气门关闭，再关闭氧气门，然后将焊嘴浸入冷水中。",
+    "ref": "15.3.15.3"
+  },
+  {
+    "id": 328,
+    "sourceId": 324,
+    "chapter": "15",
+    "section": "15.4 氩弧焊",
+    "question": "焊工应戴____、____或专用面罩，以防臭氧、氮氧化合物及金属烟尘吸入人体。",
+    "answer": "防护眼镜；静电口罩",
+    "blanks": 2,
+    "full": "焊工应戴防护眼镜、静电口罩或专用面罩，以防臭氧、氮氧化合物及金属烟尘吸入人体。",
+    "ref": "15.4.2"
+  },
+  {
+    "id": 329,
+    "sourceId": 325,
+    "chapter": "15",
+    "section": "15.4 氩弧焊",
+    "question": "焊接时，需减少____作用时间，使高频电流仅在____接通，以防高频电流危害人体。",
+    "answer": "高频电流；引弧瞬时",
+    "blanks": 2,
+    "full": "焊接时，需减少高频电流作用时间，使高频电流仅在引弧瞬时接通，以防高频电流危害人体。",
+    "ref": "15.4.3"
+  },
+  {
+    "id": 330,
+    "sourceId": 326,
+    "chapter": "15",
+    "section": "15.4 氩弧焊",
+    "question": "氩弧焊时，应尽量采用放射性强度小的____，氩弧焊所用的铈、钍、钨极应放在____内。钨极磨削应尽量采用专用工具，必要时应戴口罩，磨完钨极后应洗脸和洗手。",
+    "answer": "铈钨电极；铅制盒",
+    "blanks": 2,
+    "full": "氩弧焊时，应尽量采用放射性强度小的铈钨电极，氩弧焊所用的铈、钍、钨极应放在铅制盒内。钨极磨削应尽量采用专用工具，必要时应戴口罩，磨完钨极后应洗脸和洗手。",
+    "ref": "15.4.4"
+  },
+  {
+    "id": 331,
+    "sourceId": 327,
+    "chapter": "15",
+    "section": "15.5 热处理",
+    "question": "热处理作业前，应清理周围的易燃，易爆物品，设置警戒区及防触电、防烫伤等____，并配备____。",
+    "answer": "安全警示标志；消防器材",
+    "blanks": 2,
+    "full": "热处理作业前，应清理周围的易燃，易爆物品，设置警戒区及防触电、防烫伤等安全警示标志，并配备消防器材。",
+    "ref": "15.5.1"
+  },
+  {
+    "id": 332,
+    "sourceId": 328,
+    "chapter": "15",
+    "section": "15.5 热处理",
+    "question": "____作业人员应熟悉热处理设备的操作使用和维护保养，掌握用电安全基本技能，操作前应对设备、____、测温仪表进行全面检查，确保设备完好、安全可靠。",
+    "answer": "热处理；加热元件",
+    "blanks": 2,
+    "full": "热处理作业人员应熟悉热处理设备的操作使用和维护保养，掌握用电安全基本技能，操作前应对设备、加热元件、测温仪表进行全面检查，确保设备完好、安全可靠。",
+    "ref": "15.5.2"
+  },
+  {
+    "id": 333,
+    "sourceId": 329,
+    "chapter": "15",
+    "section": "15.5 热处理",
+    "question": "____作业时，安全通道应____无阻，保证检查人员的上下和行走安全。",
+    "answer": "热处理；畅通",
+    "blanks": 2,
+    "full": "热处理作业时，安全通道应畅通无阻，保证检查人员的上下和行走安全。",
+    "ref": "15.5.3"
+  },
+  {
+    "id": 334,
+    "sourceId": 330,
+    "chapter": "15",
+    "section": "15.5 热处理",
+    "question": "设备、管道采用电加热方法进行____作业时，被加热工件应有良好的____。安装加热装置时应先切断输入电源，不应带电作业。",
+    "answer": "热处理；接地",
+    "blanks": 2,
+    "full": "设备、管道采用电加热方法进行热处理作业时，被加热工件应有良好的接地。安装加热装置时应先切断输入电源，不应带电作业。",
+    "ref": "15.5.5"
+  },
+  {
+    "id": 335,
+    "sourceId": 331,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "凡在离坠落基准面____及以上的地点进行的工作，都应视作____并应按照本规程的规定执行。凡能在地面上预先做好的工作，都必须在地面上做，尽量减少高处作业。",
+    "answer": "1.5m；高处作业",
+    "blanks": 2,
+    "full": "凡在离坠落基准面1.5m及以上的地点进行的工作，都应视作高处作业并应按照本规程的规定执行。凡能在地面上预先做好的工作，都必须在地面上做，尽量减少高处作业。",
+    "ref": "16.1.1"
+  },
+  {
+    "id": 336,
+    "sourceId": 332,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "从事____人员必须身体健康。患有精神病、____及经医师鉴定患有高血压、心脏病、贫血病等不宜从事高处作业病症的人员，不准参加高处作业。",
+    "answer": "高处作业；癫痫病",
+    "blanks": 2,
+    "full": "从事高处作业人员必须身体健康。患有精神病、癫痫病及经医师鉴定患有高血压、心脏病、贫血病等不宜从事高处作业病症的人员，不准参加高处作业。",
+    "ref": "16.1.2"
+  },
+  {
+    "id": 337,
+    "sourceId": 333,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "____应根据风险程度采用搭建脚手架、使用高空作业车、梯子、移动平台、悬挂____或安装安全手扶绳等____措施后方可进行。",
+    "answer": "高处作业；安全网；防坠落",
+    "blanks": 3,
+    "full": "高处作业应根据风险程度采用搭建脚手架、使用高空作业车、梯子、移动平台、悬挂安全网或安装安全手扶绳等防坠落措施后方可进行。",
+    "ref": "16.1.3"
+  },
+  {
+    "id": 338,
+    "sourceId": 334,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "____地点的下方应设置____，并设置明显的____，防止落物伤人。隔离区域为R与起吊工件最大长度之和。",
+    "answer": "高处作业；隔离区；警告标志",
+    "blanks": 3,
+    "full": "高处作业地点的下方应设置隔离区，并设置明显的警告标志，防止落物伤人。隔离区域为R与起吊工件最大长度之和。",
+    "ref": "16.1.4"
+  },
+  {
+    "id": 339,
+    "sourceId": 335,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "在坝顶、陡坡、屋顶、悬崖、杆塔、吊桥以及其他危险的边沿进行工作，临空一面应装设防护栏杆或____，否则，工作人员应使用区域限制____或____悬挂安全带。",
+    "answer": "安全网；安全带；防坠落",
+    "blanks": 3,
+    "full": "在坝顶、陡坡、屋顶、悬崖、杆塔、吊桥以及其他危险的边沿进行工作，临空一面应装设防护栏杆或安全网，否则，工作人员应使用区域限制安全带或防坠落悬挂安全带。",
+    "ref": "16.1.5"
+  },
+  {
+    "id": 340,
+    "sourceId": 336,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "峭壁、陡坡的场地或人行道上的冰雪、碎石、泥土须经常清理，靠外面一侧须设____0mm高的栏杆。在栏杆内侧设____高的侧板或土埂，以防坠物伤人。",
+    "answer": "120；180mm",
+    "blanks": 2,
+    "full": "峭壁、陡坡的场地或人行道上的冰雪、碎石、泥土须经常清理，靠外面一侧须设1200mm高的栏杆。在栏杆内侧设180mm高的侧板或土埂，以防坠物伤人。",
+    "ref": "16.1.6"
+  },
+  {
+    "id": 341,
+    "sourceId": 337,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "在没有脚手架或者在没有栏杆的脚手架上工作，高度超过____时，必须使用____，或采取其他可靠的安全措施。",
+    "answer": "1.5m；安全带",
+    "blanks": 2,
+    "full": "在没有脚手架或者在没有栏杆的脚手架上工作，高度超过1.5m时，必须使用安全带，或采取其他可靠的安全措施。",
+    "ref": "16.1.7"
+  },
+  {
+    "id": 342,
+    "sourceId": 338,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "____在使用前应进行外观____，并应每隔____按照《坠落防护安全带》（GB6095）周期性检查及判废检验要求进行检查，并做好检查记录，不合格的安全带应及时销毁处理。",
+    "answer": "安全带；目测检查；6个月",
+    "blanks": 3,
+    "full": "安全带在使用前应进行外观目测检查，并应每隔6个月按照《坠落防护安全带》（GB6095）周期性检查及判废检验要求进行检查，并做好检查记录，不合格的安全带应及时销毁处理。",
+    "ref": "16.1.8"
+  },
+  {
+    "id": 343,
+    "sourceId": 339,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "____的____或绳子应挂在结实牢固的构件上，或专为挂安全带的钢丝绳上、挂点装置上。禁止挂在移动或不牢固的物件上。",
+    "answer": "安全带；挂钩",
+    "blanks": 2,
+    "full": "安全带的挂钩或绳子应挂在结实牢固的构件上，或专为挂安全带的钢丝绳上、挂点装置上。禁止挂在移动或不牢固的物件上。",
+    "ref": "16.1.9"
+  },
+  {
+    "id": 344,
+    "sourceId": 340,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "____应一律使用____。较大的工具应用绳拴在牢固的构件上，不准随便乱放，以防止从高空坠落发生事故。",
+    "answer": "高处作业；工具袋",
+    "blanks": 2,
+    "full": "高处作业应一律使用工具袋。较大的工具应用绳拴在牢固的构件上，不准随便乱放，以防止从高空坠落发生事故。",
+    "ref": "16.1.10"
+  },
+  {
+    "id": 345,
+    "sourceId": 341,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "冬季在低于-____进行____高处工作，必要时应在施工地区附近设有取暖的休息所。取暖设备应有专人管理，注意防火。",
+    "answer": "10℃；露天",
+    "blanks": 2,
+    "full": "冬季在低于-10℃进行露天高处工作，必要时应在施工地区附近设有取暖的休息所。取暖设备应有专人管理，注意防火。",
+    "ref": "16.1.14"
+  },
+  {
+    "id": 346,
+    "sourceId": 342,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "遇有风力五级（____）以上，以及暴雨、雷电、冰雹、大雾、沙尘暴等恶劣天气，应停止露天____。",
+    "answer": "10.7m/s；高处作业",
+    "blanks": 2,
+    "full": "遇有风力五级（10.7m/s）以上，以及暴雨、雷电、冰雹、大雾、沙尘暴等恶劣天气，应停止露天高处作业。",
+    "ref": "16.1.15"
+  },
+  {
+    "id": 347,
+    "sourceId": 343,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "便携式梯子（____）的材料可以是玻璃纤维、金属、木材、毛竹等。梯子的材料、尺寸、强度等应符合《梯子第1部分：术语、型式和功能尺寸》（____）《梯子第2部分：要求、试验和标志》（GB/T17889.2）《便携式木梯安全要求》（____）等相关要求。",
+    "answer": "以下简称梯子；GB/T17889.1；GB7059",
+    "blanks": 3,
+    "full": "便携式梯子（以下简称梯子）的材料可以是玻璃纤维、金属、木材、毛竹等。梯子的材料、尺寸、强度等应符合《梯子第1部分：术语、型式和功能尺寸》（GB/T17889.1）《梯子第2部分：要求、试验和标志》（GB/T17889.2）《便携式木梯安全要求》（GB7059）等相关要求。",
+    "ref": "16.8.1"
+  },
+  {
+    "id": 348,
+    "sourceId": 344,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在直梯、延伸梯子上工作时，梯与地面的斜角度为____～____之间。梯子的最上两级严禁站人，工作人员必须登在距梯顶不少于____的梯蹬上工作。",
+    "answer": "65°；75°；1m",
+    "blanks": 3,
+    "full": "在直梯、延伸梯子上工作时，梯与地面的斜角度为65°～75°之间。梯子的最上两级严禁站人，工作人员必须登在距梯顶不少于1m的梯蹬上工作。",
+    "ref": "16.8.3"
+  },
+  {
+    "id": 349,
+    "sourceId": 345,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "直梯的长度不应超过____，延伸梯全程延伸长度不应超过____，并应装备限位装置以确保延伸部分与非延伸部分至少有1m重叠。直梯如需接长使用，必须有可靠的连接措施，且接头不得超过1处。",
+    "answer": "6m；11m",
+    "blanks": 2,
+    "full": "直梯的长度不应超过6m，延伸梯全程延伸长度不应超过11m，并应装备限位装置以确保延伸部分与非延伸部分至少有1m重叠。直梯如需接长使用，必须有可靠的连接措施，且接头不得超过1处。",
+    "ref": "16.8.4"
+  },
+  {
+    "id": 350,
+    "sourceId": 346,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在工作前须把梯子安置稳固，不可使其动摇或倾斜过度。在光滑坚硬的地面上使用梯子时，其下端应安置____或橡胶布，同时须用____将梯子下端与固定物缚住。",
+    "answer": "橡胶套；绳索",
+    "blanks": 2,
+    "full": "在工作前须把梯子安置稳固，不可使其动摇或倾斜过度。在光滑坚硬的地面上使用梯子时，其下端应安置橡胶套或橡胶布，同时须用绳索将梯子下端与固定物缚住。",
+    "ref": "16.8.5"
+  },
+  {
+    "id": 351,
+    "sourceId": 347,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "靠在管子上使用的梯子，其上端须有____或用____缚住。",
+    "answer": "挂钩；绳索",
+    "blanks": 2,
+    "full": "靠在管子上使用的梯子，其上端须有挂钩或用绳索缚住。",
+    "ref": "16.8.7"
+  },
+  {
+    "id": 352,
+    "sourceId": 348,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "____须具有坚固的____和限制开度的拉链。",
+    "answer": "人字梯；铰链",
+    "blanks": 2,
+    "full": "人字梯须具有坚固的铰链和限制开度的拉链。",
+    "ref": "16.8.9"
+  },
+  {
+    "id": 353,
+    "sourceId": 349,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "一个梯子上只允许一人站立，并有一人监护。人在梯子上时，禁止____。在电路控制箱、高压动力线、电力焊接等有漏电危险的场所应使用专用____。",
+    "answer": "移动梯子；绝缘梯",
+    "blanks": 2,
+    "full": "一个梯子上只允许一人站立，并有一人监护。人在梯子上时，禁止移动梯子。在电路控制箱、高压动力线、电力焊接等有漏电危险的场所应使用专用绝缘梯。",
+    "ref": "16.8.12"
+  },
+  {
+    "id": 354,
+    "sourceId": 350,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "软梯必须每半年进行一次荷重试验，试验时以____的重量挂在绳索上，经____若无变形或损伤即认为合格，然后才准继续使用。",
+    "answer": "500kg；5min",
+    "blanks": 2,
+    "full": "软梯必须每半年进行一次荷重试验，试验时以500kg的重量挂在绳索上，经5min若无变形或损伤即认为合格，然后才准继续使用。",
+    "ref": "16.8.17"
+  },
+  {
+    "id": 355,
+    "sourceId": 351,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "使用____前，必须由____进行检查，并清除软梯上方山崖上的风化危石。",
+    "answer": "软梯；工作负责人",
+    "blanks": 2,
+    "full": "使用软梯前，必须由工作负责人进行检查，并清除软梯上方山崖上的风化危石。",
+    "ref": "16.8.18"
+  },
+  {
+    "id": 356,
+    "sourceId": 352,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在软梯上只准一个人工作。在软梯上工作的人员，衣着必须灵便，并应使用____，戴____，带工具袋。",
+    "answer": "安全带；安全帽",
+    "blanks": 2,
+    "full": "在软梯上只准一个人工作。在软梯上工作的人员，衣着必须灵便，并应使用安全带，戴安全帽，带工具袋。",
+    "ref": "16.8.20"
+  },
+  {
+    "id": 357,
+    "sourceId": 353,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "企业应建立____台账并及时更新。有限空间作业应当严格遵守“____”要求。",
+    "answer": "有限空间；先通风、再检测、后作业",
+    "blanks": 2,
+    "full": "企业应建立有限空间台账并及时更新。有限空间作业应当严格遵守“先通风、再检测、后作业”要求。",
+    "ref": "20.1.1"
+  },
+  {
+    "id": 358,
+    "sourceId": 354,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "企业应当根据____危险因素的特点，配备符合国家标准或者行业标准的____报警仪器、机械____、呼吸防护用品、全身式安全带等防护用品和应急救援装备，并对相关用品、装备进行经常性维护、保养和定期检测，确保能够正常使用。",
+    "answer": "有限空间；气体检测；通风设备",
+    "blanks": 3,
+    "full": "企业应当根据有限空间危险因素的特点，配备符合国家标准或者行业标准的气体检测报警仪器、机械通风设备、呼吸防护用品、全身式安全带等防护用品和应急救援装备，并对相关用品、装备进行经常性维护、保养和定期检测，确保能够正常使用。",
+    "ref": "20.1.2"
+  },
+  {
+    "id": 359,
+    "sourceId": 355,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "____应设置安全风险告知牌，告知内容应包括但不限于危险因素、防范措施及事故应急措施等。在有限空间作业过程中，出入口等醒目位置应设置明显的____，作业、救援设备应放置在易取用位置。",
+    "answer": "有限空间；安全警示标志",
+    "blanks": 2,
+    "full": "有限空间应设置安全风险告知牌，告知内容应包括但不限于危险因素、防范措施及事故应急措施等。在有限空间作业过程中，出入口等醒目位置应设置明显的安全警示标志，作业、救援设备应放置在易取用位置。",
+    "ref": "20.1.3"
+  },
+  {
+    "id": 360,
+    "sourceId": 356,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "____作业应设置____，负责监督有限空间作业安全措施的落实，对进出有限空间的人员、物品进行登记、清点。监护人应对有限空间作业____，不应兼任其他工作，不应进入有限空间作业，中途不应离开作业现场。",
+    "answer": "有限空间；专职监护人；全程监护",
+    "blanks": 3,
+    "full": "有限空间作业应设置专职监护人，负责监督有限空间作业安全措施的落实，对进出有限空间的人员、物品进行登记、清点。监护人应对有限空间作业全程监护，不应兼任其他工作，不应进入有限空间作业，中途不应离开作业现场。",
+    "ref": "20.1.4"
+  },
+  {
+    "id": 361,
+    "sourceId": 357,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "____作业前，应对有限空间进行有效隔离。应将与其相连的管道、烟风道、空间进行可靠隔断，必要时应加装带尾巴的____。",
+    "answer": "有限空间；堵板",
+    "blanks": 2,
+    "full": "有限空间作业前，应对有限空间进行有效隔离。应将与其相连的管道、烟风道、空间进行可靠隔断，必要时应加装带尾巴的堵板。",
+    "ref": "20.1.5"
+  },
+  {
+    "id": 362,
+    "sourceId": 358,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "进入可能会持续释放有毒____或作业可能产生有毒有害气体的场所，应佩戴____或正压空气呼吸器。进入有害气体的场所应佩戴防毒面罩。",
+    "answer": "有害气体；长管呼吸器",
+    "blanks": 2,
+    "full": "进入可能会持续释放有毒有害气体或作业可能产生有毒有害气体的场所，应佩戴长管呼吸器或正压空气呼吸器。进入有害气体的场所应佩戴防毒面罩。",
+    "ref": "20.1.6"
+  },
+  {
+    "id": 363,
+    "sourceId": 359,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "作业前，应打开人孔、手孔、料孔、风门、烟门等与大气相通的设施进行____，保持____内空气流通良好。必要时，可采用____或管道送风。",
+    "answer": "自然通风；有限空间；强制通风",
+    "blanks": 3,
+    "full": "作业前，应打开人孔、手孔、料孔、风门、烟门等与大气相通的设施进行自然通风，保持有限空间内空气流通良好。必要时，可采用强制通风或管道送风。",
+    "ref": "20.1.7"
+  },
+  {
+    "id": 364,
+    "sourceId": 360,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "采用____时，若____仅有1个进出口，应将____出风口置于作业区域底部。若有限空间有2个及以上进出口，应在临近作业人员处送风，远离作业人员处排风，且出风口应远离进风口。",
+    "answer": "强制通风；有限空间；通风设备",
+    "blanks": 3,
+    "full": "采用强制通风时，若有限空间仅有1个进出口，应将通风设备出风口置于作业区域底部。若有限空间有2个及以上进出口，应在临近作业人员处送风，远离作业人员处排风，且出风口应远离进风口。",
+    "ref": "20.1.8"
+  },
+  {
+    "id": 365,
+    "sourceId": 361,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "进入____前，应对其内部环境的气体含量进行检测，检测合格后方可进入，空气中____应始终保持在____～23.5%。",
+    "answer": "有限空间；含氧量；19.5%",
+    "blanks": 3,
+    "full": "进入有限空间前，应对其内部环境的气体含量进行检测，检测合格后方可进入，空气中含氧量应始终保持在19.5%～23.5%。",
+    "ref": "20.1.9"
+  },
+  {
+    "id": 366,
+    "sourceId": 362,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "____温度超过____时，不应作业。",
+    "answer": "有限空间；40℃",
+    "blanks": 2,
+    "full": "有限空间温度超过40℃时，不应作业。",
+    "ref": "20.1.10"
+  },
+  {
+    "id": 367,
+    "sourceId": 363,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "进入卸煤沟、原煤仓、原煤斗（无自燃现象），粉（料）仓、灰库等的作业人员，必须佩戴____和____，从上部使用梯子进入，自上而下进行作业。",
+    "answer": "全身式安全带；防坠器",
+    "blanks": 2,
+    "full": "进入卸煤沟、原煤仓、原煤斗（无自燃现象），粉（料）仓、灰库等的作业人员，必须佩戴全身式安全带和防坠器，从上部使用梯子进入，自上而下进行作业。",
+    "ref": "20.1.11"
+  },
+  {
+    "id": 368,
+    "sourceId": 364,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "作业过程中，____出入口应保持____。",
+    "answer": "有限空间；畅通",
+    "blanks": 2,
+    "full": "作业过程中，有限空间出入口应保持畅通。",
+    "ref": "20.1.12"
+  },
+  {
+    "id": 369,
+    "sourceId": 365,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "作业中，应持续通风和气体浓度检测，气体浓度超限时，应立即停止作业，撤离人员。作业中断，作业人员再次进入____作业前，应按规定重新通风、____合格后方可进入。",
+    "answer": "有限空间；气体检测",
+    "blanks": 2,
+    "full": "作业中，应持续通风和气体浓度检测，气体浓度超限时，应立即停止作业，撤离人员。作业中断，作业人员再次进入有限空间作业前，应按规定重新通风、气体检测合格后方可进入。",
+    "ref": "20.1.13"
+  },
+  {
+    "id": 370,
+    "sourceId": 366,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "在____内作业感觉身体不适时，应立即____。发现异常情况时，____应立即组织作业人员撤离现场。",
+    "answer": "有限空间；撤离现场；监护人员",
+    "blanks": 3,
+    "full": "在有限空间内作业感觉身体不适时，应立即撤离现场。发现异常情况时，监护人员应立即组织作业人员撤离现场。",
+    "ref": "20.1.15"
+  },
+  {
+    "id": 371,
+    "sourceId": 367,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "进入地下和沟道内等____进行检修工作前，应采取有效的____，防止蒸汽或水在检修期间流入工作地点。",
+    "answer": "有限空间；隔断措施",
+    "blanks": 2,
+    "full": "进入地下和沟道内等有限空间进行检修工作前，应采取有效的隔断措施，防止蒸汽或水在检修期间流入工作地点。",
+    "ref": "20.2.1"
+  },
+  {
+    "id": 372,
+    "sourceId": 368,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "地下、沟道内对设备进行操作、巡视、维护或检修工作，不应少于2人，其中1人担任监护。在聚集含量不超标的____的地下空间工作，作业人员应____工作。",
+    "answer": "有害气体；轮班倒换",
+    "blanks": 2,
+    "full": "地下、沟道内对设备进行操作、巡视、维护或检修工作，不应少于2人，其中1人担任监护。在聚集含量不超标的有害气体的地下空间工作，作业人员应轮班倒换工作。",
+    "ref": "20.2.2"
+  },
+  {
+    "id": 373,
+    "sourceId": 369,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "人孔盖下面应装有上下用的脚蹬（间距____～____）或固定的铁梯。地下空间及沟道内需保持清洁，出入口不应堆积物品。",
+    "answer": "300mm；400mm",
+    "blanks": 2,
+    "full": "人孔盖下面应装有上下用的脚蹬（间距300mm～400mm）或固定的铁梯。地下空间及沟道内需保持清洁，出入口不应堆积物品。",
+    "ref": "20.2.4"
+  },
+  {
+    "id": 374,
+    "sourceId": 370,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "地下空间和沟道内工作，应用____～____的电压，使用带有电池包的照明和手持电动工具。在易燃易爆的环境中，应使用携带式防爆灯。",
+    "answer": "12V；36V",
+    "blanks": 2,
+    "full": "地下空间和沟道内工作，应用12V～36V的电压，使用带有电池包的照明和手持电动工具。在易燃易爆的环境中，应使用携带式防爆灯。",
+    "ref": "20.2.5"
+  },
+  {
+    "id": 375,
+    "sourceId": 371,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "进入____或温度高的地下空间或沟道内之前，应至少打开2个人孔，并在每个人孔上面放置通风筒或导风板，其中一个正对来风方向，另一个正对去风方向，经____分析合格后方可进入。",
+    "answer": "有害气体；气体检测",
+    "blanks": 2,
+    "full": "进入有害气体或温度高的地下空间或沟道内之前，应至少打开2个人孔，并在每个人孔上面放置通风筒或导风板，其中一个正对来风方向，另一个正对去风方向，经气体检测分析合格后方可进入。",
+    "ref": "20.2.8"
+  },
+  {
+    "id": 376,
+    "sourceId": 372,
+    "chapter": "20",
+    "section": "20.3 容器内作业",
+    "question": "若容器或槽箱内存在____或存在有可能发生有害气体的残留物质，应先进行通风，再测量有害气体、____，测量合格后工作人员方可进内工作。",
+    "answer": "有害气体；含氧量",
+    "blanks": 2,
+    "full": "若容器或槽箱内存在有害气体或存在有可能发生有害气体的残留物质，应先进行通风，再测量有害气体、含氧量，测量合格后工作人员方可进内工作。",
+    "ref": "20.3.2"
+  },
+  {
+    "id": 377,
+    "sourceId": 373,
+    "chapter": "20",
+    "section": "20.3 容器内作业",
+    "question": "密闭容器内使用氩、二氧化碳或氦气进行焊接作业时，应在作业过程中通风换气，使氧气浓度保持在____～____内，作业人员应使用正压式呼吸器。",
+    "answer": "19.5%；23.5%",
+    "blanks": 2,
+    "full": "密闭容器内使用氩、二氧化碳或氦气进行焊接作业时，应在作业过程中通风换气，使氧气浓度保持在19.5%～23.5%内，作业人员应使用正压式呼吸器。",
+    "ref": "20.3.3"
+  },
+  {
+    "id": 378,
+    "sourceId": 374,
+    "chapter": "20",
+    "section": "20.3 容器内作业",
+    "question": "容器、槽箱内工作，需站在梯子上工作时，工作人员应使用____，安全带的一端应拴在____。",
+    "answer": "安全带；外面牢固的地方",
+    "blanks": 2,
+    "full": "容器、槽箱内工作，需站在梯子上工作时，工作人员应使用安全带，安全带的一端应拴在外面牢固的地方。",
+    "ref": "20.3.6"
+  },
+  {
+    "id": 379,
+    "sourceId": 375,
+    "chapter": "A",
+    "section": "A.1 通则",
+    "question": "紧急救护的基本原则是在现场采取积极措施____，____，减少痛苦，并根据伤情需要，迅速联系医疗部门救治。急救的成功条件是动作快，操作正确。",
+    "answer": "保护伤员生命；减轻伤情",
+    "blanks": 2,
+    "full": "紧急救护的基本原则是在现场采取积极措施保护伤员生命，减轻伤情，减少痛苦，并根据伤情需要，迅速联系医疗部门救治。急救的成功条件是动作快，操作正确。",
+    "ref": "A.1.2"
+  },
+  {
+    "id": 380,
+    "sourceId": 376,
+    "chapter": "A",
+    "section": "A.1 通则",
+    "question": "现场工作人员应定期进行培训，学会紧急救护法。会正确____、会____法、会止血、会包扎、会转移搬运伤员、会处理急救外伤、中毒等。",
+    "answer": "解脱电源；心肺复苏",
+    "blanks": 2,
+    "full": "现场工作人员应定期进行培训，学会紧急救护法。会正确解脱电源、会心肺复苏法、会止血、会包扎、会转移搬运伤员、会处理急救外伤、中毒等。",
+    "ref": "A.1.4"
+  },
+  {
+    "id": 381,
+    "sourceId": 377,
+    "chapter": "A",
+    "section": "A.1 通则",
+    "question": "生产现场和经常有人工作的场所应配备____，存放____，并应指定专人经常检查、补充或更换。",
+    "answer": "急救箱；急救用品",
+    "blanks": 2,
+    "full": "生产现场和经常有人工作的场所应配备急救箱，存放急救用品，并应指定专人经常检查、补充或更换。",
+    "ref": "A.1.5"
+  },
+  {
+    "id": 382,
+    "sourceId": 378,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "触电急救必须____，立即就地迅速用____法进行抢救，并坚持不断地进行，同时及早与医疗部门联系，争取医务人员接替救治。",
+    "answer": "分秒必争；心肺复苏",
+    "blanks": 2,
+    "full": "触电急救必须分秒必争，立即就地迅速用心肺复苏法进行抢救，并坚持不断地进行，同时及早与医疗部门联系，争取医务人员接替救治。",
+    "ref": "A.2.1"
+  },
+  {
+    "id": 383,
+    "sourceId": 379,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "____急救，首先要使触电者迅速____，越快越好。因为电流作用的时间越长，伤害越重。",
+    "answer": "触电；脱离电源",
+    "blanks": 2,
+    "full": "触电急救，首先要使触电者迅速脱离电源，越快越好。因为电流作用的时间越长，伤害越重。",
+    "ref": "A.2.2.1"
+  },
+  {
+    "id": 384,
+    "sourceId": 380,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "脱离电源就是把触电者接触的那一部分带电设备的所有____（开关）、____（刀闸）或其他断路设备断开，或设法将触电者与带电设备脱离。",
+    "answer": "断路器；隔离开关",
+    "blanks": 2,
+    "full": "脱离电源就是把触电者接触的那一部分带电设备的所有断路器（开关）、隔离开关（刀闸）或其他断路设备断开，或设法将触电者与带电设备脱离。",
+    "ref": "A.2.2.2"
+  },
+  {
+    "id": 385,
+    "sourceId": 381,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "低压____宜采用下列方法使触电者____：a）触电地点附近有电源开关或电源插座，应立即拉开开关或拔出插头，断开电源。但应注意到拉线开关或墙壁开关等只控制一根线的开关，有可能因安装问题只能切断中性线而没有断开电源的相线。",
+    "answer": "触电；脱离电源",
+    "blanks": 2,
+    "full": "低压触电宜采用下列方法使触电者脱离电源：a）触电地点附近有电源开关或电源插座，应立即拉开开关或拔出插头，断开电源。但应注意到拉线开关或墙壁开关等只控制一根线的开关，有可能因安装问题只能切断中性线而没有断开电源的相线。",
+    "ref": "A.2.2.3"
+  },
+  {
+    "id": 386,
+    "sourceId": 382,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "确认线路无电时，救护人员迅速将触电者带至____~10m以外，再开始____急救。电缆沟道内触电者应尽快转移到通风地带或移到地面救护，防止缺氧环境救护不力或窒息伤害。",
+    "answer": "8m；心肺复苏",
+    "blanks": 2,
+    "full": "确认线路无电时，救护人员迅速将触电者带至8m~10m以外，再开始心肺复苏急救。电缆沟道内触电者应尽快转移到通风地带或移到地面救护，防止缺氧环境救护不力或窒息伤害。",
+    "ref": "A.2.2.4"
+  },
+  {
+    "id": 387,
+    "sourceId": 383,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "触电者触及断落在地上的带电高压导线时，救护人员应做好安全措施（如穿绝缘靴），才可以接近以断线点为中心的____~____的范围内（以防止跨步电压伤人）进行验电。",
+    "answer": "8m；10m",
+    "blanks": 2,
+    "full": "触电者触及断落在地上的带电高压导线时，救护人员应做好安全措施（如穿绝缘靴），才可以接近以断线点为中心的8m~10m的范围内（以防止跨步电压伤人）进行验电。",
+    "ref": "A.2.2.5"
+  },
+  {
+    "id": 388,
+    "sourceId": 384,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "救护人员应注意的事项：a）救护人员不可直接用裸手、其他金属及潮湿的物体作为救护工具，而应使用适当的绝缘工具。救护人员在未穿戴绝缘防护用品的情况下不应进入以触电者为半径的____以内（室内____），即使已穿戴好绝缘防护用品，也最好用一只手操作，以防自己触电，同时尽可能不用另一只手借力于其他人员或金属导电物体，防止构成回路伤及自身或他人。",
+    "answer": "8m；4m",
+    "blanks": 2,
+    "full": "救护人员应注意的事项：a）救护人员不可直接用裸手、其他金属及潮湿的物体作为救护工具，而应使用适当的绝缘工具。救护人员在未穿戴绝缘防护用品的情况下不应进入以触电者为半径的8m以内（室内4m），即使已穿戴好绝缘防护用品，也最好用一只手操作，以防自己触电，同时尽可能不用另一只手借力于其他人员或金属导电物体，防止构成回路伤及自身或他人。",
+    "ref": "A.2.2.6"
+  },
+  {
+    "id": 389,
+    "sourceId": 385,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "脉搏和呼吸判断：a）非专业救护人员可不进行脉搏检查，对无呼吸或仅是濒死叹气样呼吸、无意识的伤员，立即开始____。b）专业救护人员检查患者无呼吸或仅是濒死叹气样呼吸，同时用食指及中指指尖先触及颈部气管正中部位，然后向旁滑移____~____，在胸锁乳突肌内侧触摸颈动脉是否有搏动。",
+    "answer": "心肺复苏；2cm；3cm",
+    "blanks": 3,
+    "full": "脉搏和呼吸判断：a）非专业救护人员可不进行脉搏检查，对无呼吸或仅是濒死叹气样呼吸、无意识的伤员，立即开始心肺复苏。b）专业救护人员检查患者无呼吸或仅是濒死叹气样呼吸，同时用食指及中指指尖先触及颈部气管正中部位，然后向旁滑移2cm~3cm，在胸锁乳突肌内侧触摸颈动脉是否有搏动。",
+    "ref": "A.2.3.2"
+  },
+  {
+    "id": 390,
+    "sourceId": 386,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "____法：触电伤员呼吸和心跳均停止时，应立即按心肺复苏法支持生命的三项基本措施（____、开放气道、人工呼吸），正确进行就地抢救。",
+    "answer": "心肺复苏；胸外按压",
+    "blanks": 2,
+    "full": "心肺复苏法：触电伤员呼吸和心跳均停止时，应立即按心肺复苏法支持生命的三项基本措施（胸外按压、开放气道、人工呼吸），正确进行就地抢救。",
+    "ref": "A.2.3.5"
+  },
+  {
+    "id": 391,
+    "sourceId": 387,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "正确的按压姿势是达到____效果的基本保证（图A2）。a）使____伤员仰卧在平硬的地方，救护人员站立或跪在伤员一侧胸旁，救护人员的两肩位于伤员胸骨正上方，两臂伸直，肘关节固定伸直，两手掌根相重叠，手指翘起，将下面手的掌根部置于伤员心脏按压位置上。",
+    "answer": "胸外按压；触电",
+    "blanks": 2,
+    "full": "正确的按压姿势是达到胸外按压效果的基本保证（图A2）。a）使触电伤员仰卧在平硬的地方，救护人员站立或跪在伤员一侧胸旁，救护人员的两肩位于伤员胸骨正上方，两臂伸直，肘关节固定伸直，两手掌根相重叠，手指翘起，将下面手的掌根部置于伤员心脏按压位置上。",
+    "ref": "A.2.3.5.1.3"
+  },
+  {
+    "id": 392,
+    "sourceId": 388,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "按压操作频率要求如下：a）____要以均匀速度进行，每分钟____~____次，每次按压和放松的时间相等。b）胸外按压与口对口（鼻）人工呼吸比例为：单人抢救时，每按压30次吹气2次（30:2），反复进行，双人抢救时，每按压30次后由另一人吹气2次（30:2），反复进行。",
+    "answer": "胸外按压；100次；120",
+    "blanks": 3,
+    "full": "按压操作频率要求如下：a）胸外按压要以均匀速度进行，每分钟100次~120次，每次按压和放松的时间相等。b）胸外按压与口对口（鼻）人工呼吸比例为：单人抢救时，每按压30次吹气2次（30:2），反复进行，双人抢救时，每按压30次后由另一人吹气2次（30:2），反复进行。",
+    "ref": "A.2.3.5.1.4"
+  },
+  {
+    "id": 393,
+    "sourceId": 389,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "双人或多人复苏应每____(按压吹气5组循环)交换角色，以避免____者疲劳而致胸外按压质量和频率削弱。在交换角色时，其抢救操作中断时间不应超过____。",
+    "answer": "2min；胸外按压；10s",
+    "blanks": 3,
+    "full": "双人或多人复苏应每2min(按压吹气5组循环)交换角色，以避免胸外按压者疲劳而致胸外按压质量和频率削弱。在交换角色时，其抢救操作中断时间不应超过10s。",
+    "ref": "A.2.3.5.1.6"
+  },
+  {
+    "id": 394,
+    "sourceId": 390,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "____：a）在保持伤员气道通畅的同时，救护人员用放在伤员额上的手捏住伤员鼻翼，救护人员平静吸气后，与伤员口对口紧合，在不漏气的情况下，先连续以正常呼吸气量吹气____。",
+    "answer": "人工呼吸；2次",
+    "blanks": 2,
+    "full": "人工呼吸：a）在保持伤员气道通畅的同时，救护人员用放在伤员额上的手捏住伤员鼻翼，救护人员平静吸气后，与伤员口对口紧合，在不漏气的情况下，先连续以正常呼吸气量吹气2次。",
+    "ref": "A.2.3.5.3"
+  },
+  {
+    "id": 395,
+    "sourceId": 391,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "抢救过程中的再判定：a）按压吹气____后（相当于5组____按压吹气循环以上），观察伤员的意识、164呼吸、肤色，在____~10s时间内完成对伤员呼吸心跳是否恢复的再判断。",
+    "answer": "2min；30:2；5s",
+    "blanks": 3,
+    "full": "抢救过程中的再判定：a）按压吹气2min后（相当于5组30:2按压吹气循环以上），观察伤员的意识、164呼吸、肤色，在5s~10s时间内完成对伤员呼吸心跳是否恢复的再判断。",
+    "ref": "A.2.3.7"
+  },
+  {
+    "id": 396,
+    "sourceId": 392,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "____应在现场就地坚持进行，不要为方便而随意移动伤员，如确有需要移动时，抢救中断时间不应超过____。",
+    "answer": "心肺复苏；10s",
+    "blanks": 2,
+    "full": "心肺复苏应在现场就地坚持进行，不要为方便而随意移动伤员，如确有需要移动时，抢救中断时间不应超过10s。",
+    "ref": "A.2.4.1"
+  },
+  {
+    "id": 397,
+    "sourceId": 393,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "发现杆塔上或高处有人____，应争取时间及早在杆塔上或高处开始抢救，救护人员登高时应随身携带必要的绝缘工具及牢固的____等，并紧急呼救。",
+    "answer": "触电；绳索",
+    "blanks": 2,
+    "full": "发现杆塔上或高处有人触电，应争取时间及早在杆塔上或高处开始抢救，救护人员登高时应随身携带必要的绝缘工具及牢固的绳索等，并紧急呼救。",
+    "ref": "A.2.6.1"
+  },
+  {
+    "id": 398,
+    "sourceId": 394,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "救护人员应在确认____伤员已____，且救护人员本身所涉环境安全距离内无危险电源时，方能接触伤员进行抢救，并注意防止发生高处坠落。",
+    "answer": "触电；脱离电源",
+    "blanks": 2,
+    "full": "救护人员应在确认触电伤员已脱离电源，且救护人员本身所涉环境安全距离内无危险电源时，方能接触伤员进行抢救，并注意防止发生高处坠落。",
+    "ref": "A.2.6.2"
+  },
+  {
+    "id": 399,
+    "sourceId": 395,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "触电伤员____后，应将伤员扶卧在自己的____上（或在适当地方躺平），并注意保持伤员气道通畅。然后根据伤员的意识、呼吸及颈动脉搏动情况进行急救。",
+    "answer": "脱离电源；安全带",
+    "blanks": 2,
+    "full": "触电伤员脱离电源后，应将伤员扶卧在自己的安全带上（或在适当地方躺平），并注意保持伤员气道通畅。然后根据伤员的意识、呼吸及颈动脉搏动情况进行急救。",
+    "ref": "A.2.6.3"
+  },
+  {
+    "id": 400,
+    "sourceId": 396,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "如伤员呼吸已停止，立即口对口（鼻）________。",
+    "answer": "吹气；2次",
+    "blanks": 2,
+    "full": "如伤员呼吸已停止，立即口对口（鼻）吹气2次。",
+    "ref": "A.2.6.4"
+  },
+  {
+    "id": 401,
+    "sourceId": 397,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "____伤员送至地面后，应立即按照“A2.3伤员____后的处理”进行紧急抢救，直至专业医护人员接替救护为止。图A8杆上或高处触电下放方法图A9铁塔触电伤员营救方法。",
+    "answer": "触电；脱离电源",
+    "blanks": 2,
+    "full": "触电伤员送至地面后，应立即按照“A2.3伤员脱离电源后的处理”进行紧急抢救，直至专业医护人员接替救护为止。图A8杆上或高处触电下放方法图A9铁塔触电伤员营救方法。",
+    "ref": "A.2.6.6"
+  },
+  {
+    "id": 402,
+    "sourceId": 398,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "尽快使伤员脱离事故现场，让伤员安静平躺，判断全身情况和检查受伤部位及程度。常用的急救技术包括____、止血、____、固定及搬运等。",
+    "answer": "心肺复苏；包扎",
+    "blanks": 2,
+    "full": "尽快使伤员脱离事故现场，让伤员安静平躺，判断全身情况和检查受伤部位及程度。常用的急救技术包括心肺复苏、止血、包扎、固定及搬运等。",
+    "ref": "A.3.1.2"
+  },
+  {
+    "id": 403,
+    "sourceId": 399,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "止血大出血可使伤员迅速陷入休克，甚至致死，须及时止血。常用的止血方法有指压法、加压____法、填塞法和____法等。",
+    "answer": "包扎；止血带",
+    "blanks": 2,
+    "full": "止血大出血可使伤员迅速陷入休克，甚至致死，须及时止血。常用的止血方法有指压法、加压包扎法、填塞法和止血带法等。",
+    "ref": "A.3.2"
+  },
+  {
+    "id": 404,
+    "sourceId": 400,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "____的目的是保护伤口，减少污染，还有压迫止血、固定____、关节及敷料并止痛。",
+    "answer": "包扎；骨折",
+    "blanks": 2,
+    "full": "包扎的目的是保护伤口，减少污染，还有压迫止血、固定骨折、关节及敷料并止痛。",
+    "ref": "A.3.3.1"
+  },
+  {
+    "id": 405,
+    "sourceId": 401,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "包扎时应松紧适宜、牢固，既要保证敷料固定和压迫止血，又不影响血液循环。包扎敷料应超过伤口边缘____～____。",
+    "answer": "5cm；10cm",
+    "blanks": 2,
+    "full": "包扎时应松紧适宜、牢固，既要保证敷料固定和压迫止血，又不影响血液循环。包扎敷料应超过伤口边缘5cm～10cm。",
+    "ref": "A.3.3.4"
+  },
+  {
+    "id": 406,
+    "sourceId": 402,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "对开放性____，创口用无菌敷料或清洁布类____，以减少污染。伤口出血应先止血再固定，伴大出血时，可用止血带止血。",
+    "answer": "骨折；包扎",
+    "blanks": 2,
+    "full": "对开放性骨折，创口用无菌敷料或清洁布类包扎，以减少污染。伤口出血应先止血再固定，伴大出血时，可用止血带止血。",
+    "ref": "A.3.4.3"
+  },
+  {
+    "id": 407,
+    "sourceId": 403,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "发生肢（指）体离断时，应将离断肢（指）断面用无菌敷料____止血，减少污染。离断肢（指）用无菌敷料或清洁布类包裹，置放塑料袋中密封，低温（____）干燥保存，随伤员一同送至医院，切忌用任何液体浸泡。",
+    "answer": "包扎；4℃",
+    "blanks": 2,
+    "full": "发生肢（指）体离断时，应将离断肢（指）断面用无菌敷料包扎止血，减少污染。离断肢（指）用无菌敷料或清洁布类包裹，置放塑料袋中密封，低温（4℃）干燥保存，随伤员一同送至医院，切忌用任何液体浸泡。",
+    "ref": "A.3.4.4"
+  },
+  {
+    "id": 408,
+    "sourceId": 404,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "脊柱损伤伤员一般伤情严重，特别是颈椎____伴有高位颈髓损伤，可致呼吸、心跳抑制或骤停，应及时进行____。对颈或腰部疼痛、肢体运动及感觉障碍、高处坠落者，应考虑脊柱损伤的可能。",
+    "answer": "骨折；心肺复苏",
+    "blanks": 2,
+    "full": "脊柱损伤伤员一般伤情严重，特别是颈椎骨折伴有高位颈髓损伤，可致呼吸、心跳抑制或骤停，应及时进行心肺复苏。对颈或腰部疼痛、肢体运动及感觉障碍、高处坠落者，应考虑脊柱损伤的可能。",
+    "ref": "A.3.4.5"
+  },
+  {
+    "id": 409,
+    "sourceId": 405,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "现场急救：将伤员平卧，解开衣领，清除口腔内异物、分泌物等保持呼吸道通畅。制止活动性出血，局部创面采用无菌纱布加压____止血，对有头皮撕脱伤的伤员还要保护撕脱的头皮，在初步清洁、消毒后置于无菌、无水及低温（____）密封条件下保存，随伤员一同送至医院救治。",
+    "answer": "包扎；4℃",
+    "blanks": 2,
+    "full": "现场急救：将伤员平卧，解开衣领，清除口腔内异物、分泌物等保持呼吸道通畅。制止活动性出血，局部创面采用无菌纱布加压包扎止血，对有头皮撕脱伤的伤员还要保护撕脱的头皮，在初步清洁、消毒后置于无菌、无水及低温（4℃）密封条件下保存，随伤员一同送至医院救治。",
+    "ref": "A.3.5.3"
+  },
+  {
+    "id": 410,
+    "sourceId": 406,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "伤员可能伴有颈椎、胸椎损伤时，不能轻易搬动头颈部，可将伤员躯体和头颈部同时转动，固定后再行搬运，保持头高____~____。",
+    "answer": "15°；30°",
+    "blanks": 2,
+    "full": "伤员可能伴有颈椎、胸椎损伤时，不能轻易搬动头颈部，可将伤员躯体和头颈部同时转动，固定后再行搬运，保持头高15°~30°。",
+    "ref": "A.3.5.5"
+  },
+  {
+    "id": 411,
+    "sourceId": 407,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "中小面积烧烫伤，特别是四肢的烧烫伤，可将烧烫伤处在冷水下淋洗或浸入清洁冷水中（水温以伤员能耐受为准，宜为____~____），或用清洁冷水浸湿的毛巾、纱垫等外敷。",
+    "answer": "15℃；20℃",
+    "blanks": 2,
+    "full": "中小面积烧烫伤，特别是四肢的烧烫伤，可将烧烫伤处在冷水下淋洗或浸入清洁冷水中（水温以伤员能耐受为准，宜为15℃~20℃），或用清洁冷水浸湿的毛巾、纱垫等外敷。",
+    "ref": "A.3.6.3"
+  },
+  {
+    "id": 412,
+    "sourceId": 408,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "迅速复温是急救的关键，对处于冻结状态的部位，用电热毯、热水袋、____~____温水浸泡肢体或浸浴全身，直至冻区组织软化、皮肤转红。",
+    "answer": "40℃；42℃",
+    "blanks": 2,
+    "full": "迅速复温是急救的关键，对处于冻结状态的部位，用电热毯、热水袋、40℃~42℃温水浸泡肢体或浸浴全身，直至冻区组织软化、皮肤转红。",
+    "ref": "A.3.7.3"
+  },
+  {
+    "id": 413,
+    "sourceId": 409,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "伤员在转运过程中，搬运动作应轻柔，避免强使肢体弯曲活动，以免____，伤肢创面用无菌或干净敷料敷盖____，保持制动，以免加重损伤。",
+    "answer": "骨折；包扎",
+    "blanks": 2,
+    "full": "伤员在转运过程中，搬运动作应轻柔，避免强使肢体弯曲活动，以免骨折，伤肢创面用无菌或干净敷料敷盖包扎，保持制动，以免加重损伤。",
+    "ref": "A.3.7.5"
+  },
+  {
+    "id": 414,
+    "sourceId": 410,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "a）被咬伤后，不要惊慌、奔跑、大声呼叫、饮酒，以免加速蛇毒在人体内吸收和扩散。b）绑扎伤肢，放低伤口，避免伤口高于心脏，用绷带或就地取用草绳、手帕、布带等由伤口的近心端向远心端包扎，松紧度以通过一指尖为宜，如果伤者在____内能送达医院，应立即用____阻断静脉和淋巴回流，但还要保持动脉通畅。",
+    "answer": "1h；止血带",
+    "blanks": 2,
+    "full": "a）被咬伤后，不要惊慌、奔跑、大声呼叫、饮酒，以免加速蛇毒在人体内吸收和扩散。b）绑扎伤肢，放低伤口，避免伤口高于心脏，用绷带或就地取用草绳、手帕、布带等由伤口的近心端向远心端包扎，松紧度以通过一指尖为宜，如果伤者在1h内能送达医院，应立即用止血带阻断静脉和淋巴回流，但还要保持动脉通畅。",
+    "ref": "A.3.8.1"
+  },
+  {
+    "id": 415,
+    "sourceId": 411,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "宠物及野生犬抓咬伤处理方法。a）立即挤压伤口排出污血，同时用____肥皂水冲洗至少____，再用清水洗净，然后用____~3%碘酒或75%酒精涂擦伤口，切忌直接用碘酒、酒精消毒。",
+    "answer": "20%；15min；2%",
+    "blanks": 3,
+    "full": "宠物及野生犬抓咬伤处理方法。a）立即挤压伤口排出污血，同时用20%肥皂水冲洗至少15min，再用清水洗净，然后用2%~3%碘酒或75%酒精涂擦伤口，切忌直接用碘酒、酒精消毒。",
+    "ref": "A.3.8.2"
+  },
+  {
+    "id": 416,
+    "sourceId": 412,
+    "chapter": "A",
+    "section": "A.4 溺水急救",
+    "question": "发现有人____时，立即呼叫援助并拨打____急救电话，在保证自身安全的前提下，通过投递竹竿、衣物、绳索、漂浮物或借助专用浮力救援设备，迅速将其从水中救出。",
+    "answer": "溺水；120",
+    "blanks": 2,
+    "full": "发现有人溺水时，立即呼叫援助并拨打120急救电话，在保证自身安全的前提下，通过投递竹竿、衣物、绳索、漂浮物或借助专用浮力救援设备，迅速将其从水中救出。",
+    "ref": "A.4.1"
+  },
+  {
+    "id": 417,
+    "sourceId": 413,
+    "chapter": "A",
+    "section": "A.4 溺水急救",
+    "question": "溺水者救上岸后立即清理其口鼻内的泥沙和水草，平卧位，用____~10s观察胸腹部是否有呼吸起伏，如没有呼吸或仅有濒死呼吸，立即予以____，首先给予2次~5次人工通气，每次吹气1s，确保能看到胸廓有效的起伏运动，再予胸外心脏按压。",
+    "answer": "5s；心肺复苏",
+    "blanks": 2,
+    "full": "溺水者救上岸后立即清理其口鼻内的泥沙和水草，平卧位，用5s~10s观察胸腹部是否有呼吸起伏，如没有呼吸或仅有濒死呼吸，立即予以心肺复苏，首先给予2次~5次人工通气，每次吹气1s，确保能看到胸廓有效的起伏运动，再予胸外心脏按压。",
+    "ref": "A.4.2"
+  },
+  {
+    "id": 418,
+    "sourceId": 414,
+    "chapter": "A",
+    "section": "A.4 溺水急救",
+    "question": "不应为____者实施各种方法的控水措施，包括倒置躯体或腹部冲击法。在不影响____的前提下，尽可能去除湿衣服，擦干身体，防止患者出现体温过低。",
+    "answer": "溺水；心肺复苏",
+    "blanks": 2,
+    "full": "不应为溺水者实施各种方法的控水措施，包括倒置躯体或腹部冲击法。在不影响心肺复苏的前提下，尽可能去除湿衣服，擦干身体，防止患者出现体温过低。",
+    "ref": "A.4.3"
+  },
+  {
+    "id": 419,
+    "sourceId": 415,
+    "chapter": "A",
+    "section": "A.4 溺水急救",
+    "question": "在____或者胸外心脏按压时，____者会出现呕吐，如呕吐，则将其头部偏向一侧，用手指、手帕或者吸引的方法去除呕吐物。",
+    "answer": "人工呼吸；溺水",
+    "blanks": 2,
+    "full": "在人工呼吸或者胸外心脏按压时，溺水者会出现呕吐，如呕吐，则将其头部偏向一侧，用手指、手帕或者吸引的方法去除呕吐物。",
+    "ref": "A.4.4"
+  },
+  {
+    "id": 420,
+    "sourceId": 416,
+    "chapter": "A",
+    "section": "A.5 高温中暑急救",
+    "question": "____是在高温作业环境条件下，出现以体温调节中枢功能障碍、汗腺功能衰竭和水电解质丧失过多为主要表现的急性疾病。轻症中暑表现为头昏、全身乏力、面色潮红、大量出汗，体温在____以上。",
+    "answer": "中暑；38.5℃",
+    "blanks": 2,
+    "full": "中暑是在高温作业环境条件下，出现以体温调节中枢功能障碍、汗腺功能衰竭和水电解质丧失过多为主要表现的急性疾病。轻症中暑表现为头昏、全身乏力、面色潮红、大量出汗，体温在38.5℃以上。",
+    "ref": "A.5.1"
+  },
+  {
+    "id": 421,
+    "sourceId": 417,
+    "chapter": "A",
+    "section": "A.5 高温中暑急救",
+    "question": "发现有____伤员，应立即将中暑伤员从高温或热晒环境中转移到____休息。",
+    "answer": "中暑；阴凉通风处",
+    "blanks": 2,
+    "full": "发现有中暑伤员，应立即将中暑伤员从高温或热晒环境中转移到阴凉通风处休息。",
+    "ref": "A.5.2"
+  },
+  {
+    "id": 422,
+    "sourceId": 418,
+    "chapter": "A",
+    "section": "A.5 高温中暑急救",
+    "question": "让____伤员____解开衣扣，脱去或者松开衣服，如衣服被汗水湿透，应更换干衣服，进行皮肤肌肉按摩，促进散热。",
+    "answer": "中暑；仰卧",
+    "blanks": 2,
+    "full": "让中暑伤员仰卧解开衣扣，脱去或者松开衣服，如衣服被汗水湿透，应更换干衣服，进行皮肤肌肉按摩，促进散热。",
+    "ref": "A.5.3"
+  },
+  {
+    "id": 423,
+    "sourceId": 419,
+    "chapter": "A",
+    "section": "A.5 高温中暑急救",
+    "question": "对于重症____伤员立即拨打____电话，给予吸氧，请求医务人员紧急救治。职业性中暑的诊断处置参见GBZ41。",
+    "answer": "中暑；120",
+    "blanks": 2,
+    "full": "对于重症中暑伤员立即拨打120电话，给予吸氧，请求医务人员紧急救治。职业性中暑的诊断处置参见GBZ41。",
+    "ref": "A.5.6"
+  },
+  {
+    "id": 424,
+    "sourceId": 420,
+    "chapter": "A",
+    "section": "A.6 有害气体中毒急救",
+    "question": "怀疑可能存在____时，应设法利用一切通风设施排除有害气体，立即将有关人员迅速____，转移到上风口空气新鲜处，安静休息。",
+    "answer": "有害气体；撤离现场",
+    "blanks": 2,
+    "full": "怀疑可能存在有害气体时，应设法利用一切通风设施排除有害气体，立即将有关人员迅速撤离现场，转移到上风口空气新鲜处，安静休息。",
+    "ref": "A.6.2"
+  },
+  {
+    "id": 425,
+    "sourceId": 421,
+    "chapter": "A",
+    "section": "A.6 有害气体中毒急救",
+    "question": "抢救人员应戴好防护工具，使用正压自给式呼吸器、化学安全____、橡胶____，才能执行施救任务。",
+    "answer": "防护眼镜；手套",
+    "blanks": 2,
+    "full": "抢救人员应戴好防护工具，使用正压自给式呼吸器、化学安全防护眼镜、橡胶手套，才能执行施救任务。",
+    "ref": "A.6.3"
+  },
+  {
+    "id": 426,
+    "sourceId": 422,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "对于存有残余____或可燃液体的容器，必须打开盖子清理干净。对存有残余____的容器，应先用水蒸气吹洗，或用热碱水冲洗干净，并将其盖口打开。",
+    "answer": "油脂；易燃物品",
+    "blanks": 2,
+    "full": "对于存有残余油脂或可燃液体的容器，必须打开盖子清理干净。对存有残余易燃物品的容器，应先用水蒸气吹洗，或用热碱水冲洗干净，并将其盖口打开。",
+    "ref": "15.1.8"
+  },
+  {
+    "id": 427,
+    "sourceId": 423,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在高空进行焊接工作，必须遵照本规程________的有关规定。",
+    "answer": "第16章；高处作业",
+    "blanks": 2,
+    "full": "在高空进行焊接工作，必须遵照本规程第16章高处作业的有关规定。",
+    "ref": "15.1.13"
+  },
+  {
+    "id": 428,
+    "sourceId": 424,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在____只能进行短时不繁重的焊接工作，并遵守本规程第16章____的有关规定。禁止登在梯子的最高梯阶上进行焊接工作。",
+    "answer": "梯子上；高处作业",
+    "blanks": 2,
+    "full": "在梯子上只能进行短时不繁重的焊接工作，并遵守本规程第16章高处作业的有关规定。禁止登在梯子的最高梯阶上进行焊接工作。",
+    "ref": "15.1.14"
+  },
+  {
+    "id": 429,
+    "sourceId": 425,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "____工作应事先告知，无关人员不准靠近正在进行射线检验的工作场所，不准进入安全____域。",
+    "answer": "射线检验；警戒区",
+    "blanks": 2,
+    "full": "射线检验工作应事先告知，无关人员不准靠近正在进行射线检验的工作场所，不准进入安全警戒区域。",
+    "ref": "15.1.19"
+  },
+  {
+    "id": 430,
+    "sourceId": 426,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____设备的装设、检查和修理工作，必须在____后进行。",
+    "answer": "电焊；切断电源",
+    "blanks": 2,
+    "full": "电焊设备的装设、检查和修理工作，必须在切断电源后进行。",
+    "ref": "15.2.8"
+  },
+  {
+    "id": 431,
+    "sourceId": 427,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____的裸露导电部分和转动部分以及冷却用的____，均应装有保护罩。",
+    "answer": "电焊机；风扇",
+    "blanks": 2,
+    "full": "电焊机的裸露导电部分和转动部分以及冷却用的风扇，均应装有保护罩。",
+    "ref": "15.2.10"
+  },
+  {
+    "id": 432,
+    "sourceId": 428,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "清除____用的____（防护镜）。",
+    "answer": "焊渣；白光眼镜",
+    "blanks": 2,
+    "full": "清除焊渣用的白光眼镜（防护镜）。",
+    "ref": "15.2.11.4"
+  },
+  {
+    "id": 433,
+    "sourceId": 429,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____工所坐的____，须用木材或其他绝缘材料制成。",
+    "answer": "电焊；椅子",
+    "blanks": 2,
+    "full": "电焊工所坐的椅子，须用木材或其他绝缘材料制成。",
+    "ref": "15.2.12"
+  },
+  {
+    "id": 434,
+    "sourceId": 430,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "清理____时必须戴上____，头部应避开焊渣飞溅方向，并避免对着人的方向敲打焊渣。",
+    "answer": "焊渣；白光眼镜",
+    "blanks": 2,
+    "full": "清理焊渣时必须戴上白光眼镜，头部应避开焊渣飞溅方向，并避免对着人的方向敲打焊渣。",
+    "ref": "15.2.16"
+  },
+  {
+    "id": 435,
+    "sourceId": 431,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "储存气瓶的____应具有耐火性能。门窗应向外开，装配的玻璃应用毛玻璃或涂以____油漆。",
+    "answer": "仓库；白色",
+    "blanks": 2,
+    "full": "储存气瓶的仓库应具有耐火性能。门窗应向外开，装配的玻璃应用毛玻璃或涂以白色油漆。",
+    "ref": "15.3.3"
+  },
+  {
+    "id": 436,
+    "sourceId": 432,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "储存气瓶____周围____距离以内不准堆置可燃物品，不准进行锻造、焊接等明火工作，并禁止吸烟。",
+    "answer": "仓库；10m",
+    "blanks": 2,
+    "full": "储存气瓶仓库周围10m距离以内不准堆置可燃物品，不准进行锻造、焊接等明火工作，并禁止吸烟。",
+    "ref": "15.3.5"
+  },
+  {
+    "id": 437,
+    "sourceId": 433,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____内应设架子，使气瓶垂直立放，空的气瓶可以平放堆叠，但每一层都应垫有木制或金属制的型板，堆叠高度不准超过____。",
+    "answer": "仓库；1.5m",
+    "blanks": 2,
+    "full": "仓库内应设架子，使气瓶垂直立放，空的气瓶可以平放堆叠，但每一层都应垫有木制或金属制的型板，堆叠高度不准超过1.5m。",
+    "ref": "15.3.6"
+  },
+  {
+    "id": 438,
+    "sourceId": 434,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "装有氧气的气瓶不准与乙炔气瓶或其他____的气瓶储存于同一____。",
+    "answer": "可燃气体；仓库",
+    "blanks": 2,
+    "full": "装有氧气的气瓶不准与乙炔气瓶或其他可燃气体的气瓶储存于同一仓库。",
+    "ref": "15.3.7"
+  },
+  {
+    "id": 439,
+    "sourceId": 435,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "储存气瓶的____内不准有____设备。",
+    "answer": "仓库；取暖",
+    "blanks": 2,
+    "full": "储存气瓶的仓库内不准有取暖设备。",
+    "ref": "15.3.8"
+  },
+  {
+    "id": 440,
+    "sourceId": 436,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "储存气瓶的____内必须备有____，并应采用防爆的照明，室内通风应良好。",
+    "answer": "仓库；消防用具",
+    "blanks": 2,
+    "full": "储存气瓶的仓库内必须备有消防用具，并应采用防爆的照明，室内通风应良好。",
+    "ref": "15.3.9"
+  },
+  {
+    "id": 441,
+    "sourceId": 437,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "用汽车运输气瓶时，气瓶不准顺____纵向放置，应____。气瓶押运人员应坐在司机驾驶室内，不准坐在车厢内。",
+    "answer": "车厢；横向放置",
+    "blanks": 2,
+    "full": "用汽车运输气瓶时，气瓶不准顺车厢纵向放置，应横向放置。气瓶押运人员应坐在司机驾驶室内，不准坐在车厢内。",
+    "ref": "15.3.10.4"
+  },
+  {
+    "id": 442,
+    "sourceId": 438,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "运送____时，必须保证气瓶不致沾染____、沥青等。",
+    "answer": "氧气瓶；油脂",
+    "blanks": 2,
+    "full": "运送氧气瓶时，必须保证气瓶不致沾染油脂、沥青等。",
+    "ref": "15.3.10.8"
+  },
+  {
+    "id": 443,
+    "sourceId": 439,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "氧气阀门只准使用专门____开启，不准使用凿子、锤子开启。乙炔阀门须用____开启。",
+    "answer": "扳手；特殊的键",
+    "blanks": 2,
+    "full": "氧气阀门只准使用专门扳手开启，不准使用凿子、锤子开启。乙炔阀门须用特殊的键开启。",
+    "ref": "15.3.12.7"
+  },
+  {
+    "id": 444,
+    "sourceId": 440,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "在工作地点，最多只许有2个____：一个工作，一个____。",
+    "answer": "氧气瓶；备用",
+    "blanks": 2,
+    "full": "在工作地点，最多只许有2个氧气瓶：一个工作，一个备用。",
+    "ref": "15.3.12.8"
+  },
+  {
+    "id": 445,
+    "sourceId": 441,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "将____安装在气瓶阀门或输气管前，应注意下列各项：(1)必须选用符合气体特性的专业减压器，禁止____或替用。(2)减压器（特别是连接头和外套螺帽）不应沾有油脂，如有油脂应擦洗干净。",
+    "answer": "减压器；混用",
+    "blanks": 2,
+    "full": "将减压器安装在气瓶阀门或输气管前，应注意下列各项：(1)必须选用符合气体特性的专业减压器，禁止混用或替用。(2)减压器（特别是连接头和外套螺帽）不应沾有油脂，如有油脂应擦洗干净。",
+    "ref": "15.3.13.2"
+  },
+  {
+    "id": 446,
+    "sourceId": 442,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "连接橡胶____前，应先将软管____，确定管中无水后，才允许使用。禁止用氧气吹乙炔气管。",
+    "answer": "软管；吹净",
+    "blanks": 2,
+    "full": "连接橡胶软管前，应先将软管吹净，确定管中无水后，才允许使用。禁止用氧气吹乙炔气管。",
+    "ref": "15.3.14.3"
+  },
+  {
+    "id": 447,
+    "sourceId": 443,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "使用的橡胶____不准有____、龟裂或漏气等现象。如发现有鼓包、龟裂、漏气等现象，不准用贴补或包缠的方法修理，应将其损坏部分切掉，用双面接头管把软管连接起来并用卡子卡紧，或用软的和退火的金属绑线扎紧。",
+    "answer": "软管；鼓包",
+    "blanks": 2,
+    "full": "使用的橡胶软管不准有鼓包、龟裂或漏气等现象。如发现有鼓包、龟裂、漏气等现象，不准用贴补或包缠的方法修理，应将其损坏部分切掉，用双面接头管把软管连接起来并用卡子卡紧，或用软的和退火的金属绑线扎紧。",
+    "ref": "15.3.14.4"
+  },
+  {
+    "id": 448,
+    "sourceId": 444,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "焊工不准将正在燃烧中的____放下。如有必要时，应先将火焰____。",
+    "answer": "焊枪；熄灭",
+    "blanks": 2,
+    "full": "焊工不准将正在燃烧中的焊枪放下。如有必要时，应先将火焰熄灭。",
+    "ref": "15.3.15.4"
+  },
+  {
+    "id": 449,
+    "sourceId": 445,
+    "chapter": "15",
+    "section": "15.5 热处理",
+    "question": "设备、管道____作业时，应严格按热处理工艺进行，并密切监控温度升高情况，加热温度不应超出规范允许范围。检查时应采取____措施。",
+    "answer": "热处理；防烫",
+    "blanks": 2,
+    "full": "设备、管道热处理作业时，应严格按热处理工艺进行，并密切监控温度升高情况，加热温度不应超出规范允许范围。检查时应采取防烫措施。",
+    "ref": "15.5.4"
+  },
+  {
+    "id": 450,
+    "sourceId": 446,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "在进行____工作时，除有关人员外，不准他人在工作地点的下面通行或逗留，工作地点下面应有围栏或装设其他保护装置，防止____。",
+    "answer": "高处；落物伤人",
+    "blanks": 2,
+    "full": "在进行高处工作时，除有关人员外，不准他人在工作地点的下面通行或逗留，工作地点下面应有围栏或装设其他保护装置，防止落物伤人。",
+    "ref": "16.1.11"
+  },
+  {
+    "id": 451,
+    "sourceId": 447,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "专用高空作业车辆应定期维护保养，专人驾驶。起升、____装置可靠，液压机构无渗漏现象，严禁____使用。",
+    "answer": "制动；超载",
+    "blanks": 2,
+    "full": "专用高空作业车辆应定期维护保养，专人驾驶。起升、制动装置可靠，液压机构无渗漏现象，严禁超载使用。",
+    "ref": "16.1.18"
+  },
+  {
+    "id": 452,
+    "sourceId": 448,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "____工作面四周应有____高的护栏，升降机构牢固完好，升降灵活，液压机构无渗漏现象，有明显的荷重标志，严禁超载使用，禁止在不平整的地面上使用。",
+    "answer": "移动平台；1.2m",
+    "blanks": 2,
+    "full": "移动平台工作面四周应有1.2m高的护栏，升降机构牢固完好，升降灵活，液压机构无渗漏现象，有明显的荷重标志，严禁超载使用，禁止在不平整的地面上使用。",
+    "ref": "16.1.19"
+  },
+  {
+    "id": 453,
+    "sourceId": 449,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "使用铝合金快装____前，应认真检查组件有无损坏、____，扣件有无损坏变形。",
+    "answer": "脚手架；变形",
+    "blanks": 2,
+    "full": "使用铝合金快装脚手架前，应认真检查组件有无损坏、变形，扣件有无损坏变形。",
+    "ref": "16.1.20"
+  },
+  {
+    "id": 454,
+    "sourceId": 450,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在____或泥地上使用梯子时，其下端须装有带尖头的金属物，同时用____将梯子下端与固定物缚住。",
+    "answer": "木板；绳索",
+    "blanks": 2,
+    "full": "在木板或泥地上使用梯子时，其下端须装有带尖头的金属物，同时用绳索将梯子下端与固定物缚住。",
+    "ref": "16.8.6"
+  },
+  {
+    "id": 455,
+    "sourceId": 451,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "若已采用上述方法仍不能使梯子稳固时，可派人____，以防____滑动，但必须做好防止落物打伤下面人员的安全措施。",
+    "answer": "扶着；梯子下端",
+    "blanks": 2,
+    "full": "若已采用上述方法仍不能使梯子稳固时，可派人扶着，以防梯子下端滑动，但必须做好防止落物打伤下面人员的安全措施。",
+    "ref": "16.8.8"
+  },
+  {
+    "id": 456,
+    "sourceId": 452,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "禁止把梯子____在____等不稳固的支持物上或容易滑动的物体上使用。",
+    "answer": "架设；木箱",
+    "blanks": 2,
+    "full": "禁止把梯子架设在木箱等不稳固的支持物上或容易滑动的物体上使用。",
+    "ref": "16.8.10"
+  },
+  {
+    "id": 457,
+    "sourceId": 453,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在____上使用梯子时，应设____或设置临时围栏。梯子不准放在门前使用，有必要时，应采取防止门突然开启的措施。",
+    "answer": "通道；监护人",
+    "blanks": 2,
+    "full": "在通道上使用梯子时，应设监护人或设置临时围栏。梯子不准放在门前使用，有必要时，应采取防止门突然开启的措施。",
+    "ref": "16.8.11"
+  },
+  {
+    "id": 458,
+    "sourceId": 454,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在____工作时应使用____。物件应用绳子传递，不准从梯上或梯下互相抛递。",
+    "answer": "梯子上；工具袋",
+    "blanks": 2,
+    "full": "在梯子上工作时应使用工具袋。物件应用绳子传递，不准从梯上或梯下互相抛递。",
+    "ref": "16.8.14"
+  },
+  {
+    "id": 459,
+    "sourceId": 455,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "____的____应指定专人负责或由使用者亲自架设。未经批准的人员不准攀登软梯，也不准做软梯的架设工作。",
+    "answer": "软梯；架设",
+    "blanks": 2,
+    "full": "软梯的架设应指定专人负责或由使用者亲自架设。未经批准的人员不准攀登软梯，也不准做软梯的架设工作。",
+    "ref": "16.8.19"
+  },
+  {
+    "id": 460,
+    "sourceId": 456,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "在____内从事衬胶、涂漆、刷环氧树脂等具有挥发性溶剂作业时，应进行____，采取防止爆燃措施，严禁明火。",
+    "answer": "有限空间；强力通风",
+    "blanks": 2,
+    "full": "在有限空间内从事衬胶、涂漆、刷环氧树脂等具有挥发性溶剂作业时，应进行强力通风，采取防止爆燃措施，严禁明火。",
+    "ref": "20.1.14"
+  },
+  {
+    "id": 461,
+    "sourceId": 457,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "作业中断时，应清点人员，在入口处增设____，做好防止人员误入的封闭措施。作业结束后，应清点人员和物品，确认____内无人和物品，方可关闭人孔门或盖板并解除采取的隔离封闭措施。",
+    "answer": "警示标志；有限空间",
+    "blanks": 2,
+    "full": "作业中断时，应清点人员，在入口处增设警示标志，做好防止人员误入的封闭措施。作业结束后，应清点人员和物品，确认有限空间内无人和物品，方可关闭人孔门或盖板并解除采取的隔离封闭措施。",
+    "ref": "20.1.16"
+  },
+  {
+    "id": 462,
+    "sourceId": 458,
+    "chapter": "20",
+    "section": "20.3 容器内作业",
+    "question": "在容器、____内工作时，工作人员不应少于2人，其中1人持续在外面监护。在可能产生____的情况下，工作人员不得少于3人，其中2人持续在外面监护。",
+    "answer": "槽箱；有害气体",
+    "blanks": 2,
+    "full": "在容器、槽箱内工作时，工作人员不应少于2人，其中1人持续在外面监护。在可能产生有害气体的情况下，工作人员不得少于3人，其中2人持续在外面监护。",
+    "ref": "20.3.5"
+  },
+  {
+    "id": 463,
+    "sourceId": 459,
+    "chapter": "A",
+    "section": "A.1 通则",
+    "question": "要认真观察伤员全身情况，防止伤情恶化。发现呼吸、____时，应立即在现场就地抢救，用____法支持呼吸和循环，对脑、心重要脏器供氧。",
+    "answer": "心跳停止；心肺复苏",
+    "blanks": 2,
+    "full": "要认真观察伤员全身情况，防止伤情恶化。发现呼吸、心跳停止时，应立即在现场就地抢救，用心肺复苏法支持呼吸和循环，对脑、心重要脏器供氧。",
+    "ref": "A.1.3"
+  },
+  {
+    "id": 464,
+    "sourceId": 460,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "救护____伤员切除电源时，有时会同时使照明失电，因此应考虑事故照明、应急灯等临时照明。新的照明要符合使用场所____、防爆的要求。",
+    "answer": "触电；防火",
+    "blanks": 2,
+    "full": "救护触电伤员切除电源时，有时会同时使照明失电，因此应考虑事故照明、应急灯等临时照明。新的照明要符合使用场所防火、防爆的要求。",
+    "ref": "A.2.2.7"
+  },
+  {
+    "id": 465,
+    "sourceId": 461,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "对需要进行____的伤员，将其置于平地或硬板上，解开伤员领扣和____，去除或剪开限制呼吸的胸腹部紧身衣物，立即就地迅速进行有效心肺复苏抢救。",
+    "answer": "心肺复苏；皮带",
+    "blanks": 2,
+    "full": "对需要进行心肺复苏的伤员，将其置于平地或硬板上，解开伤员领扣和皮带，去除或剪开限制呼吸的胸腹部紧身衣物，立即就地迅速进行有效心肺复苏抢救。",
+    "ref": "A.2.3.3"
+  },
+  {
+    "id": 466,
+    "sourceId": 462,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "正确按压位置是保证____效果的重要前提，可用以下两种方法之一来确定（图A1）。a）方法一：胸部正中，双乳头之间，____的下半部即为正确的按压位置。",
+    "answer": "胸外按压；胸骨",
+    "blanks": 2,
+    "full": "正确按压位置是保证胸外按压效果的重要前提，可用以下两种方法之一来确定（图A1）。a）方法一：胸部正中，双乳头之间，胸骨的下半部即为正确的按压位置。",
+    "ref": "A.2.3.5.1.2"
+  },
+  {
+    "id": 467,
+    "sourceId": 463,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "在按压时，避免发生肋骨、________，甚至引起气胸、血胸、肝脾损伤等并发症。",
+    "answer": "胸骨；骨折",
+    "blanks": 2,
+    "full": "在按压时，避免发生肋骨、胸骨骨折，甚至引起气胸、血胸、肝脾损伤等并发症。",
+    "ref": "A.2.3.5.1.5"
+  },
+  {
+    "id": 468,
+    "sourceId": 464,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "开放气道：a）用____手法开放气道：一只手放在伤员前额，用手掌将额头用力向后推，另一只手的食指与中指置于颏骨下方，向上抬起下颌（对颈部____者不适用），两手协同将头部推向后仰（图A3），由舌后坠（图A4a）导致的气道梗阻即可通畅(图A4b)。",
+    "answer": "仰头抬颏；损伤",
+    "blanks": 2,
+    "full": "开放气道：a）用仰头抬颏手法开放气道：一只手放在伤员前额，用手掌将额头用力向后推，另一只手的食指与中指置于颏骨下方，向上抬起下颌（对颈部损伤者不适用），两手协同将头部推向后仰（图A3），由舌后坠（图A4a）导致的气道梗阻即可通畅(图A4b)。",
+    "ref": "A.2.3.5.2"
+  },
+  {
+    "id": 469,
+    "sourceId": 465,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "经现场抢救，伤员呼吸____跳恢复后，应立即对头部进行降温，如用冰帽、____等，紧急情况下也可用冰棍放在伤员头部或用冷毛巾置于额部。",
+    "answer": "心；冰袋",
+    "blanks": 2,
+    "full": "经现场抢救，伤员呼吸心跳恢复后，应立即对头部进行降温，如用冰帽、冰袋等，紧急情况下也可用冰棍放在伤员头部或用冷毛巾置于额部。",
+    "ref": "A.2.3.6"
+  },
+  {
+    "id": 470,
+    "sourceId": 466,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "移动伤员或将伤员送往医院时，除应使伤员平躺在担架上并在其背部垫以平硬阔____，移动或送医院过程中应继续抢救，心跳呼吸停止者要继续____法抢救，在医务人员未接替救治前不能中止。",
+    "answer": "木板；心肺复苏",
+    "blanks": 2,
+    "full": "移动伤员或将伤员送往医院时，除应使伤员平躺在担架上并在其背部垫以平硬阔木板，移动或送医院过程中应继续抢救，心跳呼吸停止者要继续心肺复苏法抢救，在医务人员未接替救治前不能中止。",
+    "ref": "A.2.4.2"
+  },
+  {
+    "id": 471,
+    "sourceId": 467,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "应创造条件，用塑料袋装入砸碎冰屑做成帽状包绕在伤员头部，露出眼睛，使____部温度降低，争取____肺脑完全复苏。",
+    "answer": "脑；心",
+    "blanks": 2,
+    "full": "应创造条件，用塑料袋装入砸碎冰屑做成帽状包绕在伤员头部，露出眼睛，使脑部温度降低，争取心肺脑完全复苏。",
+    "ref": "A.2.4.3"
+  },
+  {
+    "id": 472,
+    "sourceId": 468,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "伤员好转后的处理：如伤员的心跳和呼吸经抢救后均已恢复，可暂停____法操作。但心跳呼吸恢复的早期有可能再次骤停，应严密____，不能麻痹，要随时准备再次抢救。",
+    "answer": "心肺复苏；监护",
+    "blanks": 2,
+    "full": "伤员好转后的处理：如伤员的心跳和呼吸经抢救后均已恢复，可暂停心肺复苏法操作。但心跳呼吸恢复的早期有可能再次骤停，应严密监护，不能麻痹，要随时准备再次抢救。",
+    "ref": "A.2.5"
+  },
+  {
+    "id": 473,
+    "sourceId": 469,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "急救时，应先解除和处理危及伤员生命的情况，包括心跳和呼吸骤停、窒息、大出血、____等。现场发现伤员心跳、呼吸骤停，应立即进行____。",
+    "answer": "休克；心肺复苏",
+    "blanks": 2,
+    "full": "急救时，应先解除和处理危及伤员生命的情况，包括心跳和呼吸骤停、窒息、大出血、休克等。现场发现伤员心跳、呼吸骤停，应立即进行心肺复苏。",
+    "ref": "A.3.1.3"
+  },
+  {
+    "id": 474,
+    "sourceId": 470,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "开放性____，伤口用无菌或清洁的敷料____，预防伤口二次污染。严重软组织损伤或大血管损伤，应采取有效的方法进行止血，防止失血性休克。",
+    "answer": "损伤；包扎",
+    "blanks": 2,
+    "full": "开放性损伤，伤口用无菌或清洁的敷料包扎，预防伤口二次污染。严重软组织损伤或大血管损伤，应采取有效的方法进行止血，防止失血性休克。",
+    "ref": "A.3.1.4"
+  },
+  {
+    "id": 475,
+    "sourceId": 471,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "救护人员首先通过直接____出血部位进行____，如压迫后仍有出血，可根据动脉的体表投影，用手指压迫伤口近心端的供血动脉阻止动脉血运，达到临时快速止血的目的（图A10）。",
+    "answer": "压迫；止血",
+    "blanks": 2,
+    "full": "救护人员首先通过直接压迫出血部位进行止血，如压迫后仍有出血，可根据动脉的体表投影，用手指压迫伤口近心端的供血动脉阻止动脉血运，达到临时快速止血的目的（图A10）。",
+    "ref": "A.3.2.1"
+  },
+  {
+    "id": 476,
+    "sourceId": 472,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "一般小____和静脉损伤出血宜用此法。将无菌或干净敷料覆盖伤口，外加敷料垫，再以绷带加压____。",
+    "answer": "动脉；包扎",
+    "blanks": 2,
+    "full": "一般小动脉和静脉损伤出血宜用此法。将无菌或干净敷料覆盖伤口，外加敷料垫，再以绷带加压包扎。",
+    "ref": "A.3.2.2"
+  },
+  {
+    "id": 477,
+    "sourceId": 473,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "用于肌肉、骨端的渗血。方法：用无菌或干净____（如果现场缺乏，宜用干净的布料替代）填塞在伤口内，再加压____。",
+    "answer": "敷料；包扎",
+    "blanks": 2,
+    "full": "用于肌肉、骨端的渗血。方法：用无菌或干净敷料（如果现场缺乏，宜用干净的布料替代）填塞在伤口内，再加压包扎。",
+    "ref": "A.3.2.3"
+  },
+  {
+    "id": 478,
+    "sourceId": 474,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "用____在出血部位的____，将肢体用力绑扎，以阻断血流从而达到止血的目的。适用于直接压迫止血无法控制出血以致危及生命，以及不能使用直接压迫止血（如多处损伤、不易处理的伤口等）情况。",
+    "answer": "止血带；近心端",
+    "blanks": 2,
+    "full": "用止血带在出血部位的近心端，将肢体用力绑扎，以阻断血流从而达到止血的目的。适用于直接压迫止血无法控制出血以致危及生命，以及不能使用直接压迫止血（如多处损伤、不易处理的伤口等）情况。",
+    "ref": "A.3.2.4"
+  },
+  {
+    "id": 479,
+    "sourceId": 475,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "____坠落、撞击、挤压等外伤可致胸腹内脏破裂出血，此时伤员外观检查可能无出血，但常表现为精神紧张、烦躁不安、皮肤苍白、冷汗、四肢厥冷、脉搏细弱、呼吸加快，甚至出现神志不清等____表现。",
+    "answer": "高处；休克",
+    "blanks": 2,
+    "full": "高处坠落、撞击、挤压等外伤可致胸腹内脏破裂出血，此时伤员外观检查可能无出血，但常表现为精神紧张、烦躁不安、皮肤苍白、冷汗、四肢厥冷、脉搏细弱、呼吸加快，甚至出现神志不清等休克表现。",
+    "ref": "A.3.2.5"
+  },
+  {
+    "id": 480,
+    "sourceId": 476,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "____最常用的材料是绷带和三角巾，也可就地取材用干净毛巾、包袱布、手绢、____等替代。",
+    "answer": "包扎；衣服",
+    "blanks": 2,
+    "full": "包扎最常用的材料是绷带和三角巾，也可就地取材用干净毛巾、包袱布、手绢、衣服等替代。",
+    "ref": "A.3.3.2"
+  },
+  {
+    "id": 481,
+    "sourceId": 477,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "固定是____急救中的重要环节，可以防止搬运伤员过程中骨折端对血管、神经和内脏____，同时减轻疼痛，便于运送。固定可用夹板或就地取材用木板、木棍、树枝、硬纸板等。",
+    "answer": "骨折；损伤",
+    "blanks": 2,
+    "full": "固定是骨折急救中的重要环节，可以防止搬运伤员过程中骨折端对血管、神经和内脏损伤，同时减轻疼痛，便于运送。固定可用夹板或就地取材用木板、木棍、树枝、硬纸板等。",
+    "ref": "A.3.4.2"
+  },
+  {
+    "id": 482,
+    "sourceId": 478,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "________时，一人须始终固定保护伤员头颈部，使其平卧，可用沙土袋（或其他代替物）放置头颈部两侧使颈部固定不动（图A14）。",
+    "answer": "颈椎；损伤",
+    "blanks": 2,
+    "full": "颈椎损伤时，一人须始终固定保护伤员头颈部，使其平卧，可用沙土袋（或其他代替物）放置头颈部两侧使颈部固定不动（图A14）。",
+    "ref": "A.3.4.6"
+  },
+  {
+    "id": 483,
+    "sourceId": 479,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "脊柱____时，先将伤员双下肢伸直，将担架或____放在伤员一侧，数人合作，共同用手将伤员平托至硬质担架上，将其腰椎躯干及双下肢一同进行固定，预防其脊髓损伤引起瘫痪（图A15）。",
+    "answer": "损伤；木板",
+    "blanks": 2,
+    "full": "脊柱损伤时，先将伤员双下肢伸直，将担架或木板放在伤员一侧，数人合作，共同用手将伤员平托至硬质担架上，将其腰椎躯干及双下肢一同进行固定，预防其脊髓损伤引起瘫痪（图A15）。",
+    "ref": "A.3.4.7"
+  },
+  {
+    "id": 484,
+    "sourceId": 480,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "尽快脱离热源，对火焰烧伤或高温汽、水烫伤，用冷水局部降温，然后脱去已经灭火或热液浸渍的____。衣服着火时不要站立、奔跑、呼叫，以防增加头面部烧伤或吸入性____。",
+    "answer": "衣服；损伤",
+    "blanks": 2,
+    "full": "尽快脱离热源，对火焰烧伤或高温汽、水烫伤，用冷水局部降温，然后脱去已经灭火或热液浸渍的衣服。衣服着火时不要站立、奔跑、呼叫，以防增加头面部烧伤或吸入性损伤。",
+    "ref": "A.3.6.2"
+  },
+  {
+    "id": 485,
+    "sourceId": 481,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "迅速脱离低温环境和低温介质，将伤员移至防风保暖场所，脱去潮湿____，用毛毯或棉被包裹身体。衣服、鞋袜等冻结不易脱离者，立即用____左右温水使冰冻融化后脱下或剪开。",
+    "answer": "衣服；40℃",
+    "blanks": 2,
+    "full": "迅速脱离低温环境和低温介质，将伤员移至防风保暖场所，脱去潮湿衣服，用毛毯或棉被包裹身体。衣服、鞋袜等冻结不易脱离者，立即用40℃左右温水使冰冻融化后脱下或剪开。",
+    "ref": "A.3.7.2"
+  },
+  {
+    "id": 486,
+    "sourceId": 482,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "全身冻伤伤员呼吸和心跳十分微弱，在未获得确切的____证据前，必须积极抢救。对心跳、呼吸骤停者，按____技术进行处理。",
+    "answer": "死亡；心肺复苏",
+    "blanks": 2,
+    "full": "全身冻伤伤员呼吸和心跳十分微弱，在未获得确切的死亡证据前，必须积极抢救。对心跳、呼吸骤停者，按心肺复苏技术进行处理。",
+    "ref": "A.3.7.4"
+  },
+  {
+    "id": 487,
+    "sourceId": 483,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "伤员发生挤压伤时，应迅速解除受伤部位的____，移至安全地带，进行全面检查和紧急处理。a）首先检查伤员生命体征，对发生心跳、呼吸停止者，立即进行____。",
+    "answer": "压迫；心肺复苏",
+    "blanks": 2,
+    "full": "伤员发生挤压伤时，应迅速解除受伤部位的压迫，移至安全地带，进行全面检查和紧急处理。a）首先检查伤员生命体征，对发生心跳、呼吸停止者，立即进行心肺复苏。",
+    "ref": "A.3.9.2"
+  },
+  {
+    "id": 488,
+    "sourceId": 484,
+    "chapter": "A",
+    "section": "A.4 溺水急救",
+    "question": "搬动____者时如其存在____、脊柱损伤，应固定其头、颈和躯干在同一直线上。",
+    "answer": "溺水；颈椎",
+    "blanks": 2,
+    "full": "搬动溺水者时如其存在颈椎、脊柱损伤，应固定其头、颈和躯干在同一直线上。",
+    "ref": "A.4.6"
+  },
+  {
+    "id": 489,
+    "sourceId": 485,
+    "chapter": "A",
+    "section": "A.5 高温中暑急救",
+    "question": "借助____、空调降低环境温度，同时用____冷水擦浴、湿毛巾覆盖身体、头部置冰袋等方法降温。",
+    "answer": "电风扇；15℃",
+    "blanks": 2,
+    "full": "借助电风扇、空调降低环境温度，同时用15℃冷水擦浴、湿毛巾覆盖身体、头部置冰袋等方法降温。",
+    "ref": "A.5.4"
+  },
+  {
+    "id": 490,
+    "sourceId": 486,
+    "chapter": "A",
+    "section": "A.6 有害气体中毒急救",
+    "question": "____中毒是指员工在____或电缆沟等可能存在有毒有害气体的场所工作，出现头晕、头痛、乏力、胸闷、昏迷等症状，严重时甚至心跳、呼吸骤停。",
+    "answer": "有害气体；密闭空间",
+    "blanks": 2,
+    "full": "有害气体中毒是指员工在密闭空间或电缆沟等可能存在有毒有害气体的场所工作，出现头晕、头痛、乏力、胸闷、昏迷等症状，严重时甚至心跳、呼吸骤停。",
+    "ref": "A.6.1"
+  },
+  {
+    "id": 491,
+    "sourceId": 487,
+    "chapter": "A",
+    "section": "A.6 有害气体中毒急救",
+    "question": "对已昏迷中毒的伤员应保持气道____，不断清除口鼻腔内分泌物，解开领扣、松解裤带，注意保温或防暑，有条件时给予氧气吸入。呼吸、心跳停止者应立即进行____，并联系医院抢救。",
+    "answer": "通畅；心肺复苏",
+    "blanks": 2,
+    "full": "对已昏迷中毒的伤员应保持气道通畅，不断清除口鼻腔内分泌物，解开领扣、松解裤带，注意保温或防暑，有条件时给予氧气吸入。呼吸、心跳停止者应立即进行心肺复苏，并联系医院抢救。",
+    "ref": "A.6.4"
+  },
+  {
+    "id": 492,
+    "sourceId": 488,
+    "chapter": "A",
+    "section": "A.6 有害气体中毒急救",
+    "question": "护送中毒伤员要取____，头稍低，并偏向一侧，避免____误入气管。",
+    "answer": "平卧位；呕吐物",
+    "blanks": 2,
+    "full": "护送中毒伤员要取平卧位，头稍低，并偏向一侧，避免呕吐物误入气管。",
+    "ref": "A.6.6"
+  },
+  {
+    "id": 493,
+    "sourceId": 489,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在锅炉汽包、凝汽器、油箱、油槽以及其他____内进行焊接工作时，应有下列防止____的措施。",
+    "answer": "金属容器；触电",
+    "blanks": 2,
+    "full": "在锅炉汽包、凝汽器、油箱、油槽以及其他金属容器内进行焊接工作时，应有下列防止触电的措施。",
+    "ref": "15.1.15"
+  },
+  {
+    "id": 494,
+    "sourceId": 490,
+    "chapter": "15",
+    "section": "15.1 基本要求",
+    "question": "在____或深沟内进行焊接，应遵守本规程____的有关规定。",
+    "answer": "坑井；7.5",
+    "blanks": 2,
+    "full": "在坑井或深沟内进行焊接，应遵守本规程7.5的有关规定。",
+    "ref": "15.1.17"
+  },
+  {
+    "id": 495,
+    "sourceId": 491,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____必须符合下列____。",
+    "answer": "电焊钳；基本要求",
+    "blanks": 2,
+    "full": "电焊钳必须符合下列基本要求。",
+    "ref": "15.2.9"
+  },
+  {
+    "id": 496,
+    "sourceId": 492,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "____应备有下列____。",
+    "answer": "电焊工；防护用具",
+    "blanks": 2,
+    "full": "电焊工应备有下列防护用具。",
+    "ref": "15.2.11"
+  },
+  {
+    "id": 497,
+    "sourceId": 493,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "在起吊部件过程中，严禁____的工作方法。只有在摘除____后，方可进行焊接。",
+    "answer": "边吊边焊；钢丝绳",
+    "blanks": 2,
+    "full": "在起吊部件过程中，严禁边吊边焊的工作方法。只有在摘除钢丝绳后，方可进行焊接。",
+    "ref": "15.2.17"
+  },
+  {
+    "id": 498,
+    "sourceId": 494,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "电焊设备正在____时，不准触摸____。",
+    "answer": "通电；导电部分",
+    "blanks": 2,
+    "full": "电焊设备正在通电时，不准触摸导电部分。",
+    "ref": "15.2.19"
+  },
+  {
+    "id": 499,
+    "sourceId": 495,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "电焊工____工作场所时，必须把____。",
+    "answer": "离开；电源切断",
+    "blanks": 2,
+    "full": "电焊工离开工作场所时，必须把电源切断。",
+    "ref": "15.2.20"
+  },
+  {
+    "id": 500,
+    "sourceId": 496,
+    "chapter": "15",
+    "section": "15.2 电焊",
+    "question": "禁止在____和重要设备上____。",
+    "answer": "带压设备；引弧",
+    "blanks": 2,
+    "full": "禁止在带压设备和重要设备上引弧。",
+    "ref": "15.2.21"
+  },
+  {
+    "id": 501,
+    "sourceId": 497,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____的____应遵守下列规定。",
+    "answer": "气瓶；搬运",
+    "blanks": 2,
+    "full": "气瓶的搬运应遵守下列规定。",
+    "ref": "15.3.10"
+  },
+  {
+    "id": 502,
+    "sourceId": 498,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "运输气瓶时应安放在特制半圆形的承窝木架内。如没有承窝木架时，可以在每一气瓶上套以厚度不小于____的____或橡皮圈两个，以免互相撞击。",
+    "answer": "25mm；绳圈",
+    "blanks": 2,
+    "full": "运输气瓶时应安放在特制半圆形的承窝木架内。如没有承窝木架时，可以在每一气瓶上套以厚度不小于25mm的绳圈或橡皮圈两个，以免互相撞击。",
+    "ref": "15.3.10.2"
+  },
+  {
+    "id": 503,
+    "sourceId": 499,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "全部气瓶的____都应朝向____。",
+    "answer": "气门；一面",
+    "blanks": 2,
+    "full": "全部气瓶的气门都应朝向一面。",
+    "ref": "15.3.10.3"
+  },
+  {
+    "id": 504,
+    "sourceId": 500,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "为防止气瓶在运输途中____，应将其可靠地____住。",
+    "answer": "滚动；固定",
+    "blanks": 2,
+    "full": "为防止气瓶在运输途中滚动，应将其可靠地固定住。",
+    "ref": "15.3.10.5"
+  },
+  {
+    "id": 505,
+    "sourceId": 501,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "用敞车运输气瓶时，应用____遮盖或采取其他遮阳措施，以防止____。",
+    "answer": "帆布；烈日暴晒",
+    "blanks": 2,
+    "full": "用敞车运输气瓶时，应用帆布遮盖或采取其他遮阳措施，以防止烈日暴晒。",
+    "ref": "15.3.10.6"
+  },
+  {
+    "id": 506,
+    "sourceId": 502,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "气瓶内不论有无气体，搬运时，应将瓶颈上的____和气门侧面连接头的____盖好。",
+    "answer": "保险帽；螺帽盖",
+    "blanks": 2,
+    "full": "气瓶内不论有无气体，搬运时，应将瓶颈上的保险帽和气门侧面连接头的螺帽盖盖好。",
+    "ref": "15.3.10.7"
+  },
+  {
+    "id": 507,
+    "sourceId": 503,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "焊接工作结束或中断焊接工作时，应____氧气和乙炔气瓶、供气管路的阀门，确保气体____。重新开始工作时，应再次确认没有可燃气体外漏，方可点火工作。",
+    "answer": "关闭；不外漏",
+    "blanks": 2,
+    "full": "焊接工作结束或中断焊接工作时，应关闭氧气和乙炔气瓶、供气管路的阀门，确保气体不外漏。重新开始工作时，应再次确认没有可燃气体外漏，方可点火工作。",
+    "ref": "15.3.11"
+  },
+  {
+    "id": 508,
+    "sourceId": 504,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "在接收____时，应对气瓶及其安全附件、试验日期及试验机构进行____，确保气瓶及其安全附件齐全完好、气瓶及其安全附件在规定的检验有效使用期内、专瓶专用。应检查印在瓶上的试验日期及试验机构的鉴定。",
+    "answer": "气瓶；验收检查",
+    "blanks": 2,
+    "full": "在接收气瓶时，应对气瓶及其安全附件、试验日期及试验机构进行验收检查，确保气瓶及其安全附件齐全完好、气瓶及其安全附件在规定的检验有效使用期内、专瓶专用。应检查印在瓶上的试验日期及试验机构的鉴定。",
+    "ref": "15.3.12.3"
+  },
+  {
+    "id": 509,
+    "sourceId": 505,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "禁止装有气体的____与____相接触。",
+    "answer": "气瓶；电线",
+    "blanks": 2,
+    "full": "禁止装有气体的气瓶与电线相接触。",
+    "ref": "15.3.12.11"
+  },
+  {
+    "id": 510,
+    "sourceId": 506,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "安设在____的气瓶，应用帐篷或轻便的板棚遮护，以免受到阳光____。",
+    "answer": "露天；暴晒",
+    "blanks": 2,
+    "full": "安设在露天的气瓶，应用帐篷或轻便的板棚遮护，以免受到阳光暴晒。",
+    "ref": "15.3.12.13"
+  },
+  {
+    "id": 511,
+    "sourceId": 507,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "严禁用____作为压力气源____管道。",
+    "answer": "氧气；吹扫",
+    "blanks": 2,
+    "full": "严禁用氧气作为压力气源吹扫管道。",
+    "ref": "15.3.12.14"
+  },
+  {
+    "id": 512,
+    "sourceId": 508,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "____的低压室没有____或压力表失效，一概不准使用。",
+    "answer": "减压器；压力表",
+    "blanks": 2,
+    "full": "减压器的低压室没有压力表或压力表失效，一概不准使用。",
+    "ref": "15.3.13.1"
+  },
+  {
+    "id": 513,
+    "sourceId": 509,
+    "chapter": "15",
+    "section": "15.3 气割（焊）",
+    "question": "减压器____时，应用热水或蒸汽解冻，禁止用____。",
+    "answer": "冻结；火烤",
+    "blanks": 2,
+    "full": "减压器冻结时，应用热水或蒸汽解冻，禁止用火烤。",
+    "ref": "15.3.13.4"
+  },
+  {
+    "id": 514,
+    "sourceId": 510,
+    "chapter": "15",
+    "section": "15.4 氩弧焊",
+    "question": "____工作场所应有良好的____。",
+    "answer": "焊接；通风",
+    "blanks": 2,
+    "full": "焊接工作场所应有良好的通风。",
+    "ref": "15.4.1"
+  },
+  {
+    "id": 515,
+    "sourceId": 511,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "不准将工具及材料上下____，要用____后往下或往上吊送，以免打伤下方工作人员或击损脚手架。",
+    "answer": "投掷；绳系牢",
+    "blanks": 2,
+    "full": "不准将工具及材料上下投掷，要用绳系牢后往下或往上吊送，以免打伤下方工作人员或击损脚手架。",
+    "ref": "16.1.12"
+  },
+  {
+    "id": 516,
+    "sourceId": 512,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "上下层同时进行工作时，中间必须搭设严密牢固的____、罩棚或其他隔离设施。工作人员必须佩戴____。",
+    "answer": "防护隔板；安全帽",
+    "blanks": 2,
+    "full": "上下层同时进行工作时，中间必须搭设严密牢固的防护隔板、罩棚或其他隔离设施。工作人员必须佩戴安全帽。",
+    "ref": "16.1.13"
+  },
+  {
+    "id": 517,
+    "sourceId": 513,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "不应在未固定、无防护设施的构件及管道上进行作业或通行。禁止在____的结构上（如____、彩钢板屋顶等）进行工作。",
+    "answer": "不坚固；石棉瓦",
+    "blanks": 2,
+    "full": "不应在未固定、无防护设施的构件及管道上进行作业或通行。禁止在不坚固的结构上（如石棉瓦、彩钢板屋顶等）进行工作。",
+    "ref": "16.1.16"
+  },
+  {
+    "id": 518,
+    "sourceId": 514,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "各类操作平台、载人装置应安全可靠，周边应设置____，应有足够的强度、刚度和稳定性，作业荷载不应超过其____。在架空线路杆塔、风力发电的塔筒上工作时，应遵守其相关安全规程的规定。",
+    "answer": "临边防护；设计荷载",
+    "blanks": 2,
+    "full": "各类操作平台、载人装置应安全可靠，周边应设置临边防护，应有足够的强度、刚度和稳定性，作业荷载不应超过其设计荷载。在架空线路杆塔、风力发电的塔筒上工作时，应遵守其相关安全规程的规定。",
+    "ref": "16.1.17"
+  },
+  {
+    "id": 519,
+    "sourceId": 515,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "移动升降台的____应遵守以下____。",
+    "answer": "升降操作；规定",
+    "blanks": 2,
+    "full": "移动升降台的升降操作应遵守以下规定。",
+    "ref": "16.1.21"
+  },
+  {
+    "id": 520,
+    "sourceId": 516,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "使用前应进行的性能和外观检查：(1)____应完好。(2)各操作按钮应有效。(3)输油管无____现象。(4)臂架上各交叉点螺母完整、牢固。",
+    "answer": "电源线；漏油",
+    "blanks": 2,
+    "full": "使用前应进行的性能和外观检查：(1)电源线应完好。(2)各操作按钮应有效。(3)输油管无漏油现象。(4)臂架上各交叉点螺母完整、牢固。",
+    "ref": "16.1.21.1"
+  },
+  {
+    "id": 521,
+    "sourceId": 517,
+    "chapter": "16",
+    "section": "16.1 基本规定",
+    "question": "升降操作与使用：(1)撑开____，调整支腿螺栓，使升降台保持____，然后锁定支腿定位栓。(2)接通电源并打开电源，待指示灯亮后空载试升降一次。",
+    "answer": "支腿；水平",
+    "blanks": 2,
+    "full": "升降操作与使用：(1)撑开支腿，调整支腿螺栓，使升降台保持水平，然后锁定支腿定位栓。(2)接通电源并打开电源，待指示灯亮后空载试升降一次。",
+    "ref": "16.1.21.2"
+  },
+  {
+    "id": 522,
+    "sourceId": 518,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "梯子使用时应确保工作安全负荷不超过其____。梯子的踏板（踏棍、踏杆）须嵌在梯框上，不准使用____钉成的梯子。",
+    "answer": "最大允许载荷；钉子",
+    "blanks": 2,
+    "full": "梯子使用时应确保工作安全负荷不超过其最大允许载荷。梯子的踏板（踏棍、踏杆）须嵌在梯框上，不准使用钉子钉成的梯子。",
+    "ref": "16.8.2"
+  },
+  {
+    "id": 523,
+    "sourceId": 519,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "在机械____附近使用梯子时，为避免转动部分突然卷住工作人员的____，应在梯子与机械转动部分之间临时设置薄板或金属网防护。",
+    "answer": "转动部分；衣服",
+    "blanks": 2,
+    "full": "在机械转动部分附近使用梯子时，为避免转动部分突然卷住工作人员的衣服，应在梯子与机械转动部分之间临时设置薄板或金属网防护。",
+    "ref": "16.8.13"
+  },
+  {
+    "id": 524,
+    "sourceId": 520,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "禁止在____的____上搭放梯子进行工作。",
+    "answer": "悬吊式；脚手架",
+    "blanks": 2,
+    "full": "禁止在悬吊式的脚手架上搭放梯子进行工作。",
+    "ref": "16.8.15"
+  },
+  {
+    "id": 525,
+    "sourceId": 521,
+    "chapter": "16",
+    "section": "16.8 梯子",
+    "question": "软梯的____不得小于____。软梯应挂在可靠的支持物上。",
+    "answer": "安全系数；10",
+    "blanks": 2,
+    "full": "软梯的安全系数不得小于10。软梯应挂在可靠的支持物上。",
+    "ref": "16.8.16"
+  },
+  {
+    "id": 526,
+    "sourceId": 522,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "松开容器、设备人孔门____时，四个方向应先各保留一颗略微拧松的螺栓，让可能残留的介质从____缝隙排出。人员不应正对压力释放的方向，不应正对人孔门。",
+    "answer": "螺栓；结合面",
+    "blanks": 2,
+    "full": "松开容器、设备人孔门螺栓时，四个方向应先各保留一颗略微拧松的螺栓，让可能残留的介质从结合面缝隙排出。人员不应正对压力释放的方向，不应正对人孔门。",
+    "ref": "20.1.17"
+  },
+  {
+    "id": 527,
+    "sourceId": 523,
+    "chapter": "20",
+    "section": "20.1 基本规定",
+    "question": "进入引水洞等相对____以及地下厂房等____较差的场所作业，也应执行上述要求。",
+    "answer": "受限场所；空气流动性",
+    "blanks": 2,
+    "full": "进入引水洞等相对受限场所以及地下厂房等空气流动性较差的场所作业，也应执行上述要求。",
+    "ref": "20.1.18"
+  },
+  {
+    "id": 528,
+    "sourceId": 524,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "开闭地下维护室的____，应使用适当的工具，不应用手直接开闭。在地下和沟道内进行工作时，应在周围设置遮栏和____，夜间还应在遮栏上悬挂红灯。",
+    "answer": "人孔盖；安全警示标志",
+    "blanks": 2,
+    "full": "开闭地下维护室的人孔盖，应使用适当的工具，不应用手直接开闭。在地下和沟道内进行工作时，应在周围设置遮栏和安全警示标志，夜间还应在遮栏上悬挂红灯。",
+    "ref": "20.2.3"
+  },
+  {
+    "id": 529,
+    "sourceId": 525,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "地下空间和沟道内使用汽油机或柴油机时，应把汽油机或柴油机的____接到____，并有良好的通风。",
+    "answer": "排气管；外面",
+    "blanks": 2,
+    "full": "地下空间和沟道内使用汽油机或柴油机时，应把汽油机或柴油机的排气管接到外面，并有良好的通风。",
+    "ref": "20.2.6"
+  },
+  {
+    "id": 530,
+    "sourceId": 526,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "地下空间或沟道内进行工作前，不应采用燃烧着的____或____等投入地下空间或沟道内来检查。地下空间及沟道内不应吸烟和携带火种。",
+    "answer": "火柴；火绳",
+    "blanks": 2,
+    "full": "地下空间或沟道内进行工作前，不应采用燃烧着的火柴或火绳等投入地下空间或沟道内来检查。地下空间及沟道内不应吸烟和携带火种。",
+    "ref": "20.2.7"
+  },
+  {
+    "id": 531,
+    "sourceId": 527,
+    "chapter": "20",
+    "section": "20.2 地下（沟道）作业",
+    "question": "工作人员应掌握地下维护室经常发生____的部位，并在____上注明。在维护、检修等工作开始前，应采取相关的措施。",
+    "answer": "有害气体；图表资料",
+    "blanks": 2,
+    "full": "工作人员应掌握地下维护室经常发生有害气体的部位，并在图表资料上注明。在维护、检修等工作开始前，应采取相关的措施。",
+    "ref": "20.2.9"
+  },
+  {
+    "id": 532,
+    "sourceId": 528,
+    "chapter": "20",
+    "section": "20.3 容器内作业",
+    "question": "进入____、槽箱内部进行检查、清洗和检修作业，应加强____。",
+    "answer": "容器；通风",
+    "blanks": 2,
+    "full": "进入容器、槽箱内部进行检查、清洗和检修作业，应加强通风。",
+    "ref": "20.3.1"
+  },
+  {
+    "id": 533,
+    "sourceId": 529,
+    "chapter": "20",
+    "section": "20.3 容器内作业",
+    "question": "采用气体充压对箱、罐等容器、设备找漏时，应使用____，压缩空气经可靠的减压控制阀门控制在措施规定的压力下方可进行充压。对装过易燃介质的在用容器，充压前应进行彻底清洗和____。不应使用各类气体的气瓶进行充压找漏。",
+    "answer": "压缩空气；置换",
+    "blanks": 2,
+    "full": "采用气体充压对箱、罐等容器、设备找漏时，应使用压缩空气，压缩空气经可靠的减压控制阀门控制在措施规定的压力下方可进行充压。对装过易燃介质的在用容器，充压前应进行彻底清洗和置换。不应使用各类气体的气瓶进行充压找漏。",
+    "ref": "20.3.4"
+  },
+  {
+    "id": 534,
+    "sourceId": 530,
+    "chapter": "A",
+    "section": "A.1 通则",
+    "question": "生产现场的____技术操作，除按照本规程执行外，还应遵守《电力行业紧急救护技术规范》（____）的相关规定。",
+    "answer": "紧急救护；DL／T692",
+    "blanks": 2,
+    "full": "生产现场的紧急救护技术操作，除按照本规程执行外，还应遵守《电力行业紧急救护技术规范》（DL／T692）的相关规定。",
+    "ref": "A.1.1"
+  },
+  {
+    "id": 535,
+    "sourceId": 531,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "触电伤员如神志清醒者，应使其就地____，严密观察，暂时不要____或走动。",
+    "answer": "躺平；站立",
+    "blanks": 2,
+    "full": "触电伤员如神志清醒者，应使其就地躺平，严密观察，暂时不要站立或走动。",
+    "ref": "A.2.3.1.1"
+  },
+  {
+    "id": 536,
+    "sourceId": 532,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "对触电____不清的伤员，应立即在其双耳旁____伤员或轻拍其肩部，以判定伤员是否丧失意识，禁止摇动伤员头部呼叫，如无反应，则高声呼救，寻求他人帮助，同时拨打当地紧急救援电话。",
+    "answer": "意识；呼叫",
+    "blanks": 2,
+    "full": "对触电意识不清的伤员，应立即在其双耳旁呼叫伤员或轻拍其肩部，以判定伤员是否丧失意识，禁止摇动伤员头部呼叫，如无反应，则高声呼救，寻求他人帮助，同时拨打当地紧急救援电话。",
+    "ref": "A.2.3.1.2"
+  },
+  {
+    "id": 537,
+    "sourceId": 533,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "需要抢救的伤员，应立即____坚持正确抢救，并设法联系____接替救治。",
+    "answer": "就地；医疗部门",
+    "blanks": 2,
+    "full": "需要抢救的伤员，应立即就地坚持正确抢救，并设法联系医疗部门接替救治。",
+    "ref": "A.2.3.1.3"
+  },
+  {
+    "id": 538,
+    "sourceId": 534,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "自动体外除颤仪（automatedexternaldefibrillator,____）的应用。AED已成为院前急救的重要组成，可以提高院前急救的成功率，当可以立即取得AED时，对于有目击的成人心脏骤停，应尽快使用AED除颤。若成人在未受监控的情况下发生心脏骤停，或不能立即取得AED，应在他人前往获取及准备AED时开始____。",
+    "answer": "AED；心肺复苏",
+    "blanks": 2,
+    "full": "自动体外除颤仪（automatedexternaldefibrillator,AED）的应用。AED已成为院前急救的重要组成，可以提高院前急救的成功率，当可以立即取得AED时，对于有目击的成人心脏骤停，应尽快使用AED除颤。若成人在未受监控的情况下发生心脏骤停，或不能立即取得AED，应在他人前往获取及准备AED时开始心肺复苏。",
+    "ref": "A.2.3.4"
+  },
+  {
+    "id": 539,
+    "sourceId": 535,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "使触电伤员____躺在____的地方。",
+    "answer": "仰面；平硬",
+    "blanks": 2,
+    "full": "使触电伤员仰面躺在平硬的地方。",
+    "ref": "A.2.3.5.1.1"
+  },
+  {
+    "id": 540,
+    "sourceId": 536,
+    "chapter": "A",
+    "section": "A.2 触电急救",
+    "question": "为使抢救更为有效，应及早设法将伤员送至____。在完成上述措施后，应立即用____参照。",
+    "answer": "地面；绳索",
+    "blanks": 2,
+    "full": "为使抢救更为有效，应及早设法将伤员送至地面。在完成上述措施后，应立即用绳索参照。",
+    "ref": "A.2.6.5"
+  },
+  {
+    "id": 541,
+    "sourceId": 537,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "急救目的是挽救伤员生命和稳定伤情。其原则是____、____、再搬运，用最短的时间将伤员安全转运到医院救治。",
+    "answer": "先抢救；后固定",
+    "blanks": 2,
+    "full": "急救目的是挽救伤员生命和稳定伤情。其原则是先抢救、后固定、再搬运，用最短的时间将伤员安全转运到医院救治。",
+    "ref": "A.3.1.1"
+  },
+  {
+    "id": 542,
+    "sourceId": 538,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "通常采用担架或徒手搬运伤员。正确的搬运可减少伤员痛苦，避免继发或加重伤。平地搬运时____，上下楼梯时____。昏迷的伤员，应将头偏向一侧，以保持呼吸道畅通。",
+    "answer": "头部在后；头部在上",
+    "blanks": 2,
+    "full": "通常采用担架或徒手搬运伤员。正确的搬运可减少伤员痛苦，避免继发或加重伤。平地搬运时头部在后，上下楼梯时头部在上。昏迷的伤员，应将头偏向一侧，以保持呼吸道畅通。",
+    "ref": "A.3.1.5"
+  },
+  {
+    "id": 543,
+    "sourceId": 539,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "绷带包扎方法有____、____、8字包扎和帽式包扎等，适用不同部位的创伤包扎。",
+    "answer": "环形包扎；螺旋包扎",
+    "blanks": 2,
+    "full": "绷带包扎方法有环形包扎、螺旋包扎、8字包扎和帽式包扎等，适用不同部位的创伤包扎。",
+    "ref": "A.3.3.3"
+  },
+  {
+    "id": 544,
+    "sourceId": 540,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "骨折急救的目的是用最简单而有效的方法抢救生命、____、____，以便伤员尽快得到处理。",
+    "answer": "保护患肢；迅速转运",
+    "blanks": 2,
+    "full": "骨折急救的目的是用最简单而有效的方法抢救生命、保护患肢、迅速转运，以便伤员尽快得到处理。",
+    "ref": "A.3.4.1"
+  },
+  {
+    "id": 545,
+    "sourceId": 541,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "迅速了解____、受伤时头部位置、头部外伤的____及对侧伤情。",
+    "answer": "受伤原因；着力点",
+    "blanks": 2,
+    "full": "迅速了解受伤原因、受伤时头部位置、头部外伤的着力点及对侧伤情。",
+    "ref": "A.3.5.1"
+  },
+  {
+    "id": 546,
+    "sourceId": 542,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "病情判断：有无____及昏迷时间长短；呼吸道有无异物阻塞及分泌物，若没有呼吸或呼吸缓慢应立即开放气道；颈动脉触不到搏动时应立即给予____。",
+    "answer": "昏迷；胸外心脏按压",
+    "blanks": 2,
+    "full": "病情判断：有无昏迷及昏迷时间长短；呼吸道有无异物阻塞及分泌物，若没有呼吸或呼吸缓慢应立即开放气道；颈动脉触不到搏动时应立即给予胸外心脏按压。",
+    "ref": "A.3.5.2"
+  },
+  {
+    "id": 547,
+    "sourceId": 543,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "伤员____时，病情复杂多变，应____，观察瞳孔、意识变化，迅速送医院救治。",
+    "answer": "颅脑外伤；禁止其饮食",
+    "blanks": 2,
+    "full": "伤员颅脑外伤时，病情复杂多变，应禁止其饮食，观察瞳孔、意识变化，迅速送医院救治。",
+    "ref": "A.3.5.4"
+  },
+  {
+    "id": 548,
+    "sourceId": 544,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "烧烫伤遵循“____”五字原则，“冲”指____降温，“脱”指除去燃烧后或浸满热液的衣物，“泡”指冷疗，“盖”指创面的覆盖，“送”指妥善的转送医院。",
+    "answer": "冲、脱、泡、盖、送；冷水冲淋",
+    "blanks": 2,
+    "full": "烧烫伤遵循“冲、脱、泡、盖、送”五字原则，“冲”指冷水冲淋降温，“脱”指除去燃烧后或浸满热液的衣物，“泡”指冷疗，“盖”指创面的覆盖，“送”指妥善的转送医院。",
+    "ref": "A.3.6.1"
+  },
+  {
+    "id": 549,
+    "sourceId": 545,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "伤员烧烫伤处用____或清洁织物覆盖，并及时送医院救治。未经专业医务人员许可，切忌在烧烫伤处敷擦任何物品或药物。如送医时间大于____，伤员可多次口服少量盐水或糖盐水。",
+    "answer": "无菌纱布；2h",
+    "blanks": 2,
+    "full": "伤员烧烫伤处用无菌纱布或清洁织物覆盖，并及时送医院救治。未经专业医务人员许可，切忌在烧烫伤处敷擦任何物品或药物。如送医时间大于2h，伤员可多次口服少量盐水或糖盐水。",
+    "ref": "A.3.6.4"
+  },
+  {
+    "id": 550,
+    "sourceId": 546,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "酸碱或有毒有害物品化学灼伤时，首先用干布或吸水性强的纸张清除残留化学品，迅速剪除被侵蚀的衣物，然后立即用大量____彻底冲洗，冲洗时间一般不少于____。救护者最好佩戴防护手套或其他防护用品进行操作，以免自身灼伤。",
+    "answer": "清水；10min",
+    "blanks": 2,
+    "full": "酸碱或有毒有害物品化学灼伤时，首先用干布或吸水性强的纸张清除残留化学品，迅速剪除被侵蚀的衣物，然后立即用大量清水彻底冲洗，冲洗时间一般不少于10min。救护者最好佩戴防护手套或其他防护用品进行操作，以免自身灼伤。",
+    "ref": "A.3.6.6"
+  },
+  {
+    "id": 551,
+    "sourceId": 547,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "在低温寒冷环境作业，或短时间接触介质（制冷剂、液态气体等），出现受冻部位皮肤苍白、温度低、麻木刺痛等冻结表现，排除其他原因所致的类似疾病，即可确定____。职业性冻伤的处置原则参见____。",
+    "answer": "冻伤；GBZ278",
+    "blanks": 2,
+    "full": "在低温寒冷环境作业，或短时间接触介质（制冷剂、液态气体等），出现受冻部位皮肤苍白、温度低、麻木刺痛等冻结表现，排除其他原因所致的类似疾病，即可确定冻伤。职业性冻伤的处置原则参见GBZ278。",
+    "ref": "A.3.7.1"
+  },
+  {
+    "id": 552,
+    "sourceId": 548,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "蜂蜇伤处理方法。a）检查有无____折断皮内，如有立即用镊子或钳子拔出毒刺，然后用负压吸出毒汁。b）蜜蜂的毒汁为酸性，可用____溶液或肥皂水涂抹；黄蜂毒汁为碱性，可用醋酸涂抹。c）大面积蜂蜇伤的伤员尽快送医院处理。",
+    "answer": "毒刺；碳酸氢钠",
+    "blanks": 2,
+    "full": "蜂蜇伤处理方法。a）检查有无毒刺折断皮内，如有立即用镊子或钳子拔出毒刺，然后用负压吸出毒汁。b）蜜蜂的毒汁为酸性，可用碳酸氢钠溶液或肥皂水涂抹；黄蜂毒汁为碱性，可用醋酸涂抹。c）大面积蜂蜇伤的伤员尽快送医院处理。",
+    "ref": "A.3.8.3"
+  },
+  {
+    "id": 553,
+    "sourceId": 549,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "____是由挤压造成的直接损伤，是人体____丰富的部位如四肢、躯干遭受重物长时间挤压而造成以肌肉伤为主的软组织损伤。",
+    "answer": "挤压伤；肌肉",
+    "blanks": 2,
+    "full": "挤压伤是由挤压造成的直接损伤，是人体肌肉丰富的部位如四肢、躯干遭受重物长时间挤压而造成以肌肉伤为主的软组织损伤。",
+    "ref": "A.3.9.1"
+  },
+  {
+    "id": 554,
+    "sourceId": 550,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "____的处理。挤压综合征是指由于肌肉长时间受到挤压造成的肌肉细胞损伤坏死而出现的临床症候群，主要特征为受伤肢体肿胀、____及高血钾为特点的急性肾功能衰竭。",
+    "answer": "挤压综合征；肌红蛋白尿",
+    "blanks": 2,
+    "full": "挤压综合征的处理。挤压综合征是指由于肌肉长时间受到挤压造成的肌肉细胞损伤坏死而出现的临床症候群，主要特征为受伤肢体肿胀、肌红蛋白尿及高血钾为特点的急性肾功能衰竭。",
+    "ref": "A.3.9.3"
+  },
+  {
+    "id": 555,
+    "sourceId": 551,
+    "chapter": "A",
+    "section": "A.4 溺水急救",
+    "question": "____中发生淹溺可能会提高存活时间窗，因而需要延长____。",
+    "answer": "冰水；搜救时间",
+    "blanks": 2,
+    "full": "冰水中发生淹溺可能会提高存活时间窗，因而需要延长搜救时间。",
+    "ref": "A.4.5"
+  },
+  {
+    "id": 556,
+    "sourceId": 552,
+    "chapter": "A",
+    "section": "A.5 高温中暑急救",
+    "question": "意识清醒的中暑伤员或经过降温清醒的中暑伤员服用____或藿香正气水，饮服____、冰矿泉水等解暑。",
+    "answer": "仁丹；淡盐水",
+    "blanks": 2,
+    "full": "意识清醒的中暑伤员或经过降温清醒的中暑伤员服用仁丹或藿香正气水，饮服淡盐水、冰矿泉水等解暑。",
+    "ref": "A.5.5"
+  },
+  {
+    "id": 557,
+    "sourceId": 553,
+    "chapter": "A",
+    "section": "A.6 有害气体中毒急救",
+    "question": "迅速查明____的名称，供____及早对因治疗。",
+    "answer": "有害气体；医院",
+    "blanks": 2,
+    "full": "迅速查明有害气体的名称，供医院及早对因治疗。",
+    "ref": "A.6.5"
+  },
+  {
+    "id": 558,
+    "sourceId": 554,
+    "chapter": "A",
+    "section": "A.3 创伤急救",
+    "question": "发生____时，立即切断电脱离电源，并按照____进行急救后，依上述五字原则处理送医。",
+    "answer": "电烧伤；A.2",
+    "blanks": 2,
+    "full": "发生电烧伤时，立即切断电脱离电源，并按照A.2进行急救后，依上述五字原则处理送医。",
+    "ref": "A.3.6.5"
   }
 ];
